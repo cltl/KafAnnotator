@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/util
+END
+Colors.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/kyoto/!svn/ver/1243/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/util/Colors.java
+END
+FixTagsWithKaf.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/util/FixTagsWithKaf.java
+END
+XmlCharConversion.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/util/XmlCharConversion.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/kyoto/!svn/ver/1438/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/util/Util.java
+END

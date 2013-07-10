@@ -1,0 +1,1417 @@
+"Id","Word token","Word type","Pos","Synset","Tag1","Tag 1 id","Tag 2","Tag id2","Tag 3","Tag id3","Tag4","Tag id4","Tag5","Tag id5","Tag6","Tag id6","Tag7","Tag id7","Tag8","Tag id8","Order","Done","Sentence"
+"w50","largest","large","G","{01168845}","EVENT",1,"EVENT-SCOPE",5,,0,,0,,0,,0,,0,,0,3,"true",7
+"w51","estuary","estuary","N","eng-30-09274500-n:1.0","has-state",2,"EVENT-SCOPE",5,,0,,0,,0,,0,,0,,0,4,"true",7
+"w54","United","United_States","R","{01168845}","LOCATION",4,"EVENT-SCOPE",5,,0,,0,,0,,0,,0,,0,7,"true",7
+"w55","States","United_States","R",,"LOCATION",4,"EVENT-SCOPE",5,,0,,0,,0,,0,,0,,0,8,"true",7
+"w400","Bay","bay","G","eng-30-00395977-a:1.0","generic-location",9,"EVENT-SCOPE",12,,0,,0,,0,,0,,0,,0,18,"true",26
+"w401","watershed","watershed","N","{01168845}","generic-location",9,"EVENT-SCOPE",12,,0,,0,,0,,0,,0,,0,19,"true",26
+"w403","home","home","P","{01168845}","EVENT",10,"EVENT-SCOPE",12,,0,,0,,0,,0,,0,,0,21,"true",26
+"w406",17,"17 million","N",,"done-by",13,"EVENT-SCOPE",12,,0,,0,,0,,0,,0,,0,24,"true",26
+"w407","million","17 million","N",,"done-by",13,"EVENT-SCOPE",12,,0,,0,,0,,0,,0,,0,25,"true",26
+"w408","people","people","N","{01168845}","done-by",13,"EVENT-SCOPE",12,,0,,0,,0,,0,,0,,0,26,"true",26
+"w411",150,150,"N",,"done-by",6,,0,,0,,0,,0,,0,,0,,0,29,"true",27
+"w412","people","people","N","{01168845}","done-by",6,,0,,0,,0,,0,,0,,0,,0,30,"true",27
+"w413","move","move","V","{01168845}","EVENT",7,,0,,0,,0,,0,,0,,0,,0,31,"true",27
+"w414","to","to","P",,"destination-of",8,,0,,0,,0,,0,,0,,0,,0,32,"true",27
+"w415","the","the","D",,"destination-of",8,,0,,0,,0,,0,,0,,0,,0,33,"true",27
+"w416","area","area","N","{05128519}","destination-of",8,,0,,0,,0,,0,,0,,0,,0,34,"true",27
+"w424","population","population","N","{01168845}","done-by",14,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,42,"true",28
+"w426","increase","increase","V","{00156601}","EVENT",15,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,44,"true",28
+"w427","to","to","P",,"has-state",17,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,45,"true",28
+"w428","nearly","nearly","A","{00073033}","has-state",17,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,46,"true",28
+"w429",20,"20 million","N",,"has-state",17,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,47,"true",28
+"w430","million","20 million","N",,"has-state",17,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,48,"true",28
+"w431","by","by","P",,"TIME",16,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,49,"true",28
+"w432",2030,2030,"N",,"TIME",16,"EVENT-SCOPE",18,,0,,0,,0,,0,,0,,0,50,"true",28
+"w515","During","during","P",,,0,,0,,0,,0,,0,,0,,0,,0,52,"true",33
+"w516","the","the","D",,,0,,0,,0,,0,,0,,0,,0,,0,53,"true",33
+"w517","1600s","1600s","N",,,0,,0,,0,,0,,0,,0,,0,,0,54,"true",33
+"w538","land","land","N","{01168845}","patient",19,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,68,"true",35
+"w541","developed","develop","V","{01168845}","EVENT",20,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,71,"true",35
+"w548","agriculture","agriculture","N","{01168845}","purpose-of",21,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,78,"true",35
+"w550","urban","urban","G","{01168845}","purpose-of",23,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,80,"true",35
+"w551","and","and","O",,"purpose-of",23,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,81,"true",35
+"w552","suburban","suburban","G","eng-30-02804590-a:1.0","purpose-of",23,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,82,"true",35
+"w553","lands","land","N","{01168845}","purpose-of",23,"EVENT-SCOPE",24,,0,,0,,0,,0,,0,,0,83,"true",35
+"w1615","The","the","D",,"has-state",25,"EVENT-SCOPE",27,"patient",32,"EVENT-SCOPE",33,,0,,0,,0,,0,85,"true",78
+"w1616","Chesapeake","chesapeake bay","N","{01168845}","has-state",25,"EVENT-SCOPE",27,"patient",32,"EVENT-SCOPE",33,,0,,0,,0,,0,86,"true",78
+"w1617","Bay","chesapeake bay","N","{01168845}","has-state",25,"EVENT-SCOPE",27,"patient",32,"EVENT-SCOPE",33,,0,,0,,0,,0,87,"true",78
+"w1618","and","and","O",,"has-state",25,"EVENT-SCOPE",27,"patient",32,"EVENT-SCOPE",33,,0,,0,,0,,0,88,"true",78
+"w1619","its","its","D",,"has-state",25,"EVENT-SCOPE",27,"patient",32,"EVENT-SCOPE",33,,0,,0,,0,,0,89,"true",78
+"w1620","tributaries","tributary","N","eng-30-09278997-n:1.0","has-state",25,"EVENT-SCOPE",27,"patient",32,"EVENT-SCOPE",33,,0,,0,,0,,0,90,"true",78
+"w1622","unhealthy","unhealthy","G","{01168845}","EVENT",26,"EVENT-SCOPE",27,,0,,0,,0,,0,,0,,0,92,"true",78
+"w1626","pollution","pollution","N","{14516743}",,0,,0,"EVENT",31,"EVENT-SCOPE",33,,0,,0,,0,,0,96,"true",78
+"w1628","excess","excess","N","{05119714}",,0,,0,"done-by",28,"EVENT-SCOPE",33,,0,,0,,0,,0,98,"true",78
+"w1629","nitrogen","nitrogen","N","{01168845}",,0,,0,"done-by",28,"EVENT-SCOPE",33,,0,,0,,0,,0,99,"true",78
+"w1631","phosphorus","phosphorus","N","{14649197}",,0,,0,"done-by",29,"EVENT-SCOPE",33,,0,,0,,0,,0,101,"true",78
+"w1633","sediment","sediment","N","eng-30-09428967-n:1.0",,0,,0,"done-by",30,"EVENT-SCOPE",33,,0,,0,,0,,0,103,"true",78
+"w1643","pollutants","pollutant","N","eng-30-14857278-n:1.0","product-of",34,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,113,"true",79
+"w1645","agriculture","agriculture","N","{00916464}","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,115,"true",79
+"w1647","urban","urban","G","{01168845}","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,117,"true",79
+"w1648","and","and","O",,"EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,118,"true",79
+"w1649","suburban","suburban","G","eng-30-02804590-a:1.0","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,119,"true",79
+"w1650","runoff","runoff","N","{07407272}","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,120,"true",79
+"w1652","wastewater","wastewater","O","{14857021}","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,122,"true",79
+"w1655","airborne","airborne","G","eng-30-01522895-a:1.0","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,125,"true",79
+"w1656","contaminants","contaminant","N","eng-30-14821984-n:1.0","EVENT",35,"EVENT-SCOPE",36,,0,,0,,0,,0,,0,,0,126,"true",79
+"w1674","health","health","N","{14447908}","has-state",37,,0,,0,,0,,0,,0,,0,,0,144,"true",80
+"w1676","the","the","D",,"patient",38,,0,,0,,0,,0,,0,,0,,0,146,"true",80
+"w1677","Chesapeake","chesapeake bay","N","{09243405}","patient",38,,0,,0,,0,,0,,0,,0,,0,147,"true",80
+"w1678","Bay","chesapeake bay","N","{09243405}","patient",38,,0,,0,,0,,0,,0,,0,,0,148,"true",80
+"w1679","did","do","V",,"EVENT",39,,0,,0,,0,,0,,0,,0,,0,149,"true",80
+"w1680","not","not","A","eng-30-00024073-r:1.0","EVENT",39,,0,,0,,0,,0,,0,,0,,0,150,"true",80
+"w1681","improve","improve","V","{00205046}","EVENT",39,,0,,0,,0,,0,,0,,0,,0,151,"true",80
+"w1682","in","in","P",,"TIME",40,,0,,0,,0,,0,,0,,0,,0,152,"true",80
+"w1683",2008,2008,"N",,"TIME",40,,0,,0,,0,,0,,0,,0,,0,153,"true",80
+"w1685","The","the","D",,"has-state",41,"EVENT-SCOPE",46,"has-state",43,"EVENT-SCOPE",45,"has-state",48,"EVENT-SCOPE",49,,0,,0,155,"true",81
+"w1686","Bay","bay","N","{01168845}","has-state",41,"EVENT-SCOPE",46,"has-state",43,"EVENT-SCOPE",45,"has-state",48,"EVENT-SCOPE",49,,0,,0,156,"true",81
+"w1690","poor","poor","G","{01128719}","EVENT",42,"EVENT-SCOPE",46,,0,,0,,0,,0,,0,,0,160,"true",81
+"w1691","water","water","N","{07935504}","EVENT",42,"EVENT-SCOPE",46,,0,,0,,0,,0,,0,,0,161,"true",81
+"w1692","quality","quality","N","{04728068}","EVENT",42,"EVENT-SCOPE",46,,0,,0,,0,,0,,0,,0,162,"true",81
+"w1694","degraded","degraded","G","{01307896}",,0,,0,"EVENT",44,"EVENT-SCOPE",45,,0,,0,,0,,0,164,"true",81
+"w1695","habitats","habitat","N","{08580583}",,0,,0,"EVENT",44,"EVENT-SCOPE",45,,0,,0,,0,,0,165,"true",81
+"w1697","low","low","G","{01212469}",,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,167,"true",81
+"w1698","populations","population","N","{08178741}",,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,168,"true",81
+"w1699","of","of","P",,,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,169,"true",81
+"w1700","many","many","G","eng-30-01551633-a:1.0",,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,170,"true",81
+"w1701","species","species","N","{08110373}",,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,171,"true",81
+"w1702","of","of","P",,,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,172,"true",81
+"w1703","fish","fish","N","{02512053}",,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,173,"true",81
+"w1704","and","and","O",,,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,174,"true",81
+"w1705","shellfish","shellfish","N","{01940736}",,0,,0,,0,,0,"EVENT",47,"EVENT-SCOPE",49,,0,,0,175,"true",81
+"w1714","overall","overall","G","{01102451}","EVENT",792,"EVENT-SCOPE",794,,0,,0,,0,,0,,0,,0,184,"true",82
+"w1715","health","health","N","{14447908}","EVENT",792,"EVENT-SCOPE",794,,0,,0,,0,,0,,0,,0,185,"true",82
+"w1716","averaged","average","V","{02645389}",,0,"EVENT-SCOPE",794,,0,,0,,0,,0,,0,,0,186,"true",82
+"w1717",38,"38 percent","N",,"state-of",793,"EVENT-SCOPE",794,,0,,0,,0,,0,,0,,0,187,"true",82
+"w1718","percent","38 percent","N",,"state-of",793,"EVENT-SCOPE",794,,0,,0,,0,,0,,0,,0,188,"true",82
+"w1753","restoration","restoration","N","{00268557}","EVENT",795,"EVENT-SCOPE",797,,0,,0,,0,,0,,0,,0,202,"true",84
+"w1755",61,"61 percent","N",,"state-of",796,"EVENT-SCOPE",797,,0,,0,,0,,0,,0,,0,204,"true",84
+"w1756","percent","61 percent","N",,"state-of",796,"EVENT-SCOPE",797,,0,,0,,0,,0,,0,,0,205,"true",84
+"w1783","population","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",52,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,232,"true",85
+"w1784","growth","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",52,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,233,"true",85
+"w1785","and","and","O",,"simple-cause-of",52,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,234,"true",85
+"w1786","development","development","N","{00948206}","simple-cause-of",52,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,235,"true",85
+"w1789","destroys","destroy","V","{01564144}","EVENT",53,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,238,"true",85
+"w1790","forests","forest","N","{08438533}","patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,239,"true",85
+"w1791",",",,,,"patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,240,"true",0
+"w1792","wetlands","wetlands","O","{09477890}","patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,241,"true",85
+"w1793","and","and","O",,"patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,242,"true",85
+"w1794","other","other","G",,"patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,243,"true",85
+"w1795","natural","natural","G","{01569965}","patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,244,"true",85
+"w1796","areas","area","N","{05128519}","patient",54,"EVENT-SCOPE",55,,0,,0,,0,,0,,0,,0,245,"true",85
+"w1801","human","human activity","N","{00030358}","simple-cause-of",56,"EVENT-SCOPE",59,"simple-cause-of",60,"EVENT-SCOPE",63,,0,,0,,0,,0,250,"true",86
+"w1802","activity","human activity","N","{00030358}","simple-cause-of",56,"EVENT-SCOPE",59,"simple-cause-of",60,"EVENT-SCOPE",63,,0,,0,,0,,0,251,"true",86
+"w1804","overwhelming","overwhelm","V","{01110517}","EVENT",57,"EVENT-SCOPE",59,,0,,0,,0,,0,,0,,0,253,"true",86
+"w1805","nature","nature","N","{09366762}","patient",58,"EVENT-SCOPE",59,,0,,0,,0,,0,,0,,0,254,"true",86
+"w1807","offsetting","offsetting","N","{02718015}",,0,,0,"EVENT",61,"EVENT-SCOPE",63,,0,,0,,0,,0,256,"true",86
+"w1808","cleanup","cleanup","N","{00251013}",,0,,0,"patient",62,"EVENT-SCOPE",63,,0,,0,,0,,0,257,"true",86
+"w1809","efforts","effort","N","{00786195}",,0,,0,"patient",62,"EVENT-SCOPE",63,,0,,0,,0,,0,258,"true",86
+"w1815",17,"17 million","N",,"done-by",64,"EVENT-SCOPE",68,,0,,0,,0,,0,,0,,0,264,"true",87
+"w1816","million","17 million","N",,"done-by",64,"EVENT-SCOPE",68,,0,,0,,0,,0,,0,,0,265,"true",87
+"w1817","residents","resident","N","{10523519}","done-by",64,"EVENT-SCOPE",68,,0,,0,,0,,0,,0,,0,266,"true",87
+"w1821","impact","impact","N","{00157957}","EVENT",66,"EVENT-SCOPE",68,,0,,0,,0,,0,,0,,0,270,"true",87
+"w1824","health","health","N","{14447908}","has-state",67,"EVENT-SCOPE",68,,0,,0,,0,,0,,0,,0,273,"true",87
+"w1846","people","people","N","{07407272}","done-by",69,"EVENT-SCOPE",72,"done-by",73,"EVENT-SCOPE",76,,0,,0,,0,,0,295,"true",88
+"w1851","protect","protect","V","{01128193}","EVENT",70,"EVENT-SCOPE",72,,0,,0,,0,,0,,0,,0,300,"true",88
+"w1852","nature","nature","N","{09366762}","patient",71,"EVENT-SCOPE",72,,0,,0,,0,,0,,0,,0,301,"true",88
+"w1854","reduce","reduce","V",,,0,,0,"EVENT",74,"EVENT-SCOPE",76,,0,,0,,0,,0,303,"true",88
+"w1855","pollution","pollution","N","{00276987}",,0,,0,"patient",75,"EVENT-SCOPE",76,,0,,0,,0,,0,304,"true",88
+"w1987","rain","rain","N","{11501381}","simple-cause-of",77,"EVENT-SCOPE",81,,0,,0,,0,,0,,0,,0,307,"true",131
+"w1989","snowfall","snowfall","N","eng-30-11508382-n:1.0","simple-cause-of",77,"EVENT-SCOPE",81,,0,,0,,0,,0,,0,,0,309,"true",131
+"w1993","water","water","N","{07935504}","done-by",79,"EVENT-SCOPE",81,,0,,0,,0,,0,,0,,0,313,"true",131
+"w1994","flows","flow","V","{02066939}","EVENT",78,"EVENT-SCOPE",81,,0,,0,,0,,0,,0,,0,314,"true",131
+"w1995","in","in","P",,"generic-location",80,"EVENT-SCOPE",81,,0,,0,,0,,0,,0,,0,315,"true",131
+"w1996","rivers","river","N","eng-30-09411430-n:1.0","generic-location",80,"EVENT-SCOPE",81,,0,,0,,0,,0,,0,,0,316,"true",131
+"w2020","Millions","millions","N","{13751533}","done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,318,"true",133
+"w2021","of","of","P",,"done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,319,"true",133
+"w2022","Pounds","pound","N","{13720096}","done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,320,"true",133
+"w2023","of","of","P",,"done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,321,"true",133
+"w2024","Nitrogen","nitrogen","N","eng-30-14647235-n:1.0","done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,322,"true",133
+"w2025","Nitrogen","nitrogen","N","eng-30-14647235-n:1.0","done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,323,"true",133
+"w2026","Loads","load","N",,"done-by",82,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,324,"true",133
+"w2027","Reaching","reach","V","{07407272}","EVENT",83,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,325,"true",133
+"w2028","Chesapeake","Chesapeake_Bay*","O","{09243405}","destination-of",84,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,326,"true",133
+"w2029","Bay*","Chesapeake_Bay*","O","{09243405}","destination-of",84,"EVENT-SCOPE",85,,0,,0,,0,,0,,0,,0,327,"true",133
+"w2134",291,"291 million","N",,"done-by",86,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,332,"true",138
+"w2135","million","291 million","N",,"done-by",86,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,333,"true",138
+"w2136","pounds","pound","N","{13720096}","done-by",86,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,334,"true",138
+"w2137","of","of","P",,"done-by",86,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,335,"true",138
+"w2138","nitrogen","nitrogen","N","eng-30-14647235-n:1.0","done-by",86,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,336,"true",138
+"w2139","reached","reach","V","{07407272}","EVENT",87,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,337,"true",138
+"w2140","the","the","D",,"destination-of",88,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,338,"true",138
+"w2141","Bay","bay","N","{01168845}","destination-of",88,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,339,"true",138
+"w2142","during","during","P",,"TIME",89,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,340,"true",138
+"w2143",2008,2008,"N",,"TIME",89,"EVENT-SCOPE",90,,0,,0,,0,,0,,0,,0,341,"true",138
+"w2174",13-08-11,"13.8 million","N",,"done-by",91,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,347,"true",141
+"w2175","million","13.8 million","N",,"done-by",91,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,348,"true",141
+"w2176","pounds","pound","N","{13720096}","done-by",91,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,349,"true",141
+"w2177","of","of","P",,"done-by",91,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,350,"true",141
+"w2178","phosphorus","phosphorus","N","{14649197}","done-by",91,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,351,"true",141
+"w2179","reached","reach","V","{07407272}","EVENT",92,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,352,"true",141
+"w2180","the","the","D",,"destination-of",93,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,353,"true",141
+"w2181","Bay","bay","N","{01168845}","destination-of",93,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,354,"true",141
+"w2182","during","during","P",,"TIME",94,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,355,"true",141
+"w2183",2008,2008,"N",,"TIME",94,"EVENT-SCOPE",95,,0,,0,,0,,0,,0,,0,356,"true",141
+"w2211",03-03-11,"3.3 million","N",,"done-by",96,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,362,"true",144
+"w2212","million","3.3 million","N",,"done-by",96,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,363,"true",144
+"w2213","tons","ton","N","{13721529}","done-by",96,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,364,"true",144
+"w2214","of","of","P",,"done-by",96,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,365,"true",144
+"w2215","sediment","sediment","N","{09428967}","done-by",96,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,366,"true",144
+"w2216","reached","reach","V","{07407272}","EVENT",97,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,367,"true",144
+"w2217","the","the","D",,"destination-of",98,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,368,"true",144
+"w2218","Bay","bay","N","{01168845}","destination-of",98,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,369,"true",144
+"w2219","during","during","P",,"TIME",99,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,370,"true",144
+"w2220",2008,2008,"N",,"TIME",99,"EVENT-SCOPE",100,,0,,0,,0,,0,,0,,0,371,"true",144
+"w2274","residents","resident","N","{10523519}","done-by",101,"EVENT-SCOPE",104,"done-by",105,"EVENT-SCOPE",108,,0,,0,,0,,0,376,"true",153
+"w2277","affect","affect","N","eng-30-07479926-n:1.0","EVENT",102,"EVENT-SCOPE",104,,0,,0,,0,,0,,0,,0,379,"true",153
+"w2278","nature","nature","N","{09366762}","patient",103,"EVENT-SCOPE",104,,0,,0,,0,,0,,0,,0,380,"true",153
+"w2280","impact","impact","N","{00157957}",,0,,0,"EVENT",106,"EVENT-SCOPE",108,,0,,0,,0,,0,382,"true",153
+"w2281","the","the","D",,,0,,0,"EVENT",106,"EVENT-SCOPE",108,,0,,0,,0,,0,383,"true",153
+"w2282","health","health","N","{14447908}",,0,,0,"EVENT",106,"EVENT-SCOPE",108,,0,,0,,0,,0,384,"true",153
+"w2284","local","local","G","{02756346}",,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,386,"true",153
+"w2285","creeks","creek","N","{09229409}",,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,387,"true",153
+"w2286",",",,,,,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,388,"true",0
+"w2287","streams","stream","N","{09448361}",,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,389,"true",153
+"w2288","and","and","O",,,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,390,"true",153
+"w2289","rivers","river","N","eng-30-09411430-n:1.0",,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,391,"true",153
+"w2290",",",,,,,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,392,"true",0
+"w2291","and","and","O",,,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,393,"true",153
+"w2292","ultimately","ultimately","A","eng-30-00047903-r:1.0",,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,394,"true",153
+"w2293","the","the","D",,,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,395,"true",153
+"w2294","Bay","bay","N","{01168845}",,0,,0,"patient",107,"EVENT-SCOPE",108,,0,,0,,0,,0,396,"true",153
+"w2398","Use","use","V","{01158872}","EVENT",110,"EVENT-SCOPE",111,,0,,0,,0,,0,,0,,0,398,"true",159
+"w2399","phosphorus-free","phosphorus-free","O",,"use-of",109,"EVENT-SCOPE",111,,0,,0,,0,,0,,0,,0,399,"true",159
+"w2400","dish","dish","N","{03206908}","use-of",109,"EVENT-SCOPE",111,,0,,0,,0,,0,,0,,0,400,"true",159
+"w2401","detergent","detergent","N","03181899}","use-of",109,"EVENT-SCOPE",111,,0,,0,,0,,0,,0,,0,401,"true",159
+"w2403","Drive","drive","V","{01930874}","EVENT",112,"EVENT-SCOPE",114,,0,,0,,0,,0,,0,,0,403,"true",160
+"w2404","your","your","D",,"use-of",113,"EVENT-SCOPE",114,,0,,0,,0,,0,,0,,0,404,"true",160
+"w2405","car","car","N","{02958343}","use-of",113,"EVENT-SCOPE",114,,0,,0,,0,,0,,0,,0,405,"true",160
+"w2406","less","less","G","{00099868}","EVENT",112,"EVENT-SCOPE",114,,0,,0,,0,,0,,0,,0,406,"true",160
+"w2416","Do","do","V",,"EVENT",115,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,408,"true",163
+"w2417","n'","not","A","eng-30-00024073-r:1.0","EVENT",115,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,409,"true",163
+"w2418","t","not","A","eng-30-00024073-r:1.0","EVENT",115,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,410,"true",163
+"w2419","√¢","√¢","O",,"EVENT",115,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,411,"true",163
+"w2420","?",,,,"EVENT",115,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,412,"true",0
+"w2421","fertilize","fertilize","V","{00502757}","EVENT",115,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,413,"true",164
+"w2422","your","your","D",,"patient",116,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,414,"true",164
+"w2423","lawn","lawn","N","eng-30-08591592-n:1.0","patient",116,"EVENT-SCOPE",117,,0,,0,,0,,0,,0,,0,415,"true",164
+"w2428","Install","install","V","{01569566}","EVENT",118,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,417,"true",167
+"w2429","a","a","D",,"patient",119,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,418,"true",167
+"w2430","rain","rain barrel","N","{04049303}","patient",119,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,419,"true",167
+"w2431","barrel","rain barrel","N","{04049303}","patient",119,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,420,"true",167
+"w2432","and","and","O",,"patient",119,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,421,"true",167
+"w2433","rain","rain","V","eng-30-02756558-v:1.0","patient",119,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,422,"true",167
+"w2434","garden","garden","N","{03417345}","patient",119,"EVENT-SCOPE",120,,0,,0,,0,,0,,0,,0,423,"true",167
+"w2469","Chesapeake","chesapeake bay","N","{09243405}","has-state",121,"EVENT-SCOPE",123,,0,,0,,0,,0,,0,,0,426,"true",176
+"w2470","Bay","chesapeake bay","N","{09243405}","has-state",121,"EVENT-SCOPE",123,,0,,0,,0,,0,,0,,0,427,"true",176
+"w2471","ecosystem","ecosystem","N","eng-30-08368757-n:1.0","has-state",121,"EVENT-SCOPE",123,,0,,0,,0,,0,,0,,0,428,"true",176
+"w2472","remains","remain","V",,"EVENT",122,"EVENT-SCOPE",123,,0,,0,,0,,0,,0,,0,429,"true",176
+"w2473","severely","severely","A","{00015953}","EVENT",122,"EVENT-SCOPE",123,,0,,0,,0,,0,,0,,0,430,"true",176
+"w2474","degraded","degrade","V","{01307896}","EVENT",122,"EVENT-SCOPE",123,,0,,0,,0,,0,,0,,0,431,"true",176
+"w2518","the","the","D",,"has-state",125,"EVENT-SCOPE",127,"patient",800,"EVENT-SCOPE",801,,0,,0,,0,,0,436,"true",179
+"w2519","Chesapeake","chesapeake bay","N","{09243405}","has-state",125,"EVENT-SCOPE",127,"patient",800,"EVENT-SCOPE",801,,0,,0,,0,,0,437,"true",179
+"w2520","Bay","chesapeake bay","N","{09243405}","has-state",125,"EVENT-SCOPE",127,"patient",800,"EVENT-SCOPE",801,,0,,0,,0,,0,438,"true",179
+"w2523","at","at","P",,"EVENT",124,"EVENT-SCOPE",127,,0,,0,,0,,0,,0,,0,441,"true",179
+"w2524",38,"38 percent","N",,"EVENT",124,"EVENT-SCOPE",127,"state-of",799,"EVENT-SCOPE",801,,0,,0,,0,,0,442,"true",179
+"w2525","percent","38 percent","N",,"EVENT",124,"EVENT-SCOPE",127,"state-of",799,"EVENT-SCOPE",801,,0,,0,,0,,0,443,"true",179
+"w2526","of","of","P",,"EVENT",124,"EVENT-SCOPE",127,,0,,0,,0,,0,,0,,0,444,"true",179
+"w2527","the","the","D",,"EVENT",124,"EVENT-SCOPE",127,,0,,0,,0,,0,,0,,0,445,"true",179
+"w2528","desired","desired","G",,"EVENT",124,"EVENT-SCOPE",127,"EVENT",798,"EVENT-SCOPE",801,,0,,0,,0,,0,446,"true",179
+"w2529","health","health","N","{14447908}","EVENT",124,"EVENT-SCOPE",127,"EVENT",798,"EVENT-SCOPE",801,,0,,0,,0,,0,447,"true",179
+"w2536",2007,2007,"N",,"TIME",126,"EVENT-SCOPE",127,,0,,0,,0,,0,,0,,0,454,"true",179
+"w2539","increase","increase","N",,"EVENT",132,"EVENT-SCOPE",133,,0,,0,,0,,0,,0,,0,457,"true",180
+"w2540","in","in","P",,,0,"EVENT-SCOPE",133,,0,,0,,0,,0,,0,,0,458,"true",180
+"w2541","tidal","tidal","G","eng-30-02815241-a:1.0","patient",131,"EVENT-SCOPE",133,,0,,0,,0,,0,,0,,0,459,"true",180
+"w2542","tributary","tributary","G","{09278997}","patient",131,"EVENT-SCOPE",133,,0,,0,,0,,0,,0,,0,460,"true",180
+"w2543","segments","segment","N",,"patient",131,"EVENT-SCOPE",133,,0,,0,,0,,0,,0,,0,461,"true",180
+"w2544","impaired","impair","V","{00262881}","EVENT",135,"EVENT-SCOPE",136,,0,,0,,0,,0,,0,,0,462,"true",180
+"w2545","due","due_to","P",,,0,"EVENT-SCOPE",136,,0,,0,,0,,0,,0,,0,463,"true",180
+"w2546","to","due_to","P",,,0,"EVENT-SCOPE",136,,0,,0,,0,,0,,0,,0,464,"true",180
+"w2547","chemical","chemical","G","{02692966}","simple-cause-of",134,"EVENT-SCOPE",136,,0,,0,,0,,0,,0,,0,465,"true",180
+"w2548","contaminants","contaminant","N","eng-30-14821984-n:1.0","simple-cause-of",134,"EVENT-SCOPE",136,,0,,0,,0,,0,,0,,0,466,"true",180
+"w2551","drop","drop in","N",,"EVENT",128,"EVENT-SCOPE",130,,0,,0,,0,,0,,0,,0,469,"true",180
+"w2552","in","drop in","N",,,0,"EVENT-SCOPE",130,,0,,0,,0,,0,,0,,0,470,"true",180
+"w2553","the","the","D",,"patient",129,"EVENT-SCOPE",130,,0,,0,,0,,0,,0,,0,471,"true",180
+"w2554","blue","blue crab","N","{01979874}","patient",129,"EVENT-SCOPE",130,,0,,0,,0,,0,,0,,0,472,"true",180
+"w2555","crab","blue crab","N","{01979874}","patient",129,"EVENT-SCOPE",130,,0,,0,,0,,0,,0,,0,473,"true",180
+"w2556","population","population","N","{08178741}","patient",129,"EVENT-SCOPE",130,,0,,0,,0,,0,,0,,0,474,"true",180
+"w2584","In","in","P",,"TIME",137,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,483,"true",182
+"w2585",2008,2008,"N",,"TIME",137,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,484,"true",182
+"w2586",",",,,,,0,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,485,"true",0
+"w2587","water","water","N","{07935504}","has-state",138,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,486,"true",182
+"w2588","quality","quality","N","{04728068}","has-state",138,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,487,"true",182
+"w2589","was","be","V",,,0,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,488,"true",182
+"w2590","again","again","A","eng-30-00040365-r:1.0",,0,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,489,"true",182
+"w2591","very","very","A",,"EVENT",139,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,490,"true",182
+"w2592","poor","poor","G","{01128719}","EVENT",139,"EVENT-SCOPE",140,,0,,0,,0,,0,,0,,0,491,"true",182
+"w2607","Pollution","pollution","N","{00276987}","simple-cause-of",141,"EVENT-SCOPE",144,"simple-cause-of",145,"EVENT-SCOPE",148,,0,,0,,0,,0,506,"true",183
+"w2610","murky","murky","G","{00433529}","EVENT",142,"EVENT-SCOPE",144,,0,,0,"simple-cause-of",149,"EVENT-SCOPE",152,,0,,0,509,"true",183
+"w2611","water","water","N","{07935504}","has-state",143,"EVENT-SCOPE",144,,0,,0,"simple-cause-of",149,"EVENT-SCOPE",152,,0,,0,510,"true",183
+"w2612","and","and","O",,,0,,0,,0,,0,"simple-cause-of",149,"EVENT-SCOPE",152,,0,,0,511,"true",183
+"w2613","algae","alga","N","eng-30-01397114-n:1.0",,0,,0,"patient",147,"EVENT-SCOPE",148,"simple-cause-of",149,"EVENT-SCOPE",152,,0,,0,512,"true",183
+"w2614","blooms","bloom","N","{11669335}",,0,,0,"EVENT",146,"EVENT-SCOPE",148,"simple-cause-of",149,"EVENT-SCOPE",152,,0,,0,513,"true",183
+"w2617","blocked","block","V","{02145543}",,0,,0,,0,,0,"EVENT",150,"EVENT-SCOPE",152,,0,,0,516,"true",183
+"w2618","sunlight","sunlight","N","eng-30-11485367-n:1.0","patient",153,"EVENT-SCOPE",156,,0,,0,"patient",151,"EVENT-SCOPE",152,,0,,0,517,"true",183
+"w2620","reaching","reach","V","{07407272}","EVENT",154,"EVENT-SCOPE",156,,0,,0,,0,,0,,0,,0,519,"true",183
+"w2621","bay","bay grass","N","eng-30-00395977-a:1.0","destination-of",155,"EVENT-SCOPE",156,,0,,0,,0,,0,,0,,0,520,"true",183
+"w2622","grasses","bay grass","N",,"destination-of",155,"EVENT-SCOPE",156,,0,,0,,0,,0,,0,,0,521,"true",183
+"w2625","low","low_level","N",,"EVENT",158,"EVENT-SCOPE",160,,0,,0,,0,,0,,0,,0,524,"true",183
+"w2626","levels","low_level","N",,"EVENT",158,"EVENT-SCOPE",160,,0,,0,,0,,0,,0,,0,525,"true",183
+"w2627","of","of","P",,"EVENT",158,"EVENT-SCOPE",160,,0,,0,,0,,0,,0,,0,526,"true",183
+"w2628","oxygen","oxygen","N","eng-30-14648100-n:1.0","EVENT",158,"EVENT-SCOPE",160,,0,,0,,0,,0,,0,,0,527,"true",183
+"w2630","aquatic","aquatic","G","{00124077}","has-state",159,"EVENT-SCOPE",160,,0,,0,,0,,0,,0,,0,529,"true",183
+"w2631","life","life","N","{00006269}","has-state",159,"EVENT-SCOPE",160,,0,,0,,0,,0,,0,,0,530,"true",183
+"w2633","Chemical","chemical","G","{02692966}","done-by",161,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,532,"true",184
+"w2634","contaminants","contaminant","N","eng-30-14821984-n:1.0","done-by",161,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,533,"true",184
+"w2635","impaired","impair","V","{00262881}","EVENT",162,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,534,"true",184
+"w2636","more","more","G",,,0,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,535,"true",184
+"w2637","water","water","N","{07935504}","patient",163,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,536,"true",184
+"w2638","in","in","P",,"TIME",164,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,537,"true",184
+"w2639",2008,2008,"N",,"TIME",164,"EVENT-SCOPE",165,,0,,0,,0,,0,,0,,0,538,"true",184
+"w2660","vital","vital","G",,"has-state",168,"EVENT-SCOPE",169,"done-by",170,"EVENT-SCOPE",175,,0,,0,,0,,0,559,"true",185
+"w2661","habitats","habitat","N","eng-30-08580583-n:1.0","has-state",168,"EVENT-SCOPE",169,"done-by",170,"EVENT-SCOPE",175,,0,,0,,0,,0,560,"true",185
+"w2662","and","and","O",,"has-state",168,"EVENT-SCOPE",169,"done-by",170,"EVENT-SCOPE",175,,0,,0,,0,,0,561,"true",185
+"w2663","lower","lower","G","{01212469}","has-state",168,"EVENT-SCOPE",169,"done-by",170,"EVENT-SCOPE",175,,0,,0,,0,,0,562,"true",185
+"w2664","food","food web","N","{11456273}","has-state",168,"EVENT-SCOPE",169,"done-by",170,"EVENT-SCOPE",175,,0,,0,,0,,0,563,"true",185
+"w2665","web","food web","N","{11456273}","has-state",168,"EVENT-SCOPE",169,"done-by",170,"EVENT-SCOPE",175,,0,,0,,0,,0,564,"true",185
+"w2667","support","support","V",,,0,,0,"EVENT",171,"EVENT-SCOPE",175,,0,,0,,0,,0,566,"true",185
+"w2668","life","life","N","{11473291}",,0,,0,"patient",172,"EVENT-SCOPE",175,,0,,0,,0,,0,567,"true",185
+"w2669","in","in","P",,,0,,0,"LOCATION",174,"EVENT-SCOPE",175,,0,,0,,0,,0,568,"true",185
+"w2670","the","the","D",,,0,,0,"LOCATION",174,"EVENT-SCOPE",175,,0,,0,,0,,0,569,"true",185
+"w2671","Chesapeake","chesapeake bay","N","{09243405}",,0,,0,"LOCATION",174,"EVENT-SCOPE",175,,0,,0,,0,,0,570,"true",185
+"w2672","Bay","chesapeake bay","N","{09243405}",,0,,0,"LOCATION",174,"EVENT-SCOPE",175,,0,,0,,0,,0,571,"true",185
+"w2677","bad","bad","G","{01125429}","EVENT",167,"EVENT-SCOPE",169,,0,,0,,0,,0,,0,,0,576,"true",185
+"w2678","shape","shape","N",,"EVENT",167,"EVENT-SCOPE",169,,0,,0,,0,,0,,0,,0,577,"true",185
+"w2679","in","in","P",,"TIME",166,"EVENT-SCOPE",169,,0,,0,,0,,0,,0,,0,578,"true",185
+"w2680",2008,2008,"N",,"TIME",166,"EVENT-SCOPE",169,,0,,0,,0,,0,,0,,0,579,"true",185
+"w2718","algae","alga","N","eng-30-01397114-n:1.0","patient",802,"EVENT-SCOPE",805,,0,,0,,0,,0,,0,,0,601,"true",187
+"w2719","fell","fall","V",,"EVENT",803,"EVENT-SCOPE",805,,0,,0,,0,,0,,0,,0,602,"true",187
+"w2720",3,"3 percent","N",,"state-of",804,"EVENT-SCOPE",805,,0,,0,,0,,0,,0,,0,603,"true",187
+"w2721","percent","3 percent","N",,"state-of",804,"EVENT-SCOPE",805,,0,,0,,0,,0,,0,,0,604,"true",187
+"w2729","Most","most","D",,"has-state",178,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,612,"true",188
+"w2730","fish","fish","N","{02512053}","has-state",178,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,613,"true",188
+"w2731","and","and","O",,"has-state",178,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,614,"true",188
+"w2732","shellfish","shellfish","N","{01940736}","has-state",178,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,615,"true",188
+"w2733","populations","population","N","{08178741}","has-state",178,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,616,"true",188
+"w2734","in","in","P",,"LOCATION",177,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,617,"true",188
+"w2735","the","the","D",,"LOCATION",177,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,618,"true",188
+"w2736","Bay","bay","N","{01168845}","LOCATION",177,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,619,"true",188
+"w2737","remain","remain","V",,,0,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,620,"true",188
+"w2738","far","far","G",,"EVENT",176,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,621,"true",188
+"w2739","below","below","A",,"EVENT",176,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,622,"true",188
+"w2740","desired","desired","G",,"EVENT",176,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,623,"true",188
+"w2741","levels","level","N",,"EVENT",176,"EVENT-SCOPE",179,,0,,0,,0,,0,,0,,0,624,"true",188
+"w2758","drop","drop","N",,"EVENT",180,"EVENT-SCOPE",182,,0,,0,,0,,0,,0,,0,641,"true",189
+"w2759","of","of","P",,"EVENT",180,"EVENT-SCOPE",182,,0,,0,,0,,0,,0,,0,642,"true",189
+"w2760",23,"23 million","N",,"has-state",183,"EVENT-SCOPE",182,,0,,0,,0,,0,,0,,0,643,"true",189
+"w2761","million","23 million","N",,"has-state",183,"EVENT-SCOPE",182,,0,,0,,0,,0,,0,,0,644,"true",189
+"w2763","the","the","D",,,0,,0,"patient",806,"EVENT-SCOPE",809,,0,,0,,0,,0,646,"true",189
+"w2764","population","population","N","{08178741}","patient",181,"EVENT-SCOPE",182,"patient",806,"EVENT-SCOPE",809,,0,,0,,0,,0,647,"true",189
+"w2765","of","of","P",,"patient",181,"EVENT-SCOPE",182,"patient",806,"EVENT-SCOPE",809,,0,,0,,0,,0,648,"true",189
+"w2766","spawning-age","spawning-age","O",,"patient",181,"EVENT-SCOPE",182,"patient",806,"EVENT-SCOPE",809,,0,,0,,0,,0,649,"true",189
+"w2767","blue","blue crab","N","{01979874}","patient",181,"EVENT-SCOPE",182,"patient",806,"EVENT-SCOPE",809,,0,,0,,0,,0,650,"true",189
+"w2768","crabs","blue crab","N","{01979874}","patient",181,"EVENT-SCOPE",182,"patient",806,"EVENT-SCOPE",809,,0,,0,,0,,0,651,"true",189
+"w2771","lowered","lower","V",,,0,,0,"EVENT",807,"EVENT-SCOPE",809,,0,,0,,0,,0,654,"true",189
+"w2777","by","by","P",,,0,,0,"state-of",808,"EVENT-SCOPE",809,,0,,0,,0,,0,660,"true",189
+"w2778",11,"11 percent","N",,,0,,0,"state-of",808,"EVENT-SCOPE",809,,0,,0,,0,,0,661,"true",189
+"w2779","percent","11 percent","N",,,0,,0,"state-of",808,"EVENT-SCOPE",809,,0,,0,,0,,0,662,"true",189
+"w2781","Oyster","oyster","N","{01960459}","has-state",184,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,664,"true",190
+"w2782","and","and","O",,"has-state",184,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,665,"true",190
+"w2783","shad","Shad","R","{02530421}","has-state",184,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,666,"true",190
+"w2784","populations","population","N","{08178741}","has-state",184,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,667,"true",190
+"w2785","remained","remain","V",,,0,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,668,"true",190
+"w2786","at","at","P",,,0,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,669,"true",190
+"w2787","low","low_level","N","{01212469}","EVENT",185,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,670,"true",190
+"w2788","levels","low_level","N",,"EVENT",185,"EVENT-SCOPE",186,,0,,0,,0,,0,,0,,0,671,"true",190
+"w2936","measures","measure","N",,,0,,0,,0,,0,,0,,0,,0,,0,683,"true",203
+"w2943","reduce","reduce","V",,"EVENT",188,"EVENT-SCOPE",190,,0,,0,,0,,0,,0,,0,690,"true",203
+"w2944","pollution","pollution","N","{00276987}","patient",189,"EVENT-SCOPE",190,,0,,0,,0,,0,,0,,0,691,"true",203
+"w2946","restore","restore","V",,"EVENT",191,"EVENT-SCOPE",193,,0,,0,,0,,0,,0,,0,693,"true",203
+"w2947","habitats","habitat","N","eng-30-08580583-n:1.0","patient",192,"EVENT-SCOPE",193,,0,,0,,0,,0,,0,,0,694,"true",203
+"w2949","manage","manage","V",,"EVENT",194,"EVENT-SCOPE",196,,0,,0,,0,,0,,0,,0,696,"true",203
+"w2950","fisheries","fishery","N","eng-30-03350880-n:1.0","patient",195,"EVENT-SCOPE",196,,0,,0,,0,,0,,0,,0,697,"true",203
+"w2952","protect","protect","V","{01128193}","EVENT",197,"EVENT-SCOPE",199,,0,,0,,0,,0,,0,,0,699,"true",203
+"w2953","watersheds","watershed","N","{01168845}","patient",198,"EVENT-SCOPE",199,,0,,0,,0,,0,,0,,0,700,"true",203
+"w2955","foster","foster","V","{02554422}","EVENT",200,"EVENT-SCOPE",202,,0,,0,,0,,0,,0,,0,702,"true",203
+"w2956","stewardship","stewardship","N","eng-30-00604523-n:1.0","patient",201,"EVENT-SCOPE",202,,0,,0,,0,,0,,0,,0,703,"true",203
+"w2982","Population","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",203,"EVENT-SCOPE",205,,0,,0,,0,,0,,0,,0,705,"true",205
+"w2983","growth","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",203,"EVENT-SCOPE",205,,0,,0,,0,,0,,0,,0,706,"true",205
+"w2984","and","and","O",,"simple-cause-of",203,"EVENT-SCOPE",205,,0,,0,,0,,0,,0,,0,707,"true",205
+"w2985","development","development","N","{00948206}","simple-cause-of",203,"EVENT-SCOPE",205,,0,,0,,0,,0,,0,,0,708,"true",205
+"w2988","hamper","hamper","V","{00236289}","EVENT",204,"EVENT-SCOPE",205,,0,,0,,0,,0,,0,,0,711,"true",205
+"w2989","pollution-reduction","pollution-reduction","O",,"EVENT",204,"EVENT-SCOPE",205,,0,,0,,0,,0,,0,,0,712,"true",205
+"w2992","urban","urban","G","{01168845}","simple-cause-of",206,"EVENT-SCOPE",209,,0,,0,,0,,0,,0,,0,715,"true",205
+"w2993","and","and","O",,"simple-cause-of",206,"EVENT-SCOPE",209,,0,,0,,0,,0,,0,,0,716,"true",205
+"w2994","suburban","suburban","G","eng-30-02804590-a:1.0","simple-cause-of",206,"EVENT-SCOPE",209,,0,,0,,0,,0,,0,,0,717,"true",205
+"w2995","runoff","runoff","N","{07407272}","simple-cause-of",206,"EVENT-SCOPE",209,,0,,0,,0,,0,,0,,0,718,"true",205
+"w3001","pollution","pollution","N","{00276987}","patient",208,"EVENT-SCOPE",209,,0,,0,,0,,0,,0,,0,724,"true",205
+"w3004","increasing","increasing","G",,"EVENT",207,"EVENT-SCOPE",209,,0,,0,,0,,0,,0,,0,727,"true",205
+"w3076","pollution","pollution","N","{00276987}","EVENT",210,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,760,"true",209
+"w3083","agriculture","agriculture","N","{00916464}","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,767,"true",210
+"w3085","wastewater","wastewater","O","{14857021}","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,769,"true",210
+"w3087","urban","urban","G","{01168845}","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,771,"true",210
+"w3088","and","and","O",,"simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,772,"true",210
+"w3089","suburban","suburban","G","eng-30-02804590-a:1.0","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,773,"true",210
+"w3090","runoff","runoff","N","{07407272}","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,774,"true",210
+"w3092","and","and","O",,"simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,776,"true",210
+"w3093","air","air pollution","N","{14517412}","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,777,"true",210
+"w3094","pollution","air pollution","N","{14517412}","simple-cause-of",211,"EVENT-SCOPE",212,,0,,0,,0,,0,,0,,0,778,"true",210
+"w3104",58,"58 percent","N",,"patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,788,"true",211
+"w3105","percent","58 percent","N",,"patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,789,"true",211
+"w3106","of","of","P",,"patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,790,"true",211
+"w3107","the","the","D",,"patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,791,"true",211
+"w3108","pollution","pollution","N","{00276987}","patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,792,"true",211
+"w3109","reduction","reduction","N",,"patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,793,"true",211
+"w3110","efforts","effort","N","{00786195}","patient",213,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,794,"true",211
+"w3118","implemented","implement","V","{02408965}","EVENT",214,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,802,"true",211
+"w3119","since","since","P",,"TIME",215,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,803,"true",211
+"w3120",1985,1985,"N",,"TIME",215,"EVENT-SCOPE",216,,0,,0,,0,,0,,0,,0,804,"true",211
+"w3204","progress","progress","N",,"EVENT",810,"EVENT-SCOPE",812,,0,,0,,0,,0,,0,,0,860,"true",220
+"w3209","at","at","P",,"state-of",811,"EVENT-SCOPE",812,,0,,0,,0,,0,,0,,0,865,"true",220
+"w3210",55,"55 percent","N",,"state-of",811,"EVENT-SCOPE",812,,0,,0,,0,,0,,0,,0,866,"true",220
+"w3211","percent","55 percent","N",,"state-of",811,"EVENT-SCOPE",812,,0,,0,,0,,0,,0,,0,867,"true",220
+"w3214",11,"11 percent","N",,"state-of",814,"EVENT-SCOPE",816,,0,,0,,0,,0,,0,,0,870,"true",220
+"w3215","percent","11 percent","N",,"state-of",814,"EVENT-SCOPE",816,,0,,0,,0,,0,,0,,0,871,"true",220
+"w3216","increase","increase","N",,"EVENT",813,"EVENT-SCOPE",816,,0,,0,,0,,0,,0,,0,872,"true",220
+"w3217","from","from","P",,"TIME",815,"EVENT-SCOPE",816,,0,,0,,0,,0,,0,,0,873,"true",220
+"w3218",2007,2007,"N",,"TIME",815,"EVENT-SCOPE",816,,0,,0,,0,,0,,0,,0,874,"true",220
+"w3225","bay","bay grass","N","eng-30-00395977-a:1.0","patient",217,"EVENT-SCOPE",219,,0,,0,,0,,0,,0,,0,881,"true",221
+"w3226","grasses","bay grass","N",,"patient",217,"EVENT-SCOPE",219,,0,,0,,0,,0,,0,,0,882,"true",221
+"w3227","planted","plant","V","{01567275}","EVENT",218,"EVENT-SCOPE",219,,0,,0,,0,,0,,0,,0,883,"true",221
+"w3229","wetlands","wetlands","O","{09477890}","patient",220,"EVENT-SCOPE",222,,0,,0,,0,,0,,0,,0,885,"true",221
+"w3230","restored","restore","V",,"EVENT",221,"EVENT-SCOPE",222,,0,,0,,0,,0,,0,,0,886,"true",221
+"w3232","fish","fish","N","{02512053}","patient",223,"EVENT-SCOPE",225,,0,,0,,0,,0,,0,,0,888,"true",221
+"w3233","passage","passage","N",,"patient",223,"EVENT-SCOPE",225,,0,,0,,0,,0,,0,,0,889,"true",221
+"w3234","restored","restore","V",,"EVENT",226,"EVENT-SCOPE",225,,0,,0,,0,,0,,0,,0,890,"true",221
+"w3244","oyster","oyster","N","{01960459}","patient",817,"EVENT-SCOPE",820,,0,,0,,0,,0,,0,,0,900,"true",222
+"w3245","recovery","recovery","N",,"EVENT",818,"EVENT-SCOPE",820,,0,,0,,0,,0,,0,,0,901,"true",222
+"w3246","work","work","N",,"EVENT",818,"EVENT-SCOPE",820,,0,,0,,0,,0,,0,,0,902,"true",222
+"w3251","at","at","P",,"state-of",819,"EVENT-SCOPE",820,,0,,0,,0,,0,,0,,0,907,"true",222
+"w3252",70,"70 percent","N",,"state-of",819,"EVENT-SCOPE",820,,0,,0,,0,,0,,0,,0,908,"true",222
+"w3253","percent","70 percent","N",,"state-of",819,"EVENT-SCOPE",820,,0,,0,,0,,0,,0,,0,909,"true",222
+"w3291","Atlantic","Atlantic","R",,"patient",821,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,933,"true",226
+"w3292","menhaden","Menhaden","O","{02531625}","patient",821,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,934,"true",226
+"w3293","and","and","O",,"patient",821,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,935,"true",226
+"w3294","American","American","G",,"patient",821,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,936,"true",226
+"w3295","shad","Shad","R","{02530421}","patient",821,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,937,"true",226
+"w3296","stands","stand","N",,"EVENT",822,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,938,"true",226
+"w3297","at","at","P",,"state-of",823,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,939,"true",226
+"w3298",51,"51 percent","N",,"state-of",823,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,940,"true",226
+"w3299","percent","51 percent","N",,"state-of",823,"EVENT-SCOPE",824,,0,,0,,0,,0,,0,,0,941,"true",226
+"w3316","harvesting","harvest","V",,"EVENT",227,"EVENT-SCOPE",229,,0,,0,,0,,0,,0,,0,958,"true",227
+"w3317","blue","blue crab","N","{01979874}","patient",228,"EVENT-SCOPE",229,,0,,0,,0,,0,,0,,0,959,"true",227
+"w3318","crabs","blue crab","N","{01979874}","patient",228,"EVENT-SCOPE",229,,0,,0,,0,,0,,0,,0,960,"true",227
+"w3322","oyster","oyster","N","{01960459}","patient",231,"EVENT-SCOPE",232,,0,,0,,0,,0,,0,,0,964,"true",227
+"w3323","research","research","N",,"EVENT",230,"EVENT-SCOPE",232,,0,,0,,0,,0,,0,,0,965,"true",227
+"w3385",74,"74 percent","N",,,0,,0,"state-of",825,"EVENT-SCOPE",827,,0,,0,,0,,0,972,"true",235
+"w3386","percent","74 percent","N",,,0,,0,"state-of",825,"EVENT-SCOPE",827,,0,,0,,0,,0,973,"true",235
+"w3391","protecting","protect","N","{01128193}","EVENT",233,"EVENT-SCOPE",237,"EVENT",826,"EVENT-SCOPE",827,,0,,0,,0,,0,978,"true",235
+"w3393","the","the","D",,"patient",235,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,980,"true",235
+"w3394","thousands","thousands","N","{13750844}","patient",235,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,981,"true",235
+"w3395","of","of","P",,"patient",235,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,982,"true",235
+"w3396","smaller","small","G",,"patient",235,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,983,"true",235
+"w3397","watersheds","watershed","N","{01168845}","patient",235,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,984,"true",235
+"w3401","during","during","P",,"TIME",236,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,988,"true",235
+"w3402",2008,2008,"N",,"TIME",236,"EVENT-SCOPE",237,,0,,0,,0,,0,,0,,0,989,"true",235
+"w3499",13,"13 percent","N",,"state-of",828,"EVENT-SCOPE",830,,0,,0,,0,,0,,0,,0,999,"true",242
+"w3500","percent","13 percent","N",,"state-of",828,"EVENT-SCOPE",830,,0,,0,,0,,0,,0,,0,1000,"true",242
+"w3506","education","education","N","{00883297}","EVENT",829,"EVENT-SCOPE",830,,0,,0,,0,,0,,0,,0,1006,"true",242
+"w3613","human","human","G","{02743261}","patient",238,"EVENT-SCOPE",240,,0,,0,,0,,0,,0,,0,1021,"true",254
+"w3614","population","population","N","{08179879}","patient",238,"EVENT-SCOPE",240,,0,,0,,0,,0,,0,,0,1022,"true",254
+"w3615","swelled","swell","V",,"EVENT",239,"EVENT-SCOPE",240,,0,,0,,0,,0,,0,,0,1023,"true",254
+"w3617","forests","forest","N","{09284015}","patient",241,"EVENT-SCOPE",243,,0,,0,,0,,0,,0,,0,1025,"true",254
+"w3618","were","be","V",,,0,"EVENT-SCOPE",243,,0,,0,,0,,0,,0,,0,1026,"true",254
+"w3619","chopped","chop_down","V","eng-30-01257507-v:1.0","EVENT",242,"EVENT-SCOPE",243,,0,,0,,0,,0,,0,,0,1027,"true",254
+"w3620","down","down","P",,"EVENT",242,"EVENT-SCOPE",243,,0,,0,,0,,0,,0,,0,1028,"true",254
+"w3622","industrial","industrial","G","{02748635}","patient",244,"EVENT-SCOPE",246,,0,,0,,0,,0,,0,,0,1030,"true",254
+"w3623","activity","activity","N",,"patient",244,"EVENT-SCOPE",246,,0,,0,,0,,0,,0,,0,1031,"true",254
+"w3624","ensued","ensue","V","eng-30-02634265-v:1.0","EVENT",245,"EVENT-SCOPE",246,,0,,0,,0,,0,,0,,0,1032,"true",254
+"w3626","fish","fish","N","{02512053}","patient",248,"EVENT-SCOPE",249,,0,,0,,0,,0,,0,,0,1034,"true",254
+"w3627","and","and","O",,"patient",248,"EVENT-SCOPE",249,,0,,0,,0,,0,,0,,0,1035,"true",254
+"w3628","shellfish","shellfish","N","{01940736}","patient",248,"EVENT-SCOPE",249,,0,,0,,0,,0,,0,,0,1036,"true",254
+"w3629","were","be","V",,,0,"EVENT-SCOPE",249,,0,,0,,0,,0,,0,,0,1037,"true",254
+"w3630","harvested","harvest","V",,"EVENT",247,"EVENT-SCOPE",249,,0,,0,,0,,0,,0,,0,1038,"true",254
+"w3632","towns","town","N","{08665504}","patient",250,"EVENT-SCOPE",252,,0,,0,,0,,0,,0,,0,1040,"true",254
+"w3633","and","and","O",,"patient",250,"EVENT-SCOPE",252,,0,,0,,0,,0,,0,,0,1041,"true",254
+"w3634","cities","city","N","{08524735}","patient",250,"EVENT-SCOPE",252,,0,,0,,0,,0,,0,,0,1042,"true",254
+"w3635","were","be","V",,"EVENT",251,"EVENT-SCOPE",252,,0,,0,,0,,0,,0,,0,1043,"true",254
+"w3636","built","built","G","eng-30-01288690-a:1.0","EVENT",251,"EVENT-SCOPE",252,,0,,0,,0,,0,,0,,0,1044,"true",254
+"w3639","toxic","toxic","G",,"patient",253,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1047,"true",254
+"w3640","chemicals","chemical","N","{14806838}","patient",253,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1048,"true",254
+"w3641","were","be","V",,,0,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1049,"true",254
+"w3642","released","release","V",,"EVENT",254,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1050,"true",254
+"w3643","into","into","P",,"destination-of",255,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1051,"true",254
+"w3644","the","the","D",,"destination-of",255,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1052,"true",254
+"w3645","environment","environment","N",,"destination-of",255,"EVENT-SCOPE",256,,0,,0,,0,,0,,0,,0,1053,"true",254
+"w3647","These","these","D",,"simple-cause-of",257,"EVENT-SCOPE",260,"simple-cause-of",261,"EVENT-SCOPE",264,,0,,0,,0,,0,1055,"true",255
+"w3648","factors","factor","N",,"simple-cause-of",257,"EVENT-SCOPE",260,"simple-cause-of",261,"EVENT-SCOPE",264,,0,,0,,0,,0,1056,"true",255
+"w3649","disrupted","disrupt","V",,"EVENT",258,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1057,"true",255
+"w3650","the","the","D",,"patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1058,"true",255
+"w3651","natural","natural","N","{01569965}","patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1059,"true",255
+"w3652","functioning","function","V",,"patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1060,"true",255
+"w3653","of","of","P",,"patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1061,"true",255
+"w3654","the","the","D",,"patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1062,"true",255
+"w3655","entire","entire","G",,"patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1063,"true",255
+"w3656","ecosystem","ecosystem","N","eng-30-08368757-n:1.0","patient",259,"EVENT-SCOPE",260,,0,,0,,0,,0,,0,,0,1064,"true",255
+"w3661","tremendous","tremendous","G","{01385255}",,0,,0,"EVENT",262,"EVENT-SCOPE",264,,0,,0,,0,,0,1069,"true",255
+"w3662","decline","decline","N",,,0,,0,"EVENT",262,"EVENT-SCOPE",264,,0,,0,,0,,0,1070,"true",255
+"w3663","in","in","P",,,0,,0,"generic-location",263,"EVENT-SCOPE",264,,0,,0,,0,,0,1071,"true",255
+"w3664","the","the","D",,,0,,0,"generic-location",263,"EVENT-SCOPE",264,,0,,0,,0,,0,1072,"true",255
+"w3665","Bay","bay","N","{01168845}",,0,,0,"generic-location",263,"EVENT-SCOPE",264,,0,,0,,0,,0,1073,"true",255
+"w3671","human","human activity","N","{00030358}","simple-cause-of",265,"EVENT-SCOPE",267,,0,,0,,0,,0,,0,,0,1079,"true",256
+"w3672","activity","human activity","N","{00030358}","simple-cause-of",265,"EVENT-SCOPE",267,,0,,0,,0,,0,,0,,0,1080,"true",256
+"w3680","pollution","pollution","N","{00276987}","EVENT",266,"EVENT-SCOPE",267,"EVENT",269,"EVENT-SCOPE",270,,0,,0,,0,,0,1088,"true",256
+"w3684","agriculture","agriculture","N","{00916464}",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1092,"true",256
+"w3685",",",,,,,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1093,"true",0
+"w3686","urban","urban","G","{01168845}",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1094,"true",256
+"w3687","and","and","O",,,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1095,"true",256
+"w3688","suburban","suburban","G","eng-30-02804590-a:1.0",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1096,"true",256
+"w3689","lands","land","N","{01168845}",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1097,"true",256
+"w3690",",",,,,,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1098,"true",0
+"w3691","wastewater","wastewater","O","{14857021}",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1099,"true",256
+"w3692",",",,,,,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1100,"true",0
+"w3693","and","and","O",,,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1101,"true",256
+"w3694","air","air pollution","N","{14517412}",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1102,"true",256
+"w3695","pollution","air pollution","N","{14517412}",,0,,0,"simple-cause-of",268,"EVENT-SCOPE",270,,0,,0,,0,,0,1103,"true",256
+"w3729","Agriculture","agriculture","N","{00916464}","simple-cause-of",271,"EVENT-SCOPE",274,,0,,0,,0,,0,,0,,0,1105,"true",260
+"w3736","pollution","pollution","N","{00276987}","EVENT",272,"EVENT-SCOPE",274,,0,,0,,0,,0,,0,,0,1112,"true",260
+"w3737","to","to","P",,"generic-location",273,"EVENT-SCOPE",274,,0,,0,,0,,0,,0,,0,1113,"true",260
+"w3738","the","the","D",,"generic-location",273,"EVENT-SCOPE",274,,0,,0,,0,,0,,0,,0,1114,"true",260
+"w3739","Bay","bay","N","{01168845}","generic-location",273,"EVENT-SCOPE",274,,0,,0,,0,,0,,0,,0,1115,"true",260
+"w3743","fertilizers","fertilizer","N","{14859344}","patient",275,,0,,0,,0,,0,,0,,0,,0,1119,"true",261
+"w3744","and","and","O",,"patient",275,,0,,0,,0,,0,,0,,0,,0,1120,"true",261
+"w3745","pesticides","pesticide","N","eng-30-14980215-n:1.0","patient",275,,0,,0,,0,,0,,0,,0,,0,1121,"true",261
+"w3746","flow","flow","V","{02066939}","EVENT",276,,0,,0,,0,,0,,0,,0,,0,1122,"true",261
+"w3747","into","into","P",,"destination-of",277,,0,,0,,0,,0,,0,,0,,0,1123,"true",261
+"w3748","creeks","creek","N","{09229409}","destination-of",277,,0,"done-by",278,"EVENT-SCOPE",282,,0,,0,,0,,0,1124,"true",261
+"w3749",",",,,,"destination-of",277,,0,"done-by",278,"EVENT-SCOPE",282,,0,,0,,0,,0,1125,"true",0
+"w3750","streams","stream","N","{09448361}","destination-of",277,,0,"done-by",278,"EVENT-SCOPE",282,,0,,0,,0,,0,1126,"true",261
+"w3751","and","and","O",,"destination-of",277,,0,"done-by",278,"EVENT-SCOPE",282,,0,,0,,0,,0,1127,"true",261
+"w3752","rivers","river","N","eng-30-09411430-n:1.0","destination-of",277,,0,"done-by",278,"EVENT-SCOPE",282,,0,,0,,0,,0,1128,"true",261
+"w3753",",",,,,,0,,0,,0,"EVENT-SCOPE",282,,0,,0,,0,,0,1129,"true",0
+"w3754","carrying","carry","V",,,0,,0,"EVENT",279,"EVENT-SCOPE",282,,0,,0,,0,,0,1130,"true",261
+"w3755","excess","excess","N",,,0,,0,"patient",280,"EVENT-SCOPE",282,,0,,0,,0,,0,1131,"true",261
+"w3756","nitrogen","nitrogen","N","{01168845}",,0,,0,"patient",280,"EVENT-SCOPE",282,,0,,0,,0,,0,1132,"true",261
+"w3757",",",,,,,0,,0,"patient",280,"EVENT-SCOPE",282,,0,,0,,0,,0,1133,"true",0
+"w3758","phosphorus","phosphorus","N","{14649197}",,0,,0,"patient",280,"EVENT-SCOPE",282,,0,,0,,0,,0,1134,"true",261
+"w3759","and","and","O",,,0,,0,"patient",280,"EVENT-SCOPE",282,,0,,0,,0,,0,1135,"true",261
+"w3760","chemicals","chemical","N","eng-30-14806838-n:1.0",,0,,0,"patient",280,"EVENT-SCOPE",282,,0,,0,,0,,0,1136,"true",261
+"w3761","into","into","P",,,0,,0,"LOCATION",281,"EVENT-SCOPE",282,,0,,0,,0,,0,1137,"true",261
+"w3762","the","the","D",,,0,,0,"LOCATION",281,"EVENT-SCOPE",282,,0,,0,,0,,0,1138,"true",261
+"w3763","Chesapeake","chesapeake bay","N","{01168845}",,0,,0,"LOCATION",281,"EVENT-SCOPE",282,,0,,0,,0,,0,1139,"true",261
+"w3764","Bay","chesapeake bay","N","{01168845}",,0,,0,"LOCATION",281,"EVENT-SCOPE",282,,0,,0,,0,,0,1140,"true",261
+"w3766","Tilling","Tilling_cropland","O",,"simple-cause-of",284,"EVENT-SCOPE",285,,0,,0,,0,,0,,0,,0,1142,"true",262
+"w3767","cropland","Tilling_cropland","O",,"simple-cause-of",284,"EVENT-SCOPE",285,,0,,0,,0,,0,,0,,0,1143,"true",262
+"w3768","and","and","O",,"simple-cause-of",284,"EVENT-SCOPE",285,,0,,0,,0,,0,,0,,0,1144,"true",262
+"w3769","irrigating","irrigate","V",,"simple-cause-of",284,"EVENT-SCOPE",285,,0,,0,,0,,0,,0,,0,1145,"true",262
+"w3770","fields","field","N","{08569998}","simple-cause-of",284,"EVENT-SCOPE",285,,0,,0,,0,,0,,0,,0,1146,"true",262
+"w3774","erosion","erosion","N","{13475538}","EVENT",283,"EVENT-SCOPE",285,,0,,0,,0,,0,,0,,0,1150,"true",262
+"w3779","nutrients","nutrient","N",,"product-of",286,"EVENT-SCOPE",288,"patient",289,,0,"done-by",871,"EVENT-SCOPE",295,,0,,0,1155,"true",263
+"w3780","and","and","O",,"product-of",286,"EVENT-SCOPE",288,"patient",289,,0,"done-by",871,"EVENT-SCOPE",295,,0,,0,1156,"true",263
+"w3781","bacteria","bacterium","N","eng-30-01348530-n:1.0","product-of",286,"EVENT-SCOPE",288,"patient",289,,0,"done-by",871,"EVENT-SCOPE",295,,0,,0,1157,"true",263
+"w3784","animal","animal","N","eng-30-00015388-n:1.0","EVENT",287,"EVENT-SCOPE",288,,0,,0,,0,,0,,0,,0,1160,"true",263
+"w3785","manure","manure","N","eng-30-14863521-n:1.0","EVENT",287,"EVENT-SCOPE",288,,0,,0,,0,,0,,0,,0,1161,"true",263
+"w3787","seep","seep","V","eng-30-02071974-v:1.0",,0,,0,"EVENT",290,,0,,0,,0,,0,,0,1163,"true",263
+"w3788","into","into","P",,,0,,0,"destination-of",291,,0,,0,,0,,0,,0,1164,"true",263
+"w3789","groundwater","groundwater","O",,,0,,0,"destination-of",291,,0,,0,,0,,0,,0,1165,"true",263
+"w3791","runoff","runoff","N","{07407272}",,0,,0,,0,,0,"EVENT",293,"EVENT-SCOPE",295,,0,,0,1167,"true",263
+"w3792","into","into","P",,,0,,0,,0,,0,"destination-of",294,"EVENT-SCOPE",295,,0,,0,1168,"true",263
+"w3793","waterways","waterway","N","{04559275}",,0,,0,,0,,0,"destination-of",294,"EVENT-SCOPE",295,,0,,0,1169,"true",263
+"w3799","Human","human","G","{02743261}","simple-cause-of",296,"EVENT-SCOPE",299,,0,,0,,0,,0,,0,,0,1171,"true",265
+"w3800","development","development","N","{00948206}","simple-cause-of",296,"EVENT-SCOPE",299,,0,,0,,0,,0,,0,,0,1172,"true",265
+"w3815","pollution","pollution","N","{00276987}","EVENT",297,"EVENT-SCOPE",299,,0,,0,,0,,0,,0,,0,1187,"true",265
+"w3817","the","the","D",,"LOCATION",298,"EVENT-SCOPE",299,,0,,0,,0,,0,,0,,0,1189,"true",265
+"w3818","Chesapeake","Chesapeake","O","{01168845}","LOCATION",298,"EVENT-SCOPE",299,,0,,0,,0,,0,,0,,0,1190,"true",265
+"w3828","continued","continued","G","eng-30-00597758-a:1.0","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1200,"true",266
+"w3829","population","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1201,"true",266
+"w3830","growth","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1202,"true",266
+"w3831","and","and","O",,"simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1203,"true",266
+"w3832","related","related","G",,"simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1204,"true",266
+"w3833","construction","construction","N","{00911048}","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1205,"true",266
+"w3834",",",,,,"simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1206,"true",0
+"w3835","runoff","runoff","N","{07407272}","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1207,"true",266
+"w3836","from","from","P",,"simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1208,"true",266
+"w3837","urban","urban","G","{01168845}","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1209,"true",266
+"w3838","and","and","O",,"simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1210,"true",266
+"w3839","suburban","suburban","G","eng-30-02804590-a:1.0","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1211,"true",266
+"w3840","lands","land","N","{01168845}","simple-cause-of",301,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1212,"true",266
+"w3846","pollution","pollution","N","{00276987}","EVENT",302,"EVENT-SCOPE",303,,0,,0,,0,,0,,0,,0,1218,"true",266
+"w3884","water","water","V","{07935504}","patient",304,"EVENT-SCOPE",307,,0,,0,,0,,0,,0,,0,1228,"true",268
+"w3885","runs","run off","N","{02067889}","EVENT",305,"EVENT-SCOPE",307,,0,,0,,0,,0,,0,,0,1229,"true",268
+"w3886","off","run off","N","{02067889}","EVENT",305,"EVENT-SCOPE",307,,0,,0,,0,,0,,0,,0,1230,"true",268
+"w3887","into","into","P",,"destination-of",306,"EVENT-SCOPE",307,,0,,0,,0,,0,,0,,0,1231,"true",268
+"w3888","waterways","waterway","N","{04559275}","destination-of",306,"EVENT-SCOPE",307,,0,,0,,0,,0,,0,,0,1232,"true",268
+"w3896","This","this","D",,"done-by",308,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1240,"true",269
+"w3897","runoff","runoff","N","{07407272}","done-by",308,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1241,"true",269
+"w3898","carries","carry","V",,"EVENT",309,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1242,"true",269
+"w3899","pollutants","pollutant","N","eng-30-14857278-n:1.0","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1243,"true",269
+"w3900","including","include","V",,"patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1244,"true",269
+"w3901","lawn","lawn","N","eng-30-08591592-n:1.0","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1245,"true",269
+"w3902","fertilizer","fertilizer","N","{00030358}","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1246,"true",269
+"w3903",",",,,,"patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1247,"true",0
+"w3904","pet","pet","N","{01318894}","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1248,"true",269
+"w3905","waste","waste","N","{14856263}","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1249,"true",269
+"w3906",",",,,,"patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1250,"true",0
+"w3907","chemicals","chemical","N","eng-30-14806838-n:1.0","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1251,"true",269
+"w3908","and","and","O",,"patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1252,"true",269
+"w3909","trash","trash","N","{14857497}","patient",310,"EVENT-SCOPE",311,,0,,0,,0,,0,,0,,0,1253,"true",269
+"w3911","Septic","septic","G",,"done-by",312,"EVENT-SCOPE",315,,0,,0,,0,,0,,0,,0,1255,"true",270
+"w3912","systems","system","N",,"done-by",312,"EVENT-SCOPE",315,,0,,0,,0,,0,,0,,0,1256,"true",270
+"w3913","release","release","V",,"EVENT",313,"EVENT-SCOPE",315,,0,,0,,0,,0,,0,,0,1257,"true",270
+"w3914","pollution","pollution","N","{14516743}","patient",314,"EVENT-SCOPE",315,"patient",316,"EVENT-SCOPE",319,,0,,0,,0,,0,1258,"true",270
+"w3917","ends","end_up","V","eng-30-00352558-v:1.0",,0,,0,"EVENT",317,"EVENT-SCOPE",319,,0,,0,,0,,0,1261,"true",270
+"w3918","up","up","P",,,0,,0,"EVENT",317,"EVENT-SCOPE",319,,0,,0,,0,,0,1262,"true",270
+"w3919","in","in","P",,,0,,0,"destination-of",318,"EVENT-SCOPE",319,,0,,0,,0,,0,1263,"true",270
+"w3920","the","the","D",,,0,,0,"destination-of",318,"EVENT-SCOPE",319,,0,,0,,0,,0,1264,"true",270
+"w3921","water","water","N","{07935504}",,0,,0,"destination-of",318,"EVENT-SCOPE",319,,0,,0,,0,,0,1265,"true",270
+"w3923","Developed","developed","G","{00171852}","simple-cause-of",320,"EVENT-SCOPE",323,"simple-cause-of",324,"EVENT-SCOPE",327,,0,,0,,0,,0,1267,"true",271
+"w3924","areas","area","N","{05128519}","simple-cause-of",320,"EVENT-SCOPE",323,"simple-cause-of",324,"EVENT-SCOPE",327,,0,,0,,0,,0,1268,"true",271
+"w3925","also","also","A","eng-30-00047534-r:1.0",,0,"EVENT-SCOPE",323,,0,,0,,0,,0,,0,,0,1269,"true",271
+"w3926","split","split","V",,"EVENT",321,"EVENT-SCOPE",323,,0,,0,,0,,0,,0,,0,1270,"true",271
+"w3927","up","up","P",,"EVENT",321,"EVENT-SCOPE",323,,0,,0,,0,,0,,0,,0,1271,"true",271
+"w3928","forests","forest","N","{08438533}","patient",322,"EVENT-SCOPE",323,,0,,0,,0,,0,,0,,0,1272,"true",271
+"w3930","decreasing","decrease","V",,,0,,0,"EVENT",325,"EVENT-SCOPE",327,,0,,0,,0,,0,1274,"true",271
+"w3931","their","their","D",,,0,,0,"patient",326,"EVENT-SCOPE",327,,0,,0,,0,,0,1275,"true",271
+"w3932","filtering","filtering","N",,,0,,0,"patient",326,"EVENT-SCOPE",327,,0,,0,,0,,0,1276,"true",271
+"w3933","capacity","capacity","N",,,0,,0,"patient",326,"EVENT-SCOPE",327,,0,,0,,0,,0,1277,"true",271
+"w3941","tremendous","tremendous","G",,"patient",328,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1282,"true",273
+"w3942","volume","volume","N","{13779032}","patient",328,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1283,"true",273
+"w3943","of","of","P",,"patient",328,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1284,"true",273
+"w3944","sewage","sewage","N","eng-30-14856893-n:1.0","patient",328,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1285,"true",273
+"w3948","processed","process","V",,"EVENT",329,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1289,"true",273
+"w3949","in","in","P",,"generic-location",330,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1290,"true",273
+"w3950","the","the","D",,"generic-location",330,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1291,"true",273
+"w3951","watershed","watershed","N","{01168845}","generic-location",330,"EVENT-SCOPE",331,,0,,0,,0,,0,,0,,0,1292,"true",273
+"w3958",483,483,"N",,"done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1299,"true",274
+"w3959","major","major","N",,"done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1300,"true",274
+"w3960","municipal","municipal","G",,"done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1301,"true",274
+"w3961","and","and","O",,"done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1302,"true",274
+"w3962","industrial","industrial","G","{02748635}","done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1303,"true",274
+"w3963","wastewater","wastewater","O","{14857021}","done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1304,"true",274
+"w3964","treatment","treatment","N",,"done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1305,"true",274
+"w3965","plants","plant","V","{03956922}","done-by",334,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1306,"true",274
+"w3966","has","have","V",,,0,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1307,"true",274
+"w3967","not","not","A","eng-30-00024073-r:1.0","EVENT",332,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1308,"true",274
+"w3968","removed","remove","V",,"EVENT",332,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1309,"true",274
+"w3969","enough","enough","G","eng-30-02336109-a:1.0","patient",333,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1310,"true",274
+"w3970","pollution","pollution","N","{00276987","patient",333,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1311,"true",274
+"w3971",",",,,,,0,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1312,"true",0
+"w3972","particularly","particularly","A",,,0,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1313,"true",274
+"w3973","nitrogen","nitrogen","N","eng-30-14647235-n:1.0","patient",337,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1314,"true",274
+"w3974","and","and","O",,"patient",337,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1315,"true",274
+"w3975","phosphorus","phosphorus","N","{14649197}","patient",337,"EVENT-SCOPE",336,,0,,0,,0,,0,,0,,0,1316,"true",274
+"w4018","population","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",338,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1319,"true",277
+"w4019","growth","population_growth","N","eng-30-13538996-n:1.0","simple-cause-of",338,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1320,"true",277
+"w4020","is","be","V",,,0,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1321,"true",277
+"w4021","increasing","increasing","G",,"EVENT",339,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1322,"true",277
+"w4022","the","the","D",,"patient",341,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1323,"true",277
+"w4023","need","need","N",,"patient",341,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1324,"true",277
+"w4024","for","for","P",,"patient",341,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1325,"true",277
+"w4025","wastewater","wastewater","O","{14857021}","patient",341,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1326,"true",277
+"w4026","treatment","treatment","N",,"patient",341,"EVENT-SCOPE",342,,0,,0,,0,,0,,0,,0,1327,"true",277
+"w4067","global","global","G",,"simple-cause-of",343,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1347,"true",283
+"w4068","climate","climate_change","N","eng-30-13449450-n:1.0","simple-cause-of",343,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1348,"true",283
+"w4069","change","climate_change","N","eng-30-13449450-n:1.0","simple-cause-of",343,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1349,"true",283
+"w4074","sea","sea level","N","{05132340}","EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1354,"true",283
+"w4075","level","sea level","N","{05132340}","EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1355,"true",283
+"w4076","rise","rise","N",,"EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1356,"true",283
+"w4077","and","and","O",,"EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1357,"true",283
+"w4078","higher","high water","N",,"EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1358,"true",283
+"w4079","water","high water","N",,"EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1359,"true",283
+"w4080","temperatures","temperature","N",,"EVENT",344,"EVENT-SCOPE",345,,0,,0,,0,,0,,0,,0,1360,"true",283
+"w4085","climate","climate_change","N","eng-30-13449450-n:1.0","simple-cause-of",346,"EVENT-SCOPE",349,"simple-cause-of",350,,0,,0,,0,,0,,0,1365,"true",284
+"w4086","change","climate_change","N","eng-30-13449450-n:1.0","simple-cause-of",346,"EVENT-SCOPE",349,"simple-cause-of",350,,0,,0,,0,,0,,0,1366,"true",284
+"w4091","decrease","decrease","N",,"EVENT",347,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1371,"true",284
+"w4092","in","in","P",,"patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1372,"true",284
+"w4093","underwater","underwater","G","{00124685}","patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1373,"true",284
+"w4094","grasses","grass","N",,"patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1374,"true",284
+"w4095",",",,,,"patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1375,"true",0
+"w4096","more","more","A",,"patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1376,"true",284
+"w4097","				patient	348	EVENT-SCOPE	349		0		0		0		0		0		0	1377	true	0
+w4098	dead	dead	G		patient	348	EVENT-SCOPE	349		0		0		0		0		0		0	1378	true	284
+w4099	zones	zone	N		patient	348	EVENT-SCOPE	349		0		0		0		0		0		0	1379	true	284
+w4100	",,,,"patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1380,"true",0
+"w4101","of","of","P",,"patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1381,"true",284
+"w4102","low","low","G","{01212469}","patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1382,"true",284
+"w4103","oxygen","oxygen","N","{14648100}","patient",348,"EVENT-SCOPE",349,,0,,0,,0,,0,,0,,0,1383,"true",284
+"w4176","In","in","P",,"generic-location",351,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1418,"true",289
+"w4177","the","the","D",,"generic-location",351,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1419,"true",289
+"w4178","Bay","bay","G","eng-30-00395977-a:1.0","generic-location",351,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1420,"true",289
+"w4179","region","region","N",,"generic-location",351,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1421,"true",289
+"w4182","more","more than","N",,"done-by",352,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1424,"true",289
+"w4183","than","more than","N",,"done-by",352,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1425,"true",289
+"w4184",200,200,"N",,"done-by",352,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1426,"true",289
+"w4185","invasive","invasive","O",,"done-by",352,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1427,"true",289
+"w4186","species","species","N","{08110373}","done-by",352,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1428,"true",289
+"w4189","cause","cause","V",,"EVENT",353,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1431,"true",289
+"w4190","serious","serious","G",,"EVENT",353,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1432,"true",289
+"w4191","problems","problem","N",,"EVENT",353,"EVENT-SCOPE",354,,0,,0,,0,,0,,0,,0,1433,"true",289
+"w4193","the","the","D",,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1435,"true",289
+"w4194","mute","mute swan","N","{01859190}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1436,"true",289
+"w4195","swan","mute swan","N","{01859190}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1437,"true",289
+"w4196",",",,,,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1438,"true",0
+"w4197","nutria","nutria","O","{02366959}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1439,"true",289
+"w4198",",",,,,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1440,"true",0
+"w4199","phragmites","phragmites","O",,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1441,"true",289
+"w4200",",",,,,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1442,"true",0
+"w4201","purple","purple","G","{00380312}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1443,"true",289
+"w4202","loosestrife","loosestrife","O","{12328398}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1444,"true",289
+"w4203",",",,,,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1445,"true",0
+"w4204","water","water chestnut","N","{12348294}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1446,"true",289
+"w4205","chestnut","water chestnut","N","{12348294}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1447,"true",289
+"w4206","and","and","O",,"done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1448,"true",289
+"w4207","zebra","zebra mussel","N","{01965529}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1449,"true",289
+"w4208","mussels","zebra mussel","N","{01965529}","done-by",355,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1450,"true",289
+"w4216","threats","threat","N",,"EVENT",356,"EVENT-SCOPE",357,,0,,0,,0,,0,,0,,0,1458,"true",289
+"w4222","pollution","pollution","N","{00276987","patient",358,"EVENT-SCOPE",361,,0,,0,,0,,0,,0,,0,1461,"true",292
+"w4224","released","released","G",,"EVENT",359,"EVENT-SCOPE",361,,0,,0,,0,,0,,0,,0,1463,"true",292
+"w4225","into","into","P",,"destination-of",360,"EVENT-SCOPE",361,,0,,0,,0,,0,,0,,0,1464,"true",292
+"w4226","the","the","D",,"destination-of",360,"EVENT-SCOPE",361,,0,,0,,0,,0,,0,,0,1465,"true",292
+"w4227","air","air","N",,"destination-of",360,"EVENT-SCOPE",361,,0,,0,,0,,0,,0,,0,1466,"true",292
+"w4229","it","it","N","eng-30-06134510-n:1.0","patient",362,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1468,"true",292
+"w4230","eventually","eventually","A","eng-30-00048138-r:1.0",,0,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1469,"true",292
+"w4231","falls","fall","V",,"EVENT",363,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1470,"true",292
+"w4232","onto","onto","P",,"destination-of",364,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1471,"true",292
+"w4233","land","land","N","{01168845}","destination-of",364,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1472,"true",292
+"w4234","and","and","O",,"destination-of",364,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1473,"true",292
+"w4235","water","water","N","{07935504}","destination-of",364,"EVENT-SCOPE",365,,0,,0,,0,,0,,0,,0,1474,"true",292
+"w4279","Nitrogen","nitrogen","N","eng-30-14647235-n:1.0","done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1476,"true",295
+"w4280","and","and","O",,"done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1477,"true",295
+"w4281","chemical","chemical","G","{02692966}","done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1478,"true",295
+"w4282","contaminants","contaminant","N","eng-30-14821984-n:1.0","done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1479,"true",295
+"w4283","-",,,,"done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1480,"true",0
+"w4284","such","such_as","P",,"done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1481,"true",295
+"w4285","as","such_as","P",,"done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1482,"true",295
+"w4286","mercury","mercury","N","{14645346}","done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1483,"true",295
+"w4287","and","and","O",,"done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1484,"true",295
+"w4288","PCBs","PCBs","O",,"done-by",366,,0,"simple-cause-of",368,"EVENT-SCOPE",370,,0,,0,,0,,0,1485,"true",295
+"w4291","air","air pollution","N","{14517412}","EVENT",367,,0,,0,,0,,0,,0,,0,,0,1488,"true",295
+"w4292","pollution","air pollution","N","{14517412}","EVENT",367,,0,,0,,0,,0,,0,,0,,0,1489,"true",295
+"w4295","poor","poor","G",,,0,,0,"EVENT",369,"EVENT-SCOPE",370,,0,,0,,0,,0,1492,"true",295
+"w4296","water","water","N","{07935504}",,0,,0,"EVENT",369,"EVENT-SCOPE",370,,0,,0,,0,,0,1493,"true",295
+"w4297","quality","quality","N","{04728068}",,0,,0,"EVENT",369,"EVENT-SCOPE",370,,0,,0,,0,,0,1494,"true",295
+"w4304","half","half","N",,"patient",371,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1501,"true",295
+"w4305","of","of","P",,"patient",371,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1502,"true",295
+"w4306","these","these","D",,"patient",371,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1503,"true",295
+"w4307","pollutants","pollutant","N","eng-30-14857278-n:1.0","patient",371,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1504,"true",295
+"w4308","come","come","V",,"EVENT",372,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1505,"true",295
+"w4309","from","from","P",,"source-of",373,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1506,"true",295
+"w4310","outside","outside","N",,"source-of",373,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1507,"true",295
+"w4311","the","the","D",,"source-of",373,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1508,"true",295
+"w4312","watershed","watershed","N","{01168845}","source-of",373,"EVENT-SCOPE",374,,0,,0,,0,,0,,0,,0,1509,"true",295
+"w4314","Air","air pollution","N","{14517412}","EVENT",375,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1511,"true",296
+"w4315","pollution","air pollution","N","{14517412}","EVENT",375,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1512,"true",296
+"w4325","power","power plant","N","{03996655}","simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1522,"true",296
+"w4326","plants","power plant","N","{03996655}","simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1523,"true",296
+"w4327",",",,,,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1524,"true",0
+"w4328","industrial","industrial_facility","N","dw-eng-30-267-n:1.0","simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1525,"true",296
+"w4329","facilities","industrial_facility","N","dw-eng-30-267-n:1.0","simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1526,"true",296
+"w4330",",",,,,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1527,"true",0
+"w4331","farming","farming","N","{00916464}","simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1528,"true",296
+"w4332","operations","operation","N",,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1529,"true",296
+"w4333","and","and","O",,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1530,"true",296
+"w4334","automobiles","automobile","N","eng-30-02958343-n:1.0","simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1531,"true",296
+"w4335","and","and","O",,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1532,"true",296
+"w4336","other","other","G",,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1533,"true",296
+"w4337","gas-powered","gas-powered","G",,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1534,"true",296
+"w4338","vehicles","vehicle","N",,"simple-cause-of",376,"EVENT-SCOPE",377,,0,,0,,0,,0,,0,,0,1535,"true",296
+"w4342","The","the","D",,"use-of",378,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1537,"true",298
+"w4343","Chesapeake","chesapeake bay","N","{09243405}","use-of",378,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1538,"true",298
+"w4344","Bay","chesapeake bay","N","{09243405}","use-of",378,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1539,"true",298
+"w4345","and","and","O",,"use-of",378,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1540,"true",298
+"w4346","its","its","D",,"use-of",378,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1541,"true",298
+"w4347","tributaries","tributary","N","eng-30-09278997-n:1.0","use-of",378,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1542,"true",298
+"w4354","commercial","commercial","G",,"EVENT",379,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1549,"true",298
+"w4355","and","and","O",,"EVENT",379,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1550,"true",298
+"w4356","recreational","recreational","G",,"EVENT",379,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1551,"true",298
+"w4357","fisheries","fishery","N","eng-30-03350880-n:1.0","EVENT",379,"EVENT-SCOPE",380,,0,,0,,0,,0,,0,,0,1552,"true",298
+"w4382","fisheries","fishery","N","eng-30-03350880-n:1.0","simple-cause-of",381,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1556,"true",300
+"w4385","tremendous","tremendous","G",,"EVENT",382,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1559,"true",300
+"w4386","pressure","pressure","V",,"EVENT",382,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1560,"true",300
+"w4388","the","the","D",,"patient",383,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1562,"true",300
+"w4389","population","population","N","{08178741}","patient",383,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1563,"true",300
+"w4390","of","of","P",,"patient",383,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1564,"true",300
+"w4391","key","key","N",,"patient",383,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1565,"true",300
+"w4392","Chesapeake","Chesapeake","O",,"patient",383,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1566,"true",300
+"w4393","species","species","N","{08110373}","patient",383,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1567,"true",300
+"w4397","blue","blue crab","N","{01979874}","patient",385,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1571,"true",300
+"w4398","crabs","blue crab","N","{01979874}","patient",385,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1572,"true",300
+"w4399","and","and","O",,"patient",385,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1573,"true",300
+"w4400","oysters","oyster","N","{01960459}","patient",385,"EVENT-SCOPE",386,,0,,0,,0,,0,,0,,0,1574,"true",300
+"w4411","billions","billion","N",,"patient",387,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1579,"true",305
+"w4412","of","of","P",,"patient",387,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1580,"true",305
+"w4413","gallons","gallon","N",,"patient",387,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1581,"true",305
+"w4414","of","of","P",,"patient",387,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1582,"true",305
+"w4415","fresh","fresh water","N","{15009326}","patient",387,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1583,"true",305
+"w4416","water","fresh water","N","{15009326}","patient",387,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1584,"true",305
+"w4417","flow","flow","V","{02066939}","EVENT",388,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1585,"true",305
+"w4418","through","through","P",,"path-of",389,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1586,"true",305
+"w4419","thousands","thousands","N","{13750844}","path-of",389,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1587,"true",305
+"w4420","of","of","P",,"path-of",389,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1588,"true",305
+"w4421","streams","stream","N","{09448361}","path-of",389,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1589,"true",305
+"w4422","and","and","O",,"path-of",389,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1590,"true",305
+"w4423","rivers","river","N","eng-30-09411430-n:1.0","path-of",389,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1591,"true",305
+"w4427","into","into","P",,"destination-of",390,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1595,"true",305
+"w4428","the","the","D",,"destination-of",390,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1596,"true",305
+"w4429","Chesapeake","chesapeake bay","N","{09243405}","destination-of",390,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1597,"true",305
+"w4430","Bay","chesapeake bay","N","{09243405}","destination-of",390,"EVENT-SCOPE",391,,0,,0,,0,,0,,0,,0,1598,"true",305
+"w4433","water","water","N","{07935504}","done-by",392,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1601,"true",306
+"w4435","carries","carry","V",,"EVENT",393,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1603,"true",306
+"w4436","polluted","polluted","G","eng-30-01908889-a:1.0","patient",394,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1604,"true",306
+"w4437","runoff","runoff","N","{07407272}","patient",394,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1605,"true",306
+"w4438","from","from","P",,"source-of",395,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1606,"true",306
+"w4439","throughout","throughout","P",,"source-of",395,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1607,"true",306
+"w4440","the","the","D",,"source-of",395,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1608,"true",306
+"w4441","watershed","watershed","N","{01168845}","source-of",395,"EVENT-SCOPE",396,,0,,0,,0,,0,,0,,0,1609,"true",306
+"w4444","amount","amount","N",,"patient",397,,0,,0,,0,,0,,0,,0,,0,1612,"true",307
+"w4445","of","of","P",,"patient",397,,0,,0,,0,,0,,0,,0,,0,1613,"true",307
+"w4446","water","water","N","{07935504}","patient",397,,0,,0,,0,,0,,0,,0,,0,1614,"true",307
+"w4447","flowing","flow","V","{02066939}","EVENT",398,,0,"simple-cause-of",401,"EVENT-SCOPE",404,,0,,0,,0,,0,1615,"true",307
+"w4448","into","into","P",,"destination-of",399,,0,,0,,0,,0,,0,,0,,0,1616,"true",307
+"w4449","the","the","D",,"destination-of",399,,0,,0,,0,,0,,0,,0,,0,1617,"true",307
+"w4450","Bay","bay","N","{01168845}","destination-of",399,,0,,0,,0,,0,,0,,0,,0,1618,"true",307
+"w4451","from","from","P",,"source-of",400,,0,,0,,0,,0,,0,,0,,0,1619,"true",307
+"w4452","its","its","D",,"source-of",400,,0,,0,,0,,0,,0,,0,,0,1620,"true",307
+"w4453","tributaries","tributary","N","eng-30-09278997-n:1.0","source-of",400,,0,,0,,0,,0,,0,,0,,0,1621,"true",307
+"w4461","pollution","pollution","N","{00276987",,0,,0,"EVENT",402,"EVENT-SCOPE",404,,0,,0,,0,,0,1629,"true",307
+"w4463","in","in","P",,,0,,0,"generic-location",403,"EVENT-SCOPE",404,,0,,0,,0,,0,1631,"true",307
+"w4464","the","the","D",,,0,,0,"generic-location",403,"EVENT-SCOPE",404,,0,,0,,0,,0,1632,"true",307
+"w4465","estuary","estuary","N","eng-30-09274500-n:1.0",,0,,0,"generic-location",403,"EVENT-SCOPE",404,,0,,0,,0,,0,1633,"true",307
+"w4469","river","river","N","eng-30-09411430-n:1.0","simple-cause-of",405,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1637,"true",307
+"w4470","flow","flow","N","{07405893}","simple-cause-of",405,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1638,"true",307
+"w4473","it","it","N","eng-30-06134510-n:1.0","done-by",409,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1641,"true",307
+"w4474","brings","bring","V",,"EVENT",406,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1642,"true",307
+"w4475","more","more","G",,"patient",407,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1643,"true",307
+"w4476","nitrogen","nitrogen","N","eng-30-14647235-n:1.0","patient",407,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1644,"true",307
+"w4477","and","and","O",,"patient",407,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1645,"true",307
+"w4478","phosphorus","phosphorus","N","{14649197}","patient",407,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1646,"true",307
+"w4479","to","to","P",,"destination-of",408,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1647,"true",307
+"w4480","the","the","D",,"destination-of",408,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1648,"true",307
+"w4481","Bay","bay","N","{01168845}","destination-of",408,"EVENT-SCOPE",410,,0,,0,,0,,0,,0,,0,1649,"true",307
+"w4483","The","the","D",,"patient",411,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1651,"true",308
+"w4484","volume","volume","N","{13779032}","patient",411,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1652,"true",308
+"w4485","of","of","P",,"patient",411,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1653,"true",308
+"w4486","river","river","N","{09411430}","patient",411,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1654,"true",308
+"w4487","water","water","N","{07935504}","patient",411,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1655,"true",308
+"w4488","flowing","flow","V","{02066939}","EVENT",412,"EVENT-SCOPE",414,"simple-cause-of",415,"EVENT-SCOPE",418,,0,,0,,0,,0,1656,"true",308
+"w4489","into","into","P",,"destination-of",413,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1657,"true",308
+"w4490","the","the","D",,"destination-of",413,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1658,"true",308
+"w4491","Bay","bay","N","{01168845}","destination-of",413,"EVENT-SCOPE",414,,0,,0,,0,,0,,0,,0,1659,"true",308
+"w4495","saltiness","saltiness","N","{04993413}",,0,,0,"EVENT",416,"EVENT-SCOPE",418,,0,,0,,0,,0,1663,"true",308
+"w4500","Bay","bay","G","eng-30-00395977-a:1.0",,0,,0,"has-state",417,"EVENT-SCOPE",418,,0,,0,,0,,0,1668,"true",308
+"w4501","waters","water","N","{07935504}",,0,,0,"has-state",417,"EVENT-SCOPE",418,,0,,0,,0,,0,1669,"true",308
+"w4506","fast-moving","fast-moving","G",,"simple-cause-of",419,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1674,"true",309
+"w4507","and","and","O",,"simple-cause-of",419,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1675,"true",309
+"w4508","turbulent","turbulent","G","{00087597}","simple-cause-of",419,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1676,"true",309
+"w4509","river","river","N","eng-30-09411430-n:1.0","simple-cause-of",419,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1677,"true",309
+"w4510","flow","flow","N","{07405893}","simple-cause-of",419,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1678,"true",309
+"w4511","mixes","mix_in","V",,"EVENT",421,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1679,"true",309
+"w4512","in","in","P",,"EVENT",421,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1680,"true",309
+"w4513","oxygen","oxygen","N","eng-30-14648100-n:1.0","patient",422,"EVENT-SCOPE",424,"done-by",427,"EVENT-SCOPE",430,,0,,0,,0,,0,1681,"true",309
+"w4514","from","from","P",,"source-of",423,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1682,"true",309
+"w4515","the","the","D",,"source-of",423,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1683,"true",309
+"w4516","air","air","N",,"source-of",423,"EVENT-SCOPE",424,,0,,0,,0,,0,,0,,0,1684,"true",309
+"w4520","beneficial","beneficial","G","eng-30-00064787-a:1.0",,0,,0,"EVENT",428,"EVENT-SCOPE",430,,0,,0,,0,,0,1688,"true",309
+"w4522","aquatic","aquatic","G","{00124077}",,0,,0,"has-state",429,"EVENT-SCOPE",430,,0,,0,,0,,0,1690,"true",309
+"w4523","life","life","N","{00006269}",,0,,0,"has-state",429,"EVENT-SCOPE",430,,0,,0,,0,,0,1691,"true",309
+"w4532","precipitation","precipitation","N","{11494638}","simple-cause-of",431,"EVENT-SCOPE",434,,0,,0,,0,,0,,0,,0,1700,"true",310
+"w4538","pollution","pollution","N","{00276987","EVENT",432,"EVENT-SCOPE",434,,0,,0,,0,,0,,0,,0,1706,"true",310
+"w4540","in","in","P",,"generic-location",433,"EVENT-SCOPE",434,,0,,0,,0,,0,,0,,0,1708,"true",310
+"w4541","the","the","D",,"generic-location",433,"EVENT-SCOPE",434,,0,,0,,0,,0,,0,,0,1709,"true",310
+"w4542","Bay","bay","N","{01168845}","generic-location",433,"EVENT-SCOPE",434,,0,,0,,0,,0,,0,,0,1710,"true",310
+"w4737",291,"291 million","N",,"patient",435,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1729,"true",322
+"w4738","million","291 million","N",,"patient",435,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1730,"true",322
+"w4739","pounds","pound","N","{13720096}","patient",435,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1731,"true",322
+"w4740","of","of","P",,"patient",435,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1732,"true",322
+"w4741","nitrogen","nitrogen","N","eng-30-14647235-n:1.0","patient",435,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1733,"true",322
+"w4742","reached","reach","V","{07407272}","EVENT",436,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1734,"true",322
+"w4743","the","the","D",,"destination-of",437,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1735,"true",322
+"w4744","Bay","bay","N","{01168845}","destination-of",437,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1736,"true",322
+"w4745","during","during","P",,"destination-of",437,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1737,"true",322
+"w4746",2008,2008,"N",,"TIME",438,"EVENT-SCOPE",439,,0,,0,,0,,0,,0,,0,1738,"true",322
+"w4777",13-08-11,"13.8 million","N",,"patient",440,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1744,"true",325
+"w4778","million","13.8 million","N",,"patient",440,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1745,"true",325
+"w4779","pounds","pound","N","{13720096}","patient",440,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1746,"true",325
+"w4780","of","of","P",,"patient",440,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1747,"true",325
+"w4781","phosphorus","phosphorus","N","{14649197}","patient",440,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1748,"true",325
+"w4782","reached","reach","V","{07407272}","EVENT",441,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1749,"true",325
+"w4783","the","the","D",,"destination-of",442,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1750,"true",325
+"w4784","Bay","bay","N","{01168845}","destination-of",442,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1751,"true",325
+"w4785","during","during","P",,"TIME",443,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1752,"true",325
+"w4786",2008,2008,"N",,"TIME",443,"EVENT-SCOPE",444,,0,,0,,0,,0,,0,,0,1753,"true",325
+"w4814",03-03-11,"3.3 million","N",,"patient",445,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1759,"true",328
+"w4815","million","3.3 million","N",,"patient",445,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1760,"true",328
+"w4816","tons","ton","N","{13721529}","patient",445,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1761,"true",328
+"w4817","of","of","P",,"patient",445,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1762,"true",328
+"w4818","sediment","sediment","N","{09428967}","patient",445,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1763,"true",328
+"w4819","reached","reach","V","{07407272}","EVENT",446,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1764,"true",328
+"w4820","the","the","D",,"destination-of",447,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1765,"true",328
+"w4821","Bay","bay","N","{01168845}","destination-of",447,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1766,"true",328
+"w4822","during","during","P",,"TIME",448,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1767,"true",328
+"w4823",2008,2008,"N",,"TIME",448,"EVENT-SCOPE",449,,0,,0,,0,,0,,0,,0,1768,"true",328
+"w4846","Millions","millions","N","{13751533}","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1770,"true",330
+"w4847","of","of","P",,"patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1771,"true",330
+"w4848","Pounds","pound","N","{13720096}","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1772,"true",330
+"w4849","of","of","P",,"patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1773,"true",330
+"w4850","Phosphorus","phosphorus","N","{14649197}","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1774,"true",330
+"w4851","Millions","millions","N","{13751533}","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1775,"true",330
+"w4852","of","of","P",,"patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1776,"true",330
+"w4853","Pounds","pound","N","{13720096}","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1777,"true",330
+"w4854","of","of","P",,"patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1778,"true",330
+"w4855","Nitrogen","nitrogen","N","eng-30-14647235-n:1.0","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1779,"true",330
+"w4856","Nitrogen","nitrogen","N","eng-30-14647235-n:1.0","patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1780,"true",330
+"w4857","Loads","load","N",,"patient",594,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1781,"true",330
+"w4858","Reaching","reach","V","{07407272}","EVENT",595,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1782,"true",330
+"w4859","Chesapeake","Chesapeake_Bay*","O","{09243405}","destination-of",596,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1783,"true",330
+"w4860","Bay*","Chesapeake_Bay*","O","{09243405}","destination-of",596,"EVENT-SCOPE",597,,0,,0,,0,,0,,0,,0,1784,"true",330
+"w5004","humans","human","N","eng-30-02472293-n:1.0","done-by",598,"EVENT-SCOPE",601,,0,,0,,0,,0,,0,,0,1786,"true",346
+"w5005","use","use","V",,"EVENT",599,"EVENT-SCOPE",601,"simple-cause-of",602,"EVENT-SCOPE",607,,0,,0,,0,,0,1787,"true",346
+"w5007","land","land","N","{01168845}","patient",600,"EVENT-SCOPE",601,,0,,0,,0,,0,,0,,0,1789,"true",346
+"w5010","greatest","great","G",,,0,,0,"EVENT",603,"EVENT-SCOPE",607,,0,,0,,0,,0,1792,"true",346
+"w5011","impact","impact","N","{00157957}",,0,,0,"EVENT",603,"EVENT-SCOPE",607,,0,,0,,0,,0,1793,"true",346
+"w5013","the","the","D",,,0,,0,"patient",604,"EVENT-SCOPE",607,,0,,0,,0,,0,1795,"true",346
+"w5014","Chesapeake","chesapeake bay","N","{09243405}",,0,,0,"patient",604,"EVENT-SCOPE",607,,0,,0,,0,,0,1796,"true",346
+"w5015","Bay","chesapeake bay","N","{09243405}",,0,,0,"patient",604,"EVENT-SCOPE",607,,0,,0,,0,,0,1797,"true",346
+"w5016","and","and","O",,,0,,0,"patient",604,"EVENT-SCOPE",607,,0,,0,,0,,0,1798,"true",346
+"w5017","local","local","G","{02756346}",,0,,0,"patient",604,"EVENT-SCOPE",607,,0,,0,,0,,0,1799,"true",346
+"w5018","waterways","waterway","N","{04559275}",,0,,0,"patient",604,"EVENT-SCOPE",607,,0,,0,,0,,0,1800,"true",346
+"w5020","Natural","natural","G","{01569965}","done-by",450,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1802,"true",347
+"w5021","areas","area","N","{05128519}","done-by",450,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1803,"true",347
+"w5022","like","like","V",,"done-by",450,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1804,"true",347
+"w5023","forests","forest","N","{09284015}","done-by",450,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1805,"true",347
+"w5024","and","and","O",,"done-by",450,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1806,"true",347
+"w5025","wetlands","wetlands","O","{09477890}","done-by",450,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1807,"true",347
+"w5028","positive","positive","G",,"EVENT",451,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1810,"true",347
+"w5029","effect","effect","N",,"EVENT",451,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1811,"true",347
+"w5031","water","water","N","{07935504}","patient",452,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1813,"true",347
+"w5032","quality","quality","N","{04728068}","patient",452,"EVENT-SCOPE",453,,0,,0,,0,,0,,0,,0,1814,"true",347
+"w5035","areas","area","N","{05128519}","simple-cause-of",454,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1817,"true",347
+"w5036","developed","develop","V","{00171852}","simple-cause-of",454,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1818,"true",347
+"w5037","for","for","P",,"simple-cause-of",454,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1819,"true",347
+"w5038","farming","farming","N","{00916464}","simple-cause-of",454,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1820,"true",347
+"w5039","or","or","O",,"simple-cause-of",454,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1821,"true",347
+"w5040","cities","city","N","{08524735}","simple-cause-of",454,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1822,"true",347
+"w5044","negative","negative","G",,"EVENT",455,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1826,"true",347
+"w5045","impact","impact","N","{00157957}","EVENT",455,"EVENT-SCOPE",456,,0,,0,,0,,0,,0,,0,1827,"true",347
+"w5048","decline","decline","N",,,0,,0,"EVENT",464,"EVENT-SCOPE",465,,0,,0,,0,,0,1830,"true",348
+"w5050","the","the","D",,,0,,0,"patient",463,"EVENT-SCOPE",465,,0,,0,,0,,0,1832,"true",348
+"w5051","Chesapeake","chesapeake bay","N","{09243405}",,0,,0,"patient",463,"EVENT-SCOPE",465,,0,,0,,0,,0,1833,"true",348
+"w5052","Bay","chesapeake bay","N","{09243405}",,0,,0,"patient",463,"EVENT-SCOPE",465,,0,,0,,0,,0,1834,"true",348
+"w5058","rise","rise","N",,"EVENT",457,"EVENT-SCOPE",460,"simple-cause-of",461,"EVENT-SCOPE",465,,0,,0,,0,,0,1840,"true",348
+"w5060","population","population","N","{08179879}","patient",459,"EVENT-SCOPE",460,,0,,0,,0,,0,,0,,0,1842,"true",348
+"w5061","of","of","P",,"patient",459,"EVENT-SCOPE",460,,0,,0,,0,,0,,0,,0,1843,"true",348
+"w5062","the","the","D",,"patient",459,"EVENT-SCOPE",460,,0,,0,,0,,0,,0,,0,1844,"true",348
+"w5063","watershed","watershed","N","{01168845}","patient",459,"EVENT-SCOPE",460,,0,,0,,0,,0,,0,,0,1845,"true",348
+"w5065","since","since","P",,"TIME",468,"EVENT-SCOPE",469,,0,,0,,0,,0,,0,,0,1847,"true",348
+"w5066",1950,1950,"N",,"TIME",468,"EVENT-SCOPE",469,,0,,0,,0,,0,,0,,0,1848,"true",348
+"w5068","number","number","N",,"patient",466,"EVENT-SCOPE",469,,0,,0,,0,,0,,0,,0,1850,"true",348
+"w5069","of","of","P",,"patient",466,"EVENT-SCOPE",469,,0,,0,,0,,0,,0,,0,1851,"true",348
+"w5070","residents","resident","N","{10523519}","patient",466,"EVENT-SCOPE",469,,0,,0,,0,,0,,0,,0,1852,"true",348
+"w5072","doubled","double","V",,"EVENT",467,"EVENT-SCOPE",469,,0,,0,,0,,0,,0,,0,1854,"true",348
+"w5075","through","through","P",,"TIME",470,"EVENT-SCOPE",473,"TIME",474,"EVENT-SCOPE",481,"TIME",475,"EVENT-SCOPE",480,,0,,0,1857,"true",349
+"w5076",2030,2030,"N",,"TIME",470,"EVENT-SCOPE",473,"TIME",474,"EVENT-SCOPE",481,"TIME",475,"EVENT-SCOPE",480,,0,,0,1858,"true",349
+"w5079","population","population_growth","N","eng-30-13538996-n:1.0","patient",471,"EVENT-SCOPE",473,,0,,0,,0,,0,,0,,0,1861,"true",349
+"w5080","growth","population_growth","N","eng-30-13538996-n:1.0","EVENT",472,"EVENT-SCOPE",473,,0,,0,,0,,0,,0,,0,1862,"true",349
+"w5082","loss","loss","N",,,0,,0,"EVENT",476,"EVENT-SCOPE",481,,0,,0,,0,,0,1864,"true",349
+"w5084","natural","natural","G","{01569965}",,0,,0,"patient",477,"EVENT-SCOPE",481,,0,,0,,0,,0,1866,"true",349
+"w5085","areas","area","N","{05128519}",,0,,0,"patient",477,"EVENT-SCOPE",481,,0,,0,,0,,0,1867,"true",349
+"w5087","increases","increase","N",,,0,,0,,0,,0,"EVENT",478,"EVENT-SCOPE",480,,0,,0,1869,"true",349
+"w5089","urban","urban","G","{01168845}",,0,,0,,0,,0,"patient",479,"EVENT-SCOPE",480,,0,,0,1871,"true",349
+"w5090","development","development","N","{00948206}",,0,,0,,0,,0,"patient",479,"EVENT-SCOPE",480,,0,,0,1872,"true",349
+"w5117","People","people","N","{07407272}","done-by",482,"EVENT-SCOPE",485,"done-by",486,"EVENT-SCOPE",489,,0,,0,,0,,0,1886,"true",351
+"w5119","moving","move","V",,"EVENT",483,"EVENT-SCOPE",485,,0,,0,,0,,0,,0,,0,1888,"true",351
+"w5120","into","into","P",,"destination-of",484,"EVENT-SCOPE",485,,0,,0,,0,,0,,0,,0,1889,"true",351
+"w5121","sprawling","sprawling","G",,"destination-of",484,"EVENT-SCOPE",485,,0,,0,,0,,0,,0,,0,1890,"true",351
+"w5122","suburbs","suburb","N","{08554440}","destination-of",484,"EVENT-SCOPE",485,,0,,0,,0,,0,,0,,0,1891,"true",351
+"w5124","living","live","V",,,0,,0,"EVENT",487,"EVENT-SCOPE",489,,0,,0,,0,,0,1893,"true",351
+"w5125","in","in","P",,,0,,0,"generic-location",488,"EVENT-SCOPE",489,,0,,0,,0,,0,1894,"true",351
+"w5126","bigger","big","G",,,0,,0,"generic-location",488,"EVENT-SCOPE",489,,0,,0,,0,,0,1895,"true",351
+"w5127","houses","house","N",,,0,,0,"generic-location",488,"EVENT-SCOPE",489,,0,,0,,0,,0,1896,"true",351
+"w5128","on","on","P",,,0,,0,"generic-location",488,"EVENT-SCOPE",489,,0,,0,,0,,0,1897,"true",351
+"w5129","larger","large","G",,,0,,0,"generic-location",488,"EVENT-SCOPE",489,,0,,0,,0,,0,1898,"true",351
+"w5130","lots","lot","N",,,0,,0,"generic-location",488,"EVENT-SCOPE",489,,0,,0,,0,,0,1899,"true",351
+"w5133","forests","forest","N","{09284015}","patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1902,"true",351
+"w5134",",",,,,"patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1903,"true",0
+"w5135","farms","farm","N","eng-30-03322099-n:1.0","patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1904,"true",351
+"w5136","and","and","O",,"patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1905,"true",351
+"w5137","other","other","G",,"patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1906,"true",351
+"w5138","valuable","valuable","G",,"patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1907,"true",351
+"w5139","lands","land","N","{01168845}","patient",491,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1908,"true",351
+"w5142","transformed","transform","V",,"EVENT",490,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1911,"true",351
+"w5144","subdivisions","subdivision","N",,"patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1913,"true",351
+"w5145",",",,,,"patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1914,"true",0
+"w5146","shopping","shopping_center","N","eng-30-03965456-n:1.0","patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1915,"true",351
+"w5147","centers","shopping_center","N","eng-30-03965456-n:1.0","patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1916,"true",351
+"w5148","and","and","O",,"patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1917,"true",351
+"w5149","parking","parking lot","N","{08615638}","patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1918,"true",351
+"w5150","lots","parking lot","N","{08615638}","patient",493,"EVENT-SCOPE",494,,0,,0,,0,,0,,0,,0,1919,"true",351
+"w5153","land","land","N","{01168845}","simple-cause-of",495,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1922,"true",352
+"w5154","conversion","conversion","N",,"simple-cause-of",495,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1923,"true",352
+"w5155","severely","severely","A","{00015953}",,0,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1924,"true",352
+"w5156","impacts","impact","V","{00137313}","EVENT",496,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1925,"true",352
+"w5157","the","the","D",,"EVENT",496,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1926,"true",352
+"w5158","health","health","N","{14447908}","EVENT",496,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1927,"true",352
+"w5160","streams","stream","N","{09448361}","patient",497,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1929,"true",352
+"w5161",",",,,,"patient",497,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1930,"true",0
+"w5162","rivers","river","N","eng-30-09411430-n:1.0","patient",497,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1931,"true",352
+"w5163","and","and","O",,"patient",497,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1932,"true",352
+"w5164","the","the","D",,"patient",497,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1933,"true",352
+"w5165","Bay","bay","N","{01168845}","patient",497,"EVENT-SCOPE",498,,0,,0,,0,,0,,0,,0,1934,"true",352
+"w5167","Impervious","impervious","G",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1936,"true",353
+"w5168","surfaces","surface","N",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1937,"true",353
+"w5169","such","such_as","P",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1938,"true",353
+"w5170","as","such_as","P",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1939,"true",353
+"w5171","roads","road","N",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1940,"true",353
+"w5172","and","and","O",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1941,"true",353
+"w5173","rooftops","rooftops","O",,"simple-cause-of",499,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1942,"true",353
+"w5175","not","not","A","eng-30-00024073-r:1.0","EVENT",500,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1944,"true",353
+"w5176","allow","allow","V",,"EVENT",500,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1945,"true",353
+"w5177","water","water","N","{07935504}","patient",501,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1946,"true",353
+"w5179","filter","filter","V",,"EVENT",500,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1948,"true",353
+"w5180","into","into","P",,"destination-of",502,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1949,"true",353
+"w5181","the","the","D",,"destination-of",502,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1950,"true",353
+"w5182","ground","ground","N",,"destination-of",502,"EVENT-SCOPE",503,,0,,0,,0,,0,,0,,0,1951,"true",353
+"w5186","rainfall","rainfall","N","eng-30-11501381-n:1.0","done-by",507,"EVENT-SCOPE",506,"done-by",509,"EVENT-SCOPE",511,"done-by",516,"EVENT-SCOPE",518,,0,,0,1955,"true",354
+"w5187","runs","run_off","V",,"EVENT",505,"EVENT-SCOPE",506,,0,,0,,0,,0,,0,,0,1956,"true",354
+"w5188","off","off","P",,"EVENT",505,"EVENT-SCOPE",506,,0,,0,,0,,0,,0,,0,1957,"true",354
+"w5190","picking","pick_up","V",,,0,,0,"EVENT",508,"EVENT-SCOPE",511,,0,,0,,0,,0,1959,"true",354
+"w5191","up","up","P",,,0,,0,"EVENT",508,"EVENT-SCOPE",511,,0,,0,,0,,0,1960,"true",354
+"w5192","pollution","pollution","N","{00276987",,0,,0,"patient",512,"EVENT-SCOPE",511,"patient",517,"EVENT-SCOPE",518,,0,,0,1961,"true",354
+"w5194","quickly","quickly","A",,,0,,0,,0,,0,"EVENT",513,"EVENT-SCOPE",518,,0,,0,1963,"true",354
+"w5195","carrying","carry","V",,,0,,0,,0,,0,"EVENT",513,"EVENT-SCOPE",518,,0,,0,1964,"true",354
+"w5196","it","it","N","eng-30-06134510-n:1.0",,0,,0,,0,,0,"patient",515,"EVENT-SCOPE",518,,0,,0,1965,"true",354
+"w5197","into","into","P",,,0,,0,,0,,0,"destination-of",514,"EVENT-SCOPE",518,,0,,0,1966,"true",354
+"w5198","waterways","waterway","N","{04559275}",,0,,0,,0,,0,"destination-of",514,"EVENT-SCOPE",518,,0,,0,1967,"true",354
+"w5200","From","from_1990_to_2000","A",,"TIME",519,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1969,"true",355
+"w5201",1990,"from_1990_to_2000","A",,"TIME",519,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1970,"true",355
+"w5202","to","from_1990_to_2000","A",,"TIME",519,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1971,"true",355
+"w5203","impervious","impervious","G",,"patient",520,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1972,"true",355
+"w5204","surfaces","surface","N",,"patient",520,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1973,"true",355
+"w5205","increased","increase","V",,"EVENT",521,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1974,"true",355
+"w5206","by","by","P",,"state-of",831,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1975,"true",355
+"w5207",41,"41 percent","N",,"state-of",831,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1976,"true",355
+"w5208","percent","41 percent","N",,"state-of",831,"EVENT-SCOPE",523,,0,,0,,0,,0,,0,,0,1977,"true",355
+"w5217",8,"8 percent","N",,"state-of",832,"EVENT-SCOPE",834,,0,,0,,0,,0,,0,,0,1986,"true",355
+"w5218","percent","8 percent","N",,"state-of",832,"EVENT-SCOPE",834,,0,,0,,0,,0,,0,,0,1987,"true",355
+"w5221","population","population_growth","N","eng-30-13538996-n:1.0","EVENT",833,"EVENT-SCOPE",834,,0,,0,,0,,0,,0,,0,1990,"true",355
+"w5222","growth","population_growth","N","eng-30-13538996-n:1.0","EVENT",833,"EVENT-SCOPE",834,,0,,0,,0,,0,,0,,0,1991,"true",355
+"w5229","Forests","forest","N","{09284015}","use-of",525,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,1998,"true",356
+"w5232","most","most","A",,"EVENT",527,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,2001,"true",356
+"w5233","beneficial","beneficial","G",,"EVENT",527,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,2002,"true",356
+"w5234","use","use","N",,"EVENT",527,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,2003,"true",356
+"w5238","Bay","bay","G","eng-30-00395977-a:1.0","purpose-of",524,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,2007,"true",356
+"w5239","water","water","N","{07935504}","purpose-of",524,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,2008,"true",356
+"w5240","quality","quality","N","{04728068}","purpose-of",524,"EVENT-SCOPE",528,,0,,0,,0,,0,,0,,0,2009,"true",356
+"w5242","They","they","N",,"done-by",529,"EVENT-SCOPE",532,"done-by",533,"EVENT-SCOPE",536,,0,,0,,0,,0,2011,"true",357
+"w5243","capture","capture","V",,"EVENT",530,"EVENT-SCOPE",532,,0,,0,,0,,0,,0,,0,2012,"true",357
+"w5245","filter","filter","N",,,0,,0,"EVENT",534,"EVENT-SCOPE",536,,0,,0,,0,,0,2014,"true",357
+"w5248","water","water","V","{07935504}","patient",531,"EVENT-SCOPE",532,"patient",535,"EVENT-SCOPE",536,,0,,0,,0,,0,2017,"true",357
+"w5310","Forests","forest","N","{08438533}","done-by",537,"EVENT-SCOPE",540,"done-by",541,"EVENT-SCOPE",546,,0,,0,,0,,0,2033,"true",369
+"w5312","absorb","absorb","V",,"EVENT",538,"EVENT-SCOPE",540,,0,,0,,0,,0,,0,,0,2035,"true",369
+"w5313","air","air pollution","N","{14517412}","patient",539,"EVENT-SCOPE",540,,0,,0,,0,,0,,0,,0,2036,"true",369
+"w5314","pollution","air pollution","N","{14517412}","patient",539,"EVENT-SCOPE",540,,0,,0,,0,,0,,0,,0,2037,"true",369
+"w5316","retain","retain","N",,,0,,0,"EVENT",542,"EVENT-SCOPE",546,,0,,0,,0,,0,2039,"true",369
+"w5317","up","up","P",,,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2040,"true",369
+"w5318","to","to","P",,,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2041,"true",369
+"w5319",85,"85 percent","N",,,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2042,"true",369
+"w5320","percent","85 percent","N",,,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2043,"true",369
+"w5321","of","of","P",,,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2044,"true",369
+"w5322","the","the","D",,,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2045,"true",369
+"w5323","nitrogen","nitrogen","N","eng-30-14647235-n:1.0",,0,,0,"patient",543,"EVENT-SCOPE",546,,0,,0,,0,,0,2046,"true",369
+"w5325","sources","source","N",,,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2048,"true",369
+"w5326","such","such_as","P",,,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2049,"true",369
+"w5327","as","such_as","P",,,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2050,"true",369
+"w5328","automobiles","automobile","N","eng-30-02958343-n:1.0",,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2051,"true",369
+"w5329","and","and","O",,,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2052,"true",369
+"w5330","power","power plant","N","{03996655}",,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2053,"true",369
+"w5331","plants","power plant","N","{03996655}",,0,,0,"source-of",545,"EVENT-SCOPE",546,,0,,0,,0,,0,2054,"true",369
+"w5333","Forested","forested","G","eng-30-02573859-a:1.0","done-by",547,"EVENT-SCOPE",550,"done-by",551,"EVENT-SCOPE",559,"done-by",552,"EVENT-SCOPE",558,,0,,0,2056,"true",370
+"w5334","areas","area","N","{05128519}","done-by",547,"EVENT-SCOPE",550,"done-by",551,"EVENT-SCOPE",559,"done-by",552,"EVENT-SCOPE",558,,0,,0,2057,"true",370
+"w5335","reduce","reduce","V",,"EVENT",548,"EVENT-SCOPE",550,,0,,0,,0,,0,,0,,0,2058,"true",370
+"w5336","erosion","erosion","N","{13475538}","patient",549,"EVENT-SCOPE",550,,0,,0,,0,,0,,0,,0,2059,"true",370
+"w5338","control","control","V",,,0,,0,"EVENT",553,"EVENT-SCOPE",559,,0,,0,,0,,0,2061,"true",370
+"w5339","flooding","flood","V",,,0,,0,"patient",554,"EVENT-SCOPE",559,,0,,0,,0,,0,2062,"true",370
+"w5341","provide","provide","V",,,0,,0,,0,,0,"EVENT",555,"EVENT-SCOPE",558,,0,,0,2064,"true",370
+"w5342","habitat","habitat","N","eng-30-08580583-n:1.0",,0,,0,,0,,0,"patient",556,"EVENT-SCOPE",558,,0,,0,2065,"true",370
+"w5343","for","for","P",,,0,,0,,0,,0,"purpose-of",557,"EVENT-SCOPE",558,,0,,0,2066,"true",370
+"w5344","wildlife","wildlife","N","eng-30-07993776-n:1.0",,0,,0,,0,,0,"purpose-of",557,"EVENT-SCOPE",558,,0,,0,2067,"true",370
+"w5346","In","in","P",,"TIME",560,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2069,"true",371
+"w5347","the","the","D",,"TIME",560,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2070,"true",371
+"w5348","1600s","1600s","N",,"TIME",560,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2071,"true",371
+"w5349",",",,,,,0,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2072,"true",0
+"w5350","forests","forest","N","{09284015}","done-by",561,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2073,"true",371
+"w5351","covered","cover","V",,"EVENT",562,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2074,"true",371
+"w5352",95,"95 percent","N",,"patient",563,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2075,"true",371
+"w5353","percent","95 percent","N",,"patient",563,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2076,"true",371
+"w5354","of","of","P",,"patient",563,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2077,"true",371
+"w5355","the","the","D",,"patient",563,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2078,"true",371
+"w5356","watershed","watershed","N","{01168845}","patient",563,"EVENT-SCOPE",564,,0,,0,,0,,0,,0,,0,2079,"true",371
+"w5358","Now","now","A",,"TIME",565,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2081,"true",372
+"w5359","only","only","A",,"patient",566,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2082,"true",372
+"w5360",58,"58 percent","N",,"patient",566,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2083,"true",372
+"w5361","percent","58 percent","N",,"patient",566,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2084,"true",372
+"w5362","of","of","P",,"patient",566,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2085,"true",372
+"w5363","the","the","D",,"patient",566,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2086,"true",372
+"w5364","watershed","watershed","N","{01168845}","patient",566,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2087,"true",372
+"w5365","is","be","V",,,0,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2088,"true",372
+"w5366","forested","forested","G","eng-30-02573859-a:1.0","EVENT",567,"EVENT-SCOPE",568,,0,,0,,0,,0,,0,,0,2089,"true",372
+"w5369","development","development","N","{00948206}","simple-cause-of",569,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2092,"true",372
+"w5370","is","be","V",,,0,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2093,"true",372
+"w5371","reducing","reduce","V",,"EVENT",570,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2094,"true",372
+"w5372","forests","forest","N","{09284015}","patient",571,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2095,"true",372
+"w5373","at","at","P",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2096,"true",372
+"w5374","the","the","D",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2097,"true",372
+"w5375","rate","rate","N",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2098,"true",372
+"w5376","of","of","P",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2099,"true",372
+"w5377",100,100,"N","eng-30-13750415-n:1.0","result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2100,"true",372
+"w5378","acres","acre","N",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2101,"true",372
+"w5379","per","per","P",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2102,"true",372
+"w5380","day","day","N",,"result-of",572,"EVENT-SCOPE",573,,0,,0,,0,,0,,0,,0,2103,"true",372
+"w5385","development","development","N","{00948206}","simple-cause-of",577,"EVENT-SCOPE",578,"simple-cause-of",586,"EVENT-SCOPE",587,,0,,0,,0,,0,2108,"true",373
+"w5387","forested","forested","G","eng-30-02573859-a:1.0","patient",576,"EVENT-SCOPE",578,,0,,0,,0,,0,,0,,0,2110,"true",373
+"w5388","areas","area","N","{05128519}","patient",576,"EVENT-SCOPE",578,,0,,0,,0,,0,,0,,0,2111,"true",373
+"w5391","split","split","G",,"EVENT",574,"EVENT-SCOPE",578,,0,,0,,0,,0,,0,,0,2114,"true",373
+"w5392","into","into","P",,"result-of",575,"EVENT-SCOPE",578,,0,,0,,0,,0,,0,,0,2115,"true",373
+"w5393","smaller","small","G",,"result-of",575,"EVENT-SCOPE",578,,0,,0,,0,,0,,0,,0,2116,"true",373
+"w5394","parcels","parcel","N",,"result-of",575,"EVENT-SCOPE",578,,0,,0,,0,,0,,0,,0,2117,"true",373
+"w5397","reduces","reduce","V",,,0,,0,"EVENT",583,"EVENT-SCOPE",587,,0,,0,,0,,0,2120,"true",373
+"w5402","water","water","N","{07935504}",,0,,0,"patient",584,"EVENT-SCOPE",587,,0,,0,,0,,0,2125,"true",373
+"w5403","quality","quality","N",,,0,,0,"patient",584,"EVENT-SCOPE",587,,0,,0,,0,,0,2126,"true",373
+"w5406","wildlife","wildlife","N","eng-30-07993776-n:1.0",,0,,0,"patient",585,"EVENT-SCOPE",587,,0,,0,,0,,0,2129,"true",373
+"w5407","habitat","habitat","N","eng-30-08580583-n:1.0",,0,,0,"patient",585,"EVENT-SCOPE",587,,0,,0,,0,,0,2130,"true",373
+"w5419","Clean","clean","V",,"patient",589,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2132,"true",378
+"w5420","water","water","N","{07935504}","patient",589,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2133,"true",378
+"w5421","flows","flow","N","{07405893}","EVENT",590,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2134,"true",378
+"w5422","into","into","P",,"destination-of",591,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2135,"true",378
+"w5423","the","the","D",,"destination-of",591,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2136,"true",378
+"w5424","Bay","bay","N","{01168845}","destination-of",591,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2137,"true",378
+"w5425","Wetlands","wetlands","O","{09477890}","destination-of",591,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2138,"true",378
+"w5428","natural","natural","G","{01569965}","result-of",592,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2141,"true",378
+"w5429","buffer","buffer","N",,"result-of",592,"EVENT-SCOPE",593,,0,,0,,0,,0,,0,,0,2142,"true",378
+"w5430","Water","water","N","{07935504}","has-state",605,"EVENT-SCOPE",608,,0,,0,,0,,0,,0,,0,2143,"true",378
+"w5431","clarity","clarity","N",,"has-state",605,"EVENT-SCOPE",608,,0,,0,,0,,0,,0,,0,2144,"true",378
+"w5432","and","and","O",,"has-state",605,"EVENT-SCOPE",608,,0,,0,,0,,0,,0,,0,2145,"true",378
+"w5433","oxygen","oxygen","N","{14648100}","has-state",605,"EVENT-SCOPE",608,,0,,0,,0,,0,,0,,0,2146,"true",378
+"w5434","levels","level","N",,"has-state",605,"EVENT-SCOPE",608,,0,,0,,0,,0,,0,,0,2147,"true",378
+"w5436","good","good","G",,"EVENT",606,"EVENT-SCOPE",608,,0,,0,,0,,0,,0,,0,2149,"true",378
+"w5437","Sunlight","sunlight","N","eng-30-11485367-n:1.0","done-by",609,"EVENT-SCOPE",613,,0,,0,,0,,0,,0,,0,2150,"true",378
+"w5438","provides","provide","V",,"EVENT",610,"EVENT-SCOPE",613,,0,,0,,0,,0,,0,,0,2151,"true",378
+"w5439","energy","energy","N",,"patient",611,"EVENT-SCOPE",613,,0,,0,,0,,0,,0,,0,2152,"true",378
+"w5441","grasses","grass","N",,,0,,0,"patient",615,"EVENT-SCOPE",616,,0,,0,,0,,0,2154,"true",378
+"w5443","grow","grow","V",,"purpose-of",612,"EVENT-SCOPE",613,"EVENT",614,"EVENT-SCOPE",616,,0,,0,,0,,0,2156,"true",378
+"w5444","Fish","Fish","R","{02512053}","has-state",617,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2157,"true",378
+"w5445","and","and","O",,"has-state",617,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2158,"true",378
+"w5446","shellfish","shellfish","N","{01940736}","has-state",617,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2159,"true",378
+"w5448","adequate","adequate","G",,"EVENT",618,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2161,"true",378
+"w5449","habitat","habitat","N","eng-30-08580583-n:1.0","EVENT",618,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2162,"true",378
+"w5450","and","and","O",,"EVENT",618,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2163,"true",378
+"w5451","food","food","N",,"EVENT",618,"EVENT-SCOPE",619,,0,,0,,0,,0,,0,,0,2164,"true",378
+"w5452","Oysters","oyster","N","{01960459}","has-state",620,"EVENT-SCOPE",622,"done-by",623,"EVENT-SCOPE",626,,0,,0,,0,,0,2165,"true",378
+"w5454","plentiful","plentiful","G",,"EVENT",621,"EVENT-SCOPE",622,,0,,0,,0,,0,,0,,0,2167,"true",378
+"w5456","filter","filter","V",,,0,,0,"EVENT",624,"EVENT-SCOPE",626,,0,,0,,0,,0,2169,"true",378
+"w5457","the","the","D",,,0,,0,"patient",625,"EVENT-SCOPE",626,,0,,0,,0,,0,2170,"true",378
+"w5458","water","water","N","{07935504}",,0,,0,"patient",625,"EVENT-SCOPE",626,,0,,0,,0,,0,2171,"true",378
+"w5459","The","the","D",,"has-state",627,,0,,0,,0,,0,,0,,0,,0,2172,"true",378
+"w5460","ecosystem","ecosystem","N","eng-30-08368757-n:1.0","has-state",627,,0,,0,,0,,0,,0,,0,,0,2173,"true",378
+"w5463","balance","balance","N",,"EVENT",628,,0,,0,,0,,0,,0,,0,,0,2176,"true",378
+"w5467","Pollution","pollution","N","{00276987","patient",629,"EVENT-SCOPE",632,,0,,0,,0,,0,,0,,0,2178,"true",380
+"w5468","flows","flow","V","{02066939}","EVENT",630,"EVENT-SCOPE",632,,0,,0,,0,,0,,0,,0,2179,"true",380
+"w5469","to","to","P",,"destination-of",631,"EVENT-SCOPE",632,,0,,0,,0,,0,,0,,0,2180,"true",380
+"w5470","the","the","D",,"destination-of",631,"EVENT-SCOPE",632,,0,,0,,0,,0,,0,,0,2181,"true",380
+"w5471","Bay","bay","G","eng-30-00395977-a:1.0","destination-of",631,"EVENT-SCOPE",632,,0,,0,,0,,0,,0,,0,2182,"true",380
+"w5472","Development","development","N","{00948206}","simple-cause-of",633,"EVENT-SCOPE",636,,0,,0,,0,,0,,0,,0,2183,"true",380
+"w5473","removes","remove","V",,"EVENT",634,"EVENT-SCOPE",636,,0,,0,,0,,0,,0,,0,2184,"true",380
+"w5474","natural","natural","G","{01569965}","patient",635,"EVENT-SCOPE",636,,0,,0,,0,,0,,0,,0,2185,"true",380
+"w5475","areas","area","N","{05128519}","patient",635,"EVENT-SCOPE",636,,0,,0,,0,,0,,0,,0,2186,"true",380
+"w5476","Pollution","pollution","N","{00276987","simple-cause-of",637,"EVENT-SCOPE",641,"simple-cause-of",644,"EVENT-SCOPE",645,,0,,0,,0,,0,2187,"true",380
+"w5478","algae","alga","N","eng-30-01397114-n:1.0","patient",639,"EVENT-SCOPE",641,,0,,0,,0,,0,,0,,0,2189,"true",380
+"w5479","blooms","bloom","N","{11669335}","EVENT",638,"EVENT-SCOPE",641,,0,,0,,0,,0,,0,,0,2190,"true",380
+"w5481","murky","murky","G",,,0,,0,"EVENT",642,"EVENT-SCOPE",645,,0,,0,,0,,0,2192,"true",380
+"w5482","water","water","N","{07935504}",,0,,0,"has-state",873,"EVENT-SCOPE",645,,0,,0,,0,,0,2193,"true",380
+"w5483","Algae","alga","N","eng-30-01397114-n:1.0","patient",647,"EVENT-SCOPE",648,,0,,0,,0,,0,,0,,0,2194,"true",380
+"w5484","blooms","bloom","N","{11669335}","EVENT",646,"EVENT-SCOPE",648,"simple-cause-of",649,"EVENT-SCOPE",651,"simple-cause-of",652,"EVENT-SCOPE",655,,0,,0,2195,"true",380
+"w5485","decompose","decompose","V",,,0,,0,"EVENT",650,"EVENT-SCOPE",651,,0,,0,,0,,0,2196,"true",380
+"w5487","lowering","lower","V",,,0,,0,,0,,0,"EVENT",653,"EVENT-SCOPE",655,,0,,0,2198,"true",380
+"w5488","oxygen","oxygen","N","{14648100}",,0,,0,,0,,0,"patient",654,"EVENT-SCOPE",655,,0,,0,2199,"true",380
+"w5489","levels","level","N",,,0,,0,,0,,0,"patient",654,"EVENT-SCOPE",655,,0,,0,2200,"true",380
+"w5490","Sunlight","sunlight","N","eng-30-11485367-n:1.0","done-by",657,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2201,"true",380
+"w5492","n'","not","A","eng-30-00024073-r:1.0","EVENT",656,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2203,"true",380
+"w5493","t","not","A","eng-30-00024073-r:1.0","EVENT",656,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2204,"true",380
+"w5494","properly","properly","A",,"EVENT",656,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2205,"true",380
+"w5495","penetrate","penetrate","V",,"EVENT",656,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2206,"true",380
+"w5496","the","the","D",,"patient",658,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2207,"true",380
+"w5497","water","water","N","{07935504}","patient",658,"EVENT-SCOPE",659,,0,,0,,0,,0,,0,,0,2208,"true",380
+"w5498","Underwater","underwater","G","{00124685}","patient",661,"EVENT-SCOPE",662,,0,,0,,0,,0,,0,,0,2209,"true",380
+"w5499","grasses","grass","N",,"patient",661,"EVENT-SCOPE",662,,0,,0,,0,,0,,0,,0,2210,"true",380
+"w5500","struggle","struggle","V",,"EVENT",660,"EVENT-SCOPE",662,,0,,0,,0,,0,,0,,0,2211,"true",380
+"w5501","to","to","P",,"EVENT",660,"EVENT-SCOPE",662,,0,,0,,0,,0,,0,,0,2212,"true",380
+"w5502","grow","grow","V",,"EVENT",660,"EVENT-SCOPE",662,,0,,0,,0,,0,,0,,0,2213,"true",380
+"w5504","health","health","N","{14447908}","EVENT",663,"EVENT-SCOPE",665,,0,,0,,0,,0,,0,,0,2215,"true",380
+"w5506","fish","fish","N","{02512053}","has-state",664,"EVENT-SCOPE",665,,0,,0,,0,,0,,0,,0,2217,"true",380
+"w5507","and","and","O",,"has-state",664,"EVENT-SCOPE",665,,0,,0,,0,,0,,0,,0,2218,"true",380
+"w5508","other","other","G",,"has-state",664,"EVENT-SCOPE",665,,0,,0,,0,,0,,0,,0,2219,"true",380
+"w5509","life","life","N","{00006269}","has-state",664,"EVENT-SCOPE",665,,0,,0,,0,,0,,0,,0,2220,"true",380
+"w5510","suffer","suffer","V",,"EVENT",663,"EVENT-SCOPE",665,,0,,0,,0,,0,,0,,0,2221,"true",380
+"w5514","the","the","D",,"has-state",667,"EVENT-SCOPE",668,,0,,0,,0,,0,,0,,0,2223,"true",383
+"w5515","Chesapeake","chesapeake bay","N","{09243405}","has-state",667,"EVENT-SCOPE",668,,0,,0,,0,,0,,0,,0,2224,"true",383
+"w5519","healthy","healthy","G","{01170243}","EVENT",666,"EVENT-SCOPE",668,,0,,0,,0,,0,,0,,0,2228,"true",383
+"w5520","and","and","O",,"EVENT",666,"EVENT-SCOPE",668,,0,,0,,0,,0,,0,,0,2229,"true",383
+"w5521","productive","productive","G",,"EVENT",666,"EVENT-SCOPE",668,,0,,0,,0,,0,,0,,0,2230,"true",383
+"w5524","water","water","N","{07935504}","has-state",670,"EVENT-SCOPE",672,"done-by",674,"EVENT-SCOPE",677,,0,,0,,0,,0,2233,"true",383
+"w5525","must","must","V",,"EVENT",669,"EVENT-SCOPE",672,,0,,0,,0,,0,,0,,0,2234,"true",383
+"w5526","be","be","V",,"EVENT",669,"EVENT-SCOPE",672,,0,,0,,0,,0,,0,,0,2235,"true",383
+"w5527","safe","safe","G","{02057829}","EVENT",669,"EVENT-SCOPE",672,,0,,0,,0,,0,,0,,0,2236,"true",383
+"w5528","for","for","P",,"purpose-of",673,"EVENT-SCOPE",672,,0,,0,,0,,0,,0,,0,2237,"true",383
+"w5529","people","people","N","{07942152}","purpose-of",673,"EVENT-SCOPE",672,,0,,0,,0,,0,,0,,0,2238,"true",383
+"w5532","support","support","V",,,0,,0,"EVENT",675,"EVENT-SCOPE",677,,0,,0,,0,,0,2241,"true",383
+"w5533","aquatic","aquatic","G","{00124077}",,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2242,"true",383
+"w5534","life","life","N","{11473291}",,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2243,"true",383
+"w5535",",",,,,,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2244,"true",0
+"w5536","such","such_as","P",,,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2245,"true",383
+"w5537","as","such_as","P",,,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2246,"true",383
+"w5538","fish","fish","N","{02512053}",,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2247,"true",383
+"w5539",",",,,,,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2248,"true",0
+"w5540","crabs","crab","N","{01976957}",,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2249,"true",383
+"w5541","and","and","O",,,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2250,"true",383
+"w5542","oysters","oyster","N","{01960459}",,0,,0,"patient",676,"EVENT-SCOPE",677,,0,,0,,0,,0,2251,"true",383
+"w5544","The","the","D",,"has-state",678,"EVENT-SCOPE",680,"has-state",681,"EVENT-SCOPE",683,"has-state",684,"EVENT-SCOPE",687,,0,,0,2253,"true",384
+"w5545","water","water","N","{07935504}","has-state",678,"EVENT-SCOPE",680,"has-state",681,"EVENT-SCOPE",683,"has-state",684,"EVENT-SCOPE",687,,0,,0,2254,"true",384
+"w5546","should","shall","V",,"EVENT",679,"EVENT-SCOPE",680,,0,,0,,0,,0,,0,,0,2255,"true",384
+"w5547","be","be","V",,"EVENT",679,"EVENT-SCOPE",680,,0,,0,,0,,0,,0,,0,2256,"true",384
+"w5548","fairly","fairly","A",,"EVENT",679,"EVENT-SCOPE",680,,0,,0,,0,,0,,0,,0,2257,"true",384
+"w5549","clear","clear","G","{00431447}","EVENT",679,"EVENT-SCOPE",680,,0,,0,,0,,0,,0,,0,2258,"true",384
+"w5551","have","have","V",,,0,,0,"EVENT",682,"EVENT-SCOPE",683,,0,,0,,0,,0,2260,"true",384
+"w5552","enough","enough","G","eng-30-02336109-a:1.0",,0,,0,"EVENT",682,"EVENT-SCOPE",683,,0,,0,,0,,0,2261,"true",384
+"w5553","oxygen","oxygen","N","eng-30-14648100-n:1.0",,0,,0,"EVENT",682,"EVENT-SCOPE",683,,0,,0,,0,,0,2262,"true",384
+"w5555","contain","contain","V",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2264,"true",384
+"w5556","the","the","D",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2265,"true",384
+"w5557","proper","proper","G",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2266,"true",384
+"w5558","amount","amount","N",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2267,"true",384
+"w5559","of","of","P",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2268,"true",384
+"w5560","algae","alga","N","eng-30-01397114-n:1.0",,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2269,"true",384
+"w5561","and","and","O",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2270,"true",384
+"w5562","be","be","V",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2271,"true",384
+"w5563","free","free","G",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2272,"true",384
+"w5564","from","from","P",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2273,"true",384
+"w5565","chemical","chemical","G","{02692966}",,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2274,"true",384
+"w5566","contamination","contamination","N",,,0,,0,,0,,0,"EVENT",686,"EVENT-SCOPE",687,,0,,0,2275,"true",384
+"w5577","water","water","N","{07935504}","has-state",689,"EVENT-SCOPE",691,,0,,0,,0,,0,,0,,0,2286,"true",385
+"w5578","quality","quality","N","{04728068}","EVENT",688,"EVENT-SCOPE",691,"EVENT",692,"EVENT-SCOPE",695,,0,,0,,0,,0,2287,"true",385
+"w5579","in","in","P",,"generic-location",690,"EVENT-SCOPE",691,,0,,0,,0,,0,,0,,0,2288,"true",385
+"w5580","the","the","D",,"generic-location",690,"EVENT-SCOPE",691,,0,,0,,0,,0,,0,,0,2289,"true",385
+"w5581","Bay","bay","N","{01168845}","generic-location",690,"EVENT-SCOPE",691,,0,,0,,0,,0,,0,,0,2290,"true",385
+"w5582","remains","remain","V",,"EVENT",688,"EVENT-SCOPE",691,"EVENT",692,"EVENT-SCOPE",695,,0,,0,,0,,0,2291,"true",385
+"w5583","extremely","extremely","A",,"EVENT",688,"EVENT-SCOPE",691,"EVENT",692,"EVENT-SCOPE",695,,0,,0,,0,,0,2292,"true",385
+"w5584","poor","poor","G",,"EVENT",688,"EVENT-SCOPE",691,"EVENT",692,"EVENT-SCOPE",695,,0,,0,,0,,0,2293,"true",385
+"w5587","pollution","pollution","N","{00276987",,0,,0,"simple-cause-of",693,"EVENT-SCOPE",695,,0,,0,,0,,0,2296,"true",385
+"w5588","from","from","P",,,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2297,"true",385
+"w5589","nitrogen","nitrogen","N","eng-30-14647235-n:1.0",,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2298,"true",385
+"w5590",",",,,,,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2299,"true",0
+"w5591","phosphorus","phosphorus","N","{14649197}",,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2300,"true",385
+"w5592",",",,,,,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2301,"true",0
+"w5593","sediment","sediment","N","eng-30-09428967-n:1.0",,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2302,"true",385
+"w5594","and","and","O",,,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2303,"true",385
+"w5595","chemicals","chemical","N","eng-30-14806838-n:1.0",,0,,0,"done-by",694,"EVENT-SCOPE",695,,0,,0,,0,,0,2304,"true",385
+"w5597","Rain","rain","N","{11501381}","simple-cause-of",696,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2306,"true",386
+"w5600","pollutants","pollutant","N",,"patient",697,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2309,"true",386
+"w5602","runoff","runoff","N","{07407272}","EVENT",698,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2311,"true",386
+"w5603","into","into","P",,"destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2312,"true",386
+"w5604","local","local","G","{02756346}","destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2313,"true",386
+"w5605","streams","stream","N","{09448361}","destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2314,"true",386
+"w5606",",",,,,"destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2315,"true",0
+"w5607","creeks","creek","N","{09229409}","destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2316,"true",386
+"w5608","and","and","O",,"destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2317,"true",386
+"w5609","rivers","river","N","eng-30-09411430-n:1.0","destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2318,"true",386
+"w5610","and","and","O",,"destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2319,"true",386
+"w5611","the","the","D",,"destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2320,"true",386
+"w5612","Bay","bay","G","eng-30-00395977-a:1.0","destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2321,"true",386
+"w5613","itself","itself","N",,"destination-of",699,"EVENT-SCOPE",700,,0,,0,,0,,0,,0,,0,2322,"true",386
+"w5654","bay","bay","G","eng-30-00395977-a:1.0","patient",837,"EVENT-SCOPE",838,,0,,0,,0,,0,,0,,0,2326,"true",389
+"w5655","water","water","N","{07935504}","EVENT",836,"EVENT-SCOPE",838,,0,,0,,0,,0,,0,,0,2327,"true",389
+"w5656","quality","quality","N","{04728068}","EVENT",836,"EVENT-SCOPE",838,,0,,0,,0,,0,,0,,0,2328,"true",389
+"w5659",21,"21 percent","N",,"state-of",835,"EVENT-SCOPE",838,,0,,0,,0,,0,,0,,0,2331,"true",389
+"w5660","percent","21 percent","N",,"state-of",835,"EVENT-SCOPE",838,,0,,0,,0,,0,,0,,0,2332,"true",389
+"w5848","increase","increase","N",,"EVENT",839,"EVENT-SCOPE",842,,0,,0,,0,,0,,0,,0,2340,"true",402
+"w5850",4,"4 percent","N",,"state-of",840,"EVENT-SCOPE",842,,0,,0,,0,,0,,0,,0,2342,"true",402
+"w5851","percent","4 percent","N",,"state-of",840,"EVENT-SCOPE",842,,0,,0,,0,,0,,0,,0,2343,"true",402
+"w5852","from","from","P",,"TIME",841,"EVENT-SCOPE",842,,0,,0,,0,,0,,0,,0,2344,"true",402
+"w5853","last","last_year","A",,"TIME",841,"EVENT-SCOPE",842,,0,,0,,0,,0,,0,,0,2345,"true",402
+"w5854","year","last_year","A",,"TIME",841,"EVENT-SCOPE",842,,0,,0,,0,,0,,0,,0,2346,"true",402
+"w5979","flow","flow","N","{07405893}","EVENT",702,,0,"simple-cause-of",710,"EVENT-SCOPE",709,"simple-cause-of",711,"EVENT-SCOPE",715,,0,,0,2363,"true",417
+"w5980","of","of","P",,,0,,0,"simple-cause-of",710,"EVENT-SCOPE",709,"simple-cause-of",711,"EVENT-SCOPE",715,,0,,0,2364,"true",417
+"w5981","pollution","pollution","N","{00276987","patient",703,,0,"simple-cause-of",710,"EVENT-SCOPE",709,"simple-cause-of",711,"EVENT-SCOPE",715,,0,,0,2365,"true",417
+"w5982","into","into","P",,"destination-of",704,,0,,0,,0,,0,,0,,0,,0,2366,"true",417
+"w5983","the","the","D",,"destination-of",704,,0,,0,,0,,0,,0,,0,,0,2367,"true",417
+"w5984","Bay","bay","N","{01168845}","destination-of",704,,0,,0,,0,,0,,0,,0,,0,2368,"true",417
+"w5986","light-blocking","light-blocking","O",,,0,,0,"patient",708,"EVENT-SCOPE",709,,0,,0,,0,,0,2370,"true",417
+"w5987","algae","alga","N","eng-30-01397114-n:1.0",,0,,0,"patient",708,"EVENT-SCOPE",709,,0,,0,,0,,0,2371,"true",417
+"w5989","grow","grow","V",,,0,,0,"EVENT",707,"EVENT-SCOPE",709,,0,,0,,0,,0,2373,"true",417
+"w5991","clouds","cloud","V",,,0,,0,,0,,0,"EVENT",712,"EVENT-SCOPE",715,,0,,0,2375,"true",417
+"w5992","the","the","D",,,0,,0,,0,,0,"patient",713,"EVENT-SCOPE",715,,0,,0,2376,"true",417
+"w5993","water","water","N","{07935504}",,0,,0,,0,,0,"patient",713,"EVENT-SCOPE",715,,0,,0,2377,"true",417
+"w5994","with","with","P",,,0,,0,,0,,0,"instrument",714,"EVENT-SCOPE",715,,0,,0,2378,"true",417
+"w5995","particles","particle","N",,,0,,0,,0,,0,"instrument",714,"EVENT-SCOPE",715,,0,,0,2379,"true",417
+"w5996","of","of","P",,,0,,0,,0,,0,"instrument",714,"EVENT-SCOPE",715,,0,,0,2380,"true",417
+"w5997","dirt","dirt","N",,,0,,0,,0,,0,"instrument",714,"EVENT-SCOPE",715,,0,,0,2381,"true",417
+"w6019","device","device","N",,"instrument",716,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2384,"true",420
+"w6020","called","call","V",,"instrument",716,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2385,"true",420
+"w6021","a","a","D",,"instrument",716,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2386,"true",420
+"w6022","Secchi","Secchi","O",,"instrument",716,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2387,"true",420
+"w6023","disk","disk","N",,"instrument",716,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2388,"true",420
+"w6027","measure","measure","V",,"EVENT",717,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2392,"true",420
+"w6028","water","water","N","{07935504}","patient",718,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2393,"true",420
+"w6029","clarity","clarity","N",,"patient",718,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2394,"true",420
+"w6030","and","and","O",,"patient",718,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2395,"true",420
+"w6031","the","the","D",,"patient",718,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2396,"true",420
+"w6032","depth","depth","N",,"patient",718,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2397,"true",420
+"w6035","light","light","N",,"done-by",720,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2400,"true",420
+"w6036","penetrates","penetrate","V",,"EVENT",721,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2401,"true",420
+"w6038","water","water","N","{07935504}","patient",722,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2403,"true",420
+"w6039","column","column","N",,"patient",722,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2404,"true",420
+"w6040","during","during","P",,"TIME",724,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2405,"true",420
+"w6041","the","the","D",,"TIME",724,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2406,"true",420
+"w6042","growing","growing season","N","{15238169}","TIME",724,"EVENT-SCOPE",725,"EVENT",726,"EVENT-SCOPE",728,,0,,0,,0,,0,2407,"true",420
+"w6043","season","growing season","N","{15238169}","TIME",724,"EVENT-SCOPE",725,,0,,0,,0,,0,,0,,0,2408,"true",420
+"w6045","underwater","underwater","G","{00124685}",,0,,0,"done-by",727,"EVENT-SCOPE",728,,0,,0,,0,,0,2410,"true",420
+"w6046","bay","bay grass","N","eng-30-00395977-a:1.0",,0,,0,"done-by",727,"EVENT-SCOPE",728,,0,,0,,0,,0,2411,"true",420
+"w6047","grasses","bay grass","N",,,0,,0,"done-by",727,"EVENT-SCOPE",728,,0,,0,,0,,0,2412,"true",420
+"w6055","tidal","tidal","G","eng-30-02815241-a:1.0","patient",843,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2420,"true",421
+"w6056","waters","water","N","{09225146}","patient",843,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2421,"true",421
+"w6057","met","meet","V",,"EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2422,"true",421
+"w6058","or","or","O",,"EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2423,"true",421
+"w6059","exceeded","exceeded","G",,"EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2424,"true",421
+"w6060","thresholds","threshold","N",,"EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2425,"true",421
+"w6061","for","for","P",,"EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2426,"true",421
+"w6062","water","water","N","{07935504}","EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2427,"true",421
+"w6063","clarity","clarity","N",,"EVENT",730,"EVENT-SCOPE",731,,0,,0,,0,,0,,0,,0,2428,"true",421
+"w6100","Algae","alga","N","eng-30-01397114-n:1.0","done-by",732,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2430,"true",426
+"w6110","supporting","support","V",,"EVENT",733,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2440,"true",426
+"w6111","most","most","D",,"patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2441,"true",426
+"w6112","aquatic","aquatic","G","{00124077}","patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2442,"true",426
+"w6113","animals","animal","N","eng-30-00015388-n:1.0","patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2443,"true",426
+"w6114","including","include","V",,"patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2444,"true",426
+"w6115","oysters","oyster","N","{01960459}","patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2445,"true",426
+"w6116","and","and","O",,"patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2446,"true",426
+"w6117","fish","fish","N","{02512053}","patient",734,"EVENT-SCOPE",735,,0,,0,,0,,0,,0,,0,2447,"true",426
+"w6134","nitrogen","nitrogen","N","eng-30-14647235-n:1.0","done-by",737,"EVENT-SCOPE",738,,0,,0,,0,,0,,0,,0,2451,"true",428
+"w6135","and","and","O",,"done-by",737,"EVENT-SCOPE",738,,0,,0,,0,,0,,0,,0,2452,"true",428
+"w6136","phosphorus","phosphorus","N","{14649197}","done-by",737,"EVENT-SCOPE",738,,0,,0,,0,,0,,0,,0,2453,"true",428
+"w6137","pollution","pollution","N","{00276987","EVENT",736,"EVENT-SCOPE",738,"simple-cause-of",740,"EVENT-SCOPE",743,,0,,0,,0,,0,2454,"true",428
+"w6140","algae","alga","N","eng-30-01397114-n:1.0",,0,,0,"patient",742,"EVENT-SCOPE",743,"done-by",744,,0,,0,,0,2457,"true",428
+"w6141","blooms","bloom","N","{11669335}",,0,,0,"EVENT",741,"EVENT-SCOPE",743,,0,,0,,0,,0,2458,"true",428
+"w6143","block","block","V","{02145543}",,0,,0,,0,,0,"EVENT",745,,0,,0,,0,2460,"true",428
+"w6144","sunlight","sunlight","N","eng-30-11485367-n:1.0","patient",747,"EVENT-SCOPE",750,,0,,0,"patient",746,,0,,0,,0,2461,"true",428
+"w6146","reaching","reach","V","{07407272}","EVENT",748,"EVENT-SCOPE",750,,0,,0,,0,,0,,0,,0,2463,"true",428
+"w6147","underwater","underwater","G","{00124685}","destination-of",749,"EVENT-SCOPE",750,,0,,0,,0,,0,,0,,0,2464,"true",428
+"w6148","grasses","grass","N",,"destination-of",749,"EVENT-SCOPE",750,,0,,0,,0,,0,,0,,0,2465,"true",428
+"w6150","reducing","reduce","V",,"EVENT",751,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2467,"true",428
+"w6151","habitat","habitat","N","eng-30-08580583-n:1.0","patient",752,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2468,"true",428
+"w6152","and","and","O",,"patient",752,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2469,"true",428
+"w6153","the","the","D",,"patient",752,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2470,"true",428
+"w6154","oxygen","oxygen","N","eng-30-14648100-n:1.0","patient",752,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2471,"true",428
+"w6155","necessary","necessary","N","eng-30-09367203-n:1.0","purpose-of",753,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2472,"true",428
+"w6156","for","for","P",,"purpose-of",753,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2473,"true",428
+"w6157","life","life","N","{11473291}","purpose-of",753,"EVENT-SCOPE",754,,0,,0,,0,,0,,0,,0,2474,"true",428
+"w6159","Harmful","harmful","G","eng-30-01160031-a:1.0","result-of",757,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2476,"true",429
+"w6160","algae","alga","N","eng-30-01397114-n:1.0","patient",756,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2477,"true",429
+"w6161","blooms","bloom","N","{11669335}","EVENT",755,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2478,"true",429
+"w6166","in","in","P",,"generic-location",759,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2483,"true",429
+"w6167","the","the","D",,"generic-location",759,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2484,"true",429
+"w6168","Bay","bay","N","{01168845}","generic-location",759,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2485,"true",429
+"w6169","and","and","O",,"generic-location",759,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2486,"true",429
+"w6170","its","its","D",,"generic-location",759,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2487,"true",429
+"w6171","tributaries","tributary","N","eng-30-09278997-n:1.0","generic-location",759,"EVENT-SCOPE",760,,0,,0,,0,,0,,0,,0,2488,"true",429
+"w6204","pollution","pollution","N","{00276987","simple-cause-of",761,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2491,"true",432
+"w6205",",",,,,"simple-cause-of",761,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2492,"true",0
+"w6206","weather","weather","N","eng-30-11524662-n:1.0","simple-cause-of",761,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2493,"true",432
+"w6207","and","and","O",,"simple-cause-of",761,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2494,"true",432
+"w6208","water","water","N","{07935504}","simple-cause-of",761,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2495,"true",432
+"w6209","temperature","temperature","N",,"simple-cause-of",761,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2496,"true",432
+"w6211","affect","affect","V",,"EVENT",762,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2498,"true",432
+"w6212","chlorophyll","chlorophyll a","N",,"patient",763,"EVENT-SCOPE",764,,0,,0,,0,,0,,0,,0,2499,"true",432
+"w6228",27,"27 percent","N",,"has-state",766,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2515,"true",433
+"w6229","percent","27 percent","N",,"has-state",766,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2516,"true",433
+"w6230","of","of","P",,"has-state",766,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2517,"true",433
+"w6231","tidal","tidal","G","eng-30-02815241-a:1.0","has-state",766,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2518,"true",433
+"w6232","waters","water","N","{09225146}","has-state",766,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2519,"true",433
+"w6234","chlorophyll","chlorophyll a","N",,"EVENT",765,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2521,"true",433
+"w6235","a","chlorophyll a","N",,"EVENT",765,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2522,"true",433
+"w6236","concentrations","concentration","N",,"EVENT",765,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2523,"true",433
+"w6237","below","below","P",,"state-of",767,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2524,"true",433
+"w6238","the","the","D",,"state-of",767,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2525,"true",433
+"w6239","threshold","threshold","N",,"state-of",767,"EVENT-SCOPE",768,,0,,0,,0,,0,,0,,0,2526,"true",433
+"w6244","increase","increase","N",,"EVENT",844,"EVENT-SCOPE",847,,0,,0,,0,,0,,0,,0,2531,"true",434
+"w6246",1,"1 percent","N",,"state-of",845,"EVENT-SCOPE",847,,0,,0,,0,,0,,0,,0,2533,"true",434
+"w6247","percent","1 percent","N",,"state-of",845,"EVENT-SCOPE",847,,0,,0,,0,,0,,0,,0,2534,"true",434
+"w6248","from","from","P",,"TIME",846,"EVENT-SCOPE",847,,0,,0,,0,,0,,0,,0,2535,"true",434
+"w6249",2007,2007,"N",,"TIME",846,"EVENT-SCOPE",847,,0,,0,,0,,0,,0,,0,2536,"true",434
+"w6254","Toxic","toxic","G",,"part-of",769,"EVENT-SCOPE",777,"done-by",778,"EVENT-SCOPE",781,,0,,0,,0,,0,2538,"true",437
+"w6255","chemicals","chemical","N","{14806838}","part-of",769,"EVENT-SCOPE",777,"done-by",778,"EVENT-SCOPE",781,,0,,0,,0,,0,2539,"true",437
+"w6258","the","the","D",,"EVENT",773,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2542,"true",437
+"w6259","water","water","N","{07935504}","EVENT",773,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2543,"true",437
+"w6260",",",,,,"EVENT",773,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2544,"true",0
+"w6261","sediment","sediment","N","eng-30-09428967-n:1.0","EVENT",773,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2545,"true",437
+"w6262","and","and","O",,"EVENT",773,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2546,"true",437
+"w6263","fish","fish","N","{02512053}","EVENT",773,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2547,"true",437
+"w6264","of","of","P",,"LOCATION",774,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2548,"true",437
+"w6265","the","the","D",,"LOCATION",774,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2549,"true",437
+"w6266","Chesapeake","chesapeake bay","N","{09243405}","LOCATION",774,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2550,"true",437
+"w6267","Bay","chesapeake bay","N","{09243405}","LOCATION",774,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2551,"true",437
+"w6269","tidal","tidal","G",,"LOCATION",776,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2553,"true",437
+"w6270","tributaries","tributary","N","{09278997}","LOCATION",776,"EVENT-SCOPE",777,,0,,0,,0,,0,,0,,0,2554,"true",437
+"w6273","adverse","adverse","G",,,0,,0,"EVENT",779,"EVENT-SCOPE",781,,0,,0,,0,,0,2557,"true",437
+"w6274","effects","effect","N",,,0,,0,"EVENT",779,"EVENT-SCOPE",781,,0,,0,,0,,0,2558,"true",437
+"w6277","ecosystem","ecosystem","N","eng-30-08368757-n:1.0",,0,,0,"patient",780,"EVENT-SCOPE",781,,0,,0,,0,,0,2561,"true",437
+"w6278","and","and","O",,,0,,0,"patient",780,"EVENT-SCOPE",781,,0,,0,,0,,0,2562,"true",437
+"w6279","human","human","G","{02743261}",,0,,0,"patient",780,"EVENT-SCOPE",781,,0,,0,,0,,0,2563,"true",437
+"w6280","health","health","N","{14447908}",,0,,0,"patient",780,"EVENT-SCOPE",781,,0,,0,,0,,0,2564,"true",437
+"w6282","Chemical","chemical","G","{02692966}","patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2566,"true",438
+"w6283","contaminants","contaminant","N","eng-30-14821984-n:1.0","patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2567,"true",438
+"w6284","such","such_as","P",,"patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2568,"true",438
+"w6285","as","such_as","P",,"patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2569,"true",438
+"w6286","polychlorinated","polychlorinated_biphenyls","O",,"patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2570,"true",438
+"w6287","biphenyls","polychlorinated_biphenyls","O",,"patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2571,"true",438
+"w6289","PCBs","PCBs","O",,"patient",782,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2573,"true",438
+"w6292","accumulate","accumulate","V",,"EVENT",783,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2576,"true",438
+"w6294","the","the","D",,"destination-of",784,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2578,"true",438
+"w6295","tissues","tissue","N",,"destination-of",784,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2579,"true",438
+"w6296","of","of","P",,"destination-of",784,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2580,"true",438
+"w6297","fish","fish","N","{02512053}","destination-of",784,"EVENT-SCOPE",785,,0,,0,,0,,0,,0,,0,2581,"true",438
+"w6315","These","these","D",,"patient",786,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2599,"true",439
+"w6316","chemicals","chemical","N","eng-30-14806838-n:1.0","patient",786,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2600,"true",439
+"w6318","build","build_up","V",,"EVENT",788,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2602,"true",439
+"w6319","up","up","P",,"EVENT",788,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2603,"true",439
+"w6320","in","in","P",,"destination-of",789,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2604,"true",439
+"w6321","certain","certain","G",,"destination-of",789,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2605,"true",439
+"w6322","species","species","N","{08110373}","destination-of",789,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2606,"true",439
+"w6323","of","of","P",,"destination-of",789,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2607,"true",439
+"w6324","fish","fish","N","{02512053}","destination-of",789,"EVENT-SCOPE",790,,0,,0,,0,,0,,0,,0,2608,"true",439
+"w6700","health","health","N","{14447908}","EVENT",850,"EVENT-SCOPE",853,,0,,0,,0,,0,,0,,0,2629,"true",466
+"w6702","algae","alga","N","eng-30-01397114-n:1.0","patient",849,"EVENT-SCOPE",853,,0,,0,,0,,0,,0,,0,2631,"true",466
+"w6706","overall","overall","A",,"state-of",852,"EVENT-SCOPE",853,,0,,0,,0,,0,,0,,0,2635,"true",467
+"w6707",",",,,,"state-of",852,"EVENT-SCOPE",853,,0,,0,,0,,0,,0,,0,2636,"true",0
+"w6708",45,"45 percent","N",,"state-of",852,"EVENT-SCOPE",853,,0,,0,,0,,0,,0,,0,2637,"true",467
+"w6709","percent","45 percent","N",,"state-of",852,"EVENT-SCOPE",853,,0,,0,,0,,0,,0,,0,2638,"true",467
+"w7094","increase","increase","N",,"EVENT",854,"EVENT-SCOPE",857,,0,,0,,0,,0,,0,,0,2677,"true",494
+"w7096","11,98","11,98","N",,"state-of",855,"EVENT-SCOPE",857,,0,,0,,0,,0,,0,,0,2679,"true",494
+"w7097","acres","acre","N",,"state-of",855,"EVENT-SCOPE",857,,0,,0,,0,,0,,0,,0,2680,"true",494
+"w7098","from","from","P",,"TIME",856,"EVENT-SCOPE",857,,0,,0,,0,,0,,0,,0,2681,"true",494
+"w7099",2007,2007,"N",,"TIME",856,"EVENT-SCOPE",857,,0,,0,,0,,0,,0,,0,2682,"true",494
+"w7339","decrease","decrease","N",,"EVENT",862,"EVENT-SCOPE",861,,0,,0,,0,,0,,0,,0,2700,"true",506
+"w7341","about","about","P",,"state-of",859,"EVENT-SCOPE",861,,0,,0,,0,,0,,0,,0,2702,"true",506
+"w7342",3,"3 percent","N",,"state-of",859,"EVENT-SCOPE",861,,0,,0,,0,,0,,0,,0,2703,"true",506
+"w7343","percent","3 percent","N",,"state-of",859,"EVENT-SCOPE",861,,0,,0,,0,,0,,0,,0,2704,"true",506
+"w7344","from","from","P",,"TIME",860,"EVENT-SCOPE",861,,0,,0,,0,,0,,0,,0,2705,"true",506
+"w7345",2007,2007,"N",,"TIME",860,"EVENT-SCOPE",861,,0,,0,,0,,0,,0,,0,2706,"true",506
+"w8039","decrease","decrease","N",,"EVENT",863,"EVENT-SCOPE",866,,0,,0,,0,,0,,0,,0,2712,"true",554
+"w8040","from","from","P",,"state-of",864,"EVENT-SCOPE",866,,0,,0,,0,,0,,0,,0,2713,"true",554
+"w8041",143,"143 million","N",,"state-of",864,"EVENT-SCOPE",866,,0,,0,,0,,0,,0,,0,2714,"true",554
+"w8042","million","143 million","N",,"state-of",864,"EVENT-SCOPE",866,,0,,0,,0,,0,,0,,0,2715,"true",554
+"w8043","in","in","P",,"TIME",865,"EVENT-SCOPE",866,,0,,0,,0,,0,,0,,0,2716,"true",554
+"w8044",2007,2007,"N",,"TIME",865,"EVENT-SCOPE",866,,0,,0,,0,,0,,0,,0,2717,"true",554
+"w8640","increase","increase","N",,"EVENT",867,"EVENT-SCOPE",870,,0,,0,,0,,0,,0,,0,2760,"true",595
+"w8642","almost","almost","A","eng-30-00073033-r:1.0","state-of",868,"EVENT-SCOPE",870,,0,,0,,0,,0,,0,,0,2762,"true",595
+"w8643",2,"2_percent","A",,"state-of",868,"EVENT-SCOPE",870,,0,,0,,0,,0,,0,,0,2763,"true",595
+"w8644","percent","2_percent","A",,"state-of",868,"EVENT-SCOPE",870,,0,,0,,0,,0,,0,,0,2764,"true",595
+"w8645","from","from","P",,"TIME",869,"EVENT-SCOPE",870,,0,,0,,0,,0,,0,,0,2765,"true",595
+"w8646",2007,2007,"N",,"TIME",869,"EVENT-SCOPE",870,,0,,0,,0,,0,,0,,0,2766,"true",595

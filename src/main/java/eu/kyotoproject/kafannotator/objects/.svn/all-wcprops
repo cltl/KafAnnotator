@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/objects
+END
+WordTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/objects/WordTag.java
+END
+EntryData.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/objects/EntryData.java
+END
+Lexicon.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/objects/Lexicon.java
+END
+TagSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/objects/TagSet.java
+END
+TagData.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/objects/TagData.java
+END

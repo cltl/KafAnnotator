@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/kyoto/!svn/ver/1207/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/interannotator
+END
+CompareAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/interannotator/CompareAnnotations.java
+END
+TagStat.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/kyoto/!svn/ver/1216/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/interannotator/TagStat.java
+END
+MergeAnnotations.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/interannotator/MergeAnnotations.java
+END
+Kappa.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/interannotator/Kappa.java
+END
+CompareAnnotatedFolders.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/interannotator/CompareAnnotatedFolders.java
+END

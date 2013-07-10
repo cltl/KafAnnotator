@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/triple
+END
+TagToTriples.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/kyoto/!svn/ver/1440/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/triple/TagToTriples.java
+END
+TripleConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/kyoto/!svn/ver/1448/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/triple/TripleConfig.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware
+END
+AnnotationTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware/AnnotationTable.java
+END
+TableMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware/TableMap.java
+END
+CacheData.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware/CacheData.java
+END
+AnnotationTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java
+END
+TableSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware/TableSorter.java
+END
+CustomTableCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/tableware/CustomTableCellRenderer.java
+END

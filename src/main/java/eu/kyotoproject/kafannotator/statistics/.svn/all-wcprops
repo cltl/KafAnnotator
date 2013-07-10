@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/kyoto/!svn/ver/1246/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/statistics
+END
+TagStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/statistics/TagStatistics.java
+END
+GetSentenceCorrelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/statistics/GetSentenceCorrelations.java
+END
+GetLevelStatisticsFromTagFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/statistics/GetLevelStatisticsFromTagFiles.java
+END
+GetGlobalStatisticsFromTagFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/statistics/GetGlobalStatisticsFromTagFiles.java
+END
+GetSentenceTagCorrelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/statistics/GetSentenceTagCorrelations.java
+END

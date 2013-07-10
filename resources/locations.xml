@@ -1,0 +1,19 @@
+<fileLocations>
+	<openedDatabases>
+ 	</openedDatabases>
+	<previousLocations>
+ 		<location></location>
+	</previousLocations>
+	<previousInput>
+ 		<input>/Projects/OpeNER/Evaluation/experiments/opener-vua-basic-version-2013-03/kaf/EN_2stars/Armada_Hotel_EN.txt.0.kaf</input>
+		<input>/Projects/OpeNER/Evaluation/annotation/stanford/Electra1a.kaf</input>
+		<input>/Projects/OpeNER/Evaluation/annotation/stanford/Electra1a.kaf</input>
+		<input>/Projects/OpeNER/Evaluation/experiments/opener-vua-light-version-2012-12/kaf/NL_2stars/Armada_Hotel_NL.txt.0.kaf</input>
+		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+	</previousInput>
+</fileLocations>

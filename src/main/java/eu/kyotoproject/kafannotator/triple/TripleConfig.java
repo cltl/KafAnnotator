@@ -1,0 +1,253 @@
+package eu.kyotoproject.kafannotator.triple;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: kyoto
+ * Date: Sep 2, 2010
+ * Time: 3:10:18 PM
+ * To change this template use File | Settings | File Templates.
+ * This file is part of KafAnnotator.
+
+    KafAnnotator is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    KafAnnotator is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with KafAnnotator.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
+/**
+ * Example
+ *
+ 1
+ 4
+ 8
+ 2;negativeExpression;3;OPINION;E
+ 2;strongNegativexpression;3;OPINION;E
+ 2;positiveExpression;3;OPINION;E
+ 2;strongPositiveExpression;3;OPINION;E
+ 4;negativeExpression;5;OPINION;E
+ 4;strongNegativexpression;5;OPINION;E
+ 4;positiveExpression;5;OPINION;E
+ 4;strongPositiveExpression;5;OPINION;E
+ 6;negativeExpression;7;OPINION;E
+ 6;strongNegativexpression;7;OPINION;E
+ 6;positiveExpression;7;OPINION;E
+ 6;strongPositiveExpression;7;OPINION;E
+
+ */
+public class TripleConfig {
+
+    public class LevelPair {
+        int tagLevel;
+        int scopeLevel;
+        String relation;
+        String eventLabel;
+        String scopeLabel;
+
+
+        public LevelPair () {
+            tagLevel = 0;
+            scopeLevel = 0;
+            eventLabel = "";
+            scopeLabel = "";
+            relation = "";
+        }
+
+        public int getTagLevel() {
+            return tagLevel;
+        }
+
+        public void setTagLevel(int tagLevel) {
+            this.tagLevel = tagLevel;
+        }
+
+        public int getScopeLevel() {
+            return scopeLevel;
+        }
+
+        public void setScopeLevel(int scopeLevel) {
+            this.scopeLevel = scopeLevel;
+        }
+
+        public String getEventLabel() {
+            return eventLabel;
+        }
+
+        public void setEventLabel(String eventLabel) {
+            this.eventLabel = eventLabel;
+        }
+
+        public String getScopeLabel() {
+            return scopeLabel;
+        }
+
+        public void setScopeLabel(String scopeLabel) {
+            this.scopeLabel = scopeLabel;
+        }
+
+        public String toString () {
+            String str = this.getTagLevel()+";"+this.getEventLabel()+";"+this.getScopeLevel()+";"+this.getScopeLabel();
+            return str;
+        }
+
+        public String getRelation() {
+            return relation;
+        }
+
+        public void setRelation(String relation) {
+            this.relation = relation;
+        }
+    }
+
+    public ArrayList<LevelPair> pairs;
+    public ArrayList<Integer> flats;
+    public HashMap<String, ArrayList<String>> relationTable;
+
+    public TripleConfig() {
+        init();
+    }
+
+    public TripleConfig (String configFile) {
+       init();
+       /*
+       1
+       2
+       1;tag;4;SCOPE;e
+       3;tag;4;SCOPE;p
+       #relation table
+       relation1;relation2
+        */
+     //   System.out.println("configFile = " + configFile);
+       if (new File(configFile).exists()) {
+           try {
+              boolean relations = false;
+              FileInputStream fis = new FileInputStream(configFile);
+              InputStreamReader isr = new InputStreamReader(fis);
+              BufferedReader in = new BufferedReader(isr);
+              String inputLine = "";
+              while ((inputLine = in.readLine()) != null) {
+                  if (!inputLine.isEmpty()) {
+                       if (inputLine.toLowerCase().startsWith("#relation table")) {
+                           relations = true;
+                       }
+                       else {
+                           if (!inputLine.toLowerCase().startsWith("#")) {
+                               if (!relations) {
+                                 //  System.out.println("inputLine = " + inputLine);
+                                   String [] fields = inputLine.split(";");
+                                   if (fields.length>=4) {
+                                      LevelPair pair = new LevelPair();
+                                       try {
+                                           pair.setTagLevel(Integer.parseInt(fields[0]));
+                                       } catch (NumberFormatException e) {
+                                           e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                                       }
+                                       pair.setEventLabel(fields[1]);
+                                       try {
+                                           pair.setScopeLevel(Integer.parseInt(fields[2]));
+                                       } catch (NumberFormatException e) {
+                                           e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                                       }
+                                       pair.setScopeLabel(fields[3]);
+                                       if (fields.length==5) {
+                                           pair.setRelation((fields[4]));
+                                       }
+                                       pairs.add(pair);
+                                     //  System.out.println("pair.toString() = " + pair.toString());
+                                   }
+                                   else if (fields.length==1) {
+                                       Integer level = Integer.parseInt(fields[0]);
+                                       flats.add(level);
+                                   }
+                                   else {
+                                       System.out.println("Error reading triplet config file:"+inputLine);
+                                   }
+                               }
+                               else {
+                                   //// add to the relations map
+                                 //  System.out.println("inputLine = " + inputLine);
+                                   /**
+                                    * #relation table
+                                    positiveExpression;positive######
+                                    strongPositiveExpression;positive#2#####
+                                    negativeExpression;negative######
+                                    strongNegativeExpression;negative#-2#####
+                                    positiveFactual;positive###factual###
+                                    positiveStrong;positive#2#####
+                                    positive;positive#1#####
+                                    negativeFactual;negative###factual###
+                                    negativeStrong;negative#-2#####
+                                    negative;negative#-1#####
+                                    polarityShifter;#####shifter#
+                                    intensifier;#####intensifier#
+                                    contrastMarker;#####shifter#
+                                    */
+                                   String[] fields = inputLine.split(";");
+                                   if (fields.length==2) {
+                                       String rel1 = fields[0];
+                                       String rel2 = fields[1];
+                                       if (relationTable.containsKey(rel1)) {
+                                           ArrayList<String> mappings = relationTable.get(rel1);
+                                           mappings.add(rel2);
+                                           relationTable.put(rel1, mappings);
+                                       }
+                                       else {
+                                           ArrayList<String> mappings = new ArrayList<String>();
+                                           mappings.add(rel2);
+                                           relationTable.put(rel1, mappings);
+                                       }
+                                   }
+                               }
+                           }
+                       }
+                  }
+              }
+            }
+            catch (IOException e) {
+                e.printStackTrace();
+            }
+       }
+       else {
+           System.out.println("Cannot find the configFile = " + configFile);
+       }
+    }
+
+    public void init() {
+        pairs = new  ArrayList<LevelPair>();
+        flats = new ArrayList<Integer>();
+        relationTable = new HashMap<String, ArrayList<String>>();
+    }
+
+    public LevelPair getLevelPair (int level) {
+        LevelPair pair = null;
+        for (int i = 0; i < pairs.size(); i++) {
+            LevelPair levelPair = pairs.get(i);
+            if (levelPair.getTagLevel()==level) {
+                pair = levelPair;
+            }
+        }
+        return pair;
+    }
+
+    public ArrayList<String> getEventLabels () {
+        ArrayList<String> eventLabels = new ArrayList<String>();
+        for (int i = 0; i < pairs.size(); i++) {
+            LevelPair levelPair = pairs.get(i);
+            eventLabels.add(levelPair.getEventLabel());
+        }
+        return eventLabels;
+    }
+
+}

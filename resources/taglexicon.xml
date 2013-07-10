@@ -1,0 +1,3048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<lexicon>
+		<entry>
+			<form>need</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>snowfall</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>2008</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>2006</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>2007</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>lawn</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fish</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>developed</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>higher</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Phosphorus</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>supports</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fertilizer</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>loosestrife</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>continued</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>CBP/TRS</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>free</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>levels</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>chemical</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>these</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>&quot;</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>sprawling</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>estuary</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>&amp;</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>moving</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>blooms</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Drive</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>'</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>200</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>number</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>.</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>,</form>
+			<tagData><tag>EVENT</tag> <freq>2</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>-</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>348</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Do</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>2</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>0</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>struggle</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Oysters</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>cities</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>6</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>towns</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>5</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>quality</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Fish</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>air</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>De</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>disrupted</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>?</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>murky</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>spawning-age</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Secchi</form>
+			<tagData><tag>instrument</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>plummeted</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>loopafstand</form>
+			<tagData><tag>positiveFactual</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>net</form>
+			<tagData><tag>positive</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>de</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>dilemmaÂs</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>173</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>turbulent</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>contaminants</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>safe</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>2,700</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>impaired</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>purple</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>organizations</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>rainfall</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>a</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>instrument</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>airborne</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>suffer</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>web</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>phosphorus</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>increasing</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>desired</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>living</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>chlorophyll</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>new</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>including</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>t</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>aquatic</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>shad</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>bass</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mortality</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>volume</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>en</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>HUMBER</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>penetrates</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Developed</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Presquile</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>banks</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>zeer</form>
+			<tagData><tag>intensifier</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>body</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>resources</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>wastewater</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>nutrient</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>drop</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>change</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>by</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>leaf</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>enough</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Reaching</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>balance</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>passage</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>reaching</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>capture</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>bank</form>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>dead</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>overall</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>light</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>key</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tons</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>climate</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>be</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>vital</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>13.8</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>impervious</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>far</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>rivers</form>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>path-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>States</form>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>and</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>product-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>path-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>processed</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>factors</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>containing</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>column</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>trash</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tough</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>areas</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>streams</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>path-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>day</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>restored</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>crabs</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>vredeshandhaving</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>salt</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Humber</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Beeld</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>van</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+			<tagData><tag>positiveFactual</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>measure</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>underwater</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>planted</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>through</form>
+			<tagData><tag>path-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>algae</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>doen</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Watershed</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>nitrogen</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>released</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>met</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>area</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Pollution</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>activity</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>reached</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>population</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>facilities</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>MANAGEMENT</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Atlantic</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>five</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>at</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>geluid</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>sea</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>as</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>3.3</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>crab</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tremendous</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>urban</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>entire</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>wellicht</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>chopped</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>an</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>generaal</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>off</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>contamination</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>menhaden</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>growth</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>parking</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>lower</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>manure</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>gallons</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>curb</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>door</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>volwassenen</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Chemical</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>destroys</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>thresholds</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>of</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>path-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>improved</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Oyster</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Install</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>blijft</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>deliver</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>carries</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>report</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>het</form>
+			<tagData><tag>positiveFactual</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>3</freq></tagData>
+		</entry>
+		<entry>
+			<form>on</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>only</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>commercial</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>itself</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>move</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>entering</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>animals</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>op</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+			<tagData><tag>positiveFactual</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>preparation</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mussels</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>or</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>bad</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>aan</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>health</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>zones</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>exceeded</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>eagerly</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>prima</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>bay</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>gas-powered</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>measures</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>accumulate</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>region</form>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>plant</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>lands</form>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Agriculture</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>home</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>oxygen</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>segments</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>development</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>sediment</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>most</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>build</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>protect</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Water</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>clear</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>oysters</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>shellfish</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>OF</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>striped</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>acres</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>construction</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>built</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>schatkist</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mycobacteriosis</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>water</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-part</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>foster</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pollution</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>brings</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>No</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tributaries</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>farming</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>rooftops</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>predators</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>surprisingly</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>per</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pet</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>improvement</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>healthy</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Impervious</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>dish</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>cause</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>remains</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Karremans</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>disk</form>
+			<tagData><tag>instrument</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>ecosystem</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>watersheds</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>since</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>where</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>chemicals</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>part-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>related</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>buffer</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>level</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>more</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>oyster</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>results</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Goede</form>
+			<tagData><tag>positive</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>primary</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>nutria</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Setting</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>homes</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Program</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Algae</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>onto</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>lots</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>such</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>functioning</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pollutants</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>product-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1980s</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>depth</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>500</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>winter</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>n'</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Basisonderwijs</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>restore</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>harvesting</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>called</form>
+			<tagData><tag>instrument</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Tilling</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Klein</form>
+			<tagData><tag>negative</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>this</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>release</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Nitrogen</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>2030</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>In</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Millions</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>erosion</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>from</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>improve</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>disease</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>protecting</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>affect</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>stabilize</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>smaller</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>was</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>grasses</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>rate</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Bay</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>partners</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>rise</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>below</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>creeks</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>EPA-903-R-09-001</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>less</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>major</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>is</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>it</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>annual</form>
+			<tagData><tag>hjjghfjh</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>your</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>into</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Bosnisch-Servische</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>growing</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>in</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>human</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>April</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Mladic</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>absorb</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>blue</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>removes</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>removed</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>necessary</form>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>local</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>stem</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tributary</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Loads</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>energy</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>These</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>treatment</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>stormwater</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Development</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>its</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>manage</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>flow</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>amstel</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>temperature</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>150,000</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>38</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>3,500</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>practices</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>forested</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>nature</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>41</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>waterways</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>year</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>along</form>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>polluted</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>3,600</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Finally</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>serious</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>suburban</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>adequate</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>23</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>severely</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1990</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>impacts</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>27</form>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Vertakkingen</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>29</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>nutrients</form>
+			<tagData><tag>product-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>hamper</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>harvested</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1985</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>split</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>low</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pesticides</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Partnership</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fertilizers</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>conversion</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pounds</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>next</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>netjes</form>
+			<tagData><tag>positive</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Clean</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>17</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>plants</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>wildlife</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>use</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>threats</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Summer</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>14</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1995</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>chestnut</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>20</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>The</form>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>life</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>www.chesapeakebay.net</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mixes</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1970s</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>polychlorinated</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>totdat</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>bridges</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>From</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>ability</form>
+		</entry>
+		<entry>
+			<form>initiative</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>293-09</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>reduces</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>extremely</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>species</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>implemented</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>come</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>plentiful</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tidal</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Most</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>up</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Toxic</form>
+			<tagData><tag>part-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>waterfowl</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>runoff</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>falls</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>produces</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>runs</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>down</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>decrease</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>garden</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>automobiles</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>to</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>harmful</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>percent</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>provide</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Harmful</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>NEWSLETTER</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>half</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>THE</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>te</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>good</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>must</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Restoration</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>amount</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>after</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>voor</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fields</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mute</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>control</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>beveiligde</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>shallow</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>phosphorus-free</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>agriculture</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>surfaces</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>forest</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>humans</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>reduce</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>ensued</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>properly</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>voltooid</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>habitat</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>populations</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Op</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>efforts</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>than</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>genoten</form>
+			<tagData><tag>positive</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Srebrenica</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>shopping</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>natural</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>roads</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>United</form>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>car</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fisheries</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tangible</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>58</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Human</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>land</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Report</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>spawning</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>watershed</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>rain</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>top</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>positiveStrong</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>animal</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>SCHEME</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>enclave</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>provides</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>threshold</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>waters</form>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Underwater</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>effect</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>supporting</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>grow</form>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>device</form>
+			<tagData><tag>instrument</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>clarity</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>increase</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>certain</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>operations</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>harvest</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>People</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>During</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>very</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Chesapeake</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>waste</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>reducing</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mycobacteriosis-associated</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>for</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>PCBs</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Forests</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>swelled</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>First</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>people</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>purpose-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>phragmites</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>are</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tree</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Dutchbat-III</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>483</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>cropland</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>toxic</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>restoring</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>prevention</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>weather</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Wetlands</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>vehicles</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>tissues</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mercury</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>thousands</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>path-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>habitats</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>million</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>problems</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>sewage</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>irrigating</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>planting</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>did</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Air</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>productive</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>doubled</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>like</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>onderhouden</form>
+			<tagData><tag>positive</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>largest</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>flows</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>not</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>overste</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Publication</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>overwhelming</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>detergent</form>
+			<tagData><tag>use-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>trees</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>years</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>outside</form>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Use</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>residents</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>stream</form>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Management</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>naar</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>long-term</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>ground</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>centers</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Natural</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>finfish</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>This</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fairly</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>impacting</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>litter</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>starting</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fertilize</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>aggressive</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>billions</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Pounds</form>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>100</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>covered</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>empties</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>penetrate</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>95</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Scheme</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>00:00</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>herbicides</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>awaited</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>subdivisions</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>biphenyls</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>should</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>research</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>mix</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>291</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>valuable</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>suburbs</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>caps</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>industrial</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>precipitation</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>bacteria</form>
+			<tagData><tag>product-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Rain</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>stores</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>improving</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Assessment</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>decline</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>transformed</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>unhealthy</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>juli</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>sources</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>impact</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>were</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Heerlijk</form>
+			<tagData><tag>positiveStrong</tag> <freq>1</freq></tagData>
+			<tagData><tag>intensifier</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>power</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>proper</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>reduction</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>positive</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>systems</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>forests</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Septic</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>throughout</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>parcels</form>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>centrum</form>
+			<tagData><tag>positiveFactual</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>global</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>stewardship</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>shape</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>sunlight</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>environment</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>recreational</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>season</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>They</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>food</form>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>seafood</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>contain</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Population</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>zebra</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>barrel</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>filter</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1600s</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fast-moving</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>ingericht</form>
+			<tagData><tag>positive</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>other</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>allow</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>increased</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>excess</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-DONE-BY</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>beneficial</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>1950</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Island</form>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>evacuatie</form>
+			<tagData><tag>tewrt</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>March</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>â</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>terras</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>grote</form>
+			<tagData><tag>EVENT</tag> <freq>2</freq></tagData>
+		</entry>
+		<entry>
+			<form>trokken</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>fresh</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>during</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>farms</form>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Sunlight</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Bay*</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>temperatures</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pressure</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>flowing</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>degraded</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>volunteers</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>decade</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>poor</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>nearly</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>concentrations</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Now</form>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>the</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>TIME</tag> <freq>1</freq></tagData>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>LOCATION</tag> <freq>1</freq></tagData>
+			<tagData><tag>destination-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>state-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>generic-location</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+			<tagData><tag>source-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>result-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-state</tag> <freq>1</freq></tagData>
+			<tagData><tag>has-part</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Forested</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>pollution-reduction</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>massive</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>wetlands</form>
+			<tagData><tag>ROLE-PATIENT</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>Annual</form>
+			<tagData><tag>PARTICIPANT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>troepen</form>
+			<tagData><tag>subject</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>municipal</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>swan</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>invasive</form>
+			<tagData><tag>done-by</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>negative</form>
+			<tagData><tag>EVENT</tag> <freq>1</freq></tagData>
+		</entry>
+		<entry>
+			<form>their</form>
+		</entry>
+		<entry>
+			<form>river</form>
+			<tagData><tag>simple-cause-of</tag> <freq>1</freq></tagData>
+			<tagData><tag>patient</tag> <freq>1</freq></tagData>
+		</entry>
+	</lexicon>

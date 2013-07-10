@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/io
+END
+GetIntegerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/kyoto/!svn/ver/1242/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/io/GetIntegerDialog.java
+END
+GetStringDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/io/GetStringDialog.java
+END
+Locations.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/io/Locations.java
+END
+LocationsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/io/LocationsParser.java
+END
+ConfirmDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/io/ConfirmDialog.java
+END

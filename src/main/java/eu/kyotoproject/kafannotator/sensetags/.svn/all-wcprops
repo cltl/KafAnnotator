@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags
+END
+MostCommonWordSubsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/kyoto/!svn/ver/1127/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/MostCommonWordSubsumer.java
+END
+ImportSenseTagsIntoKaf.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/ImportSenseTagsIntoKaf.java
+END
+SynsetNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/SynsetNode.java
+END
+TakeOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/TakeOutput.java
+END
+MostCommonSubsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/kyoto/!svn/ver/1439/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/MostCommonSubsumer.java
+END
+SynsetSelectorFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/kyoto/!svn/ver/1127/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/SynsetSelectorFrame.java
+END
+DebCalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/kyoto/!svn/ver/1207/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/DebCalls.java
+END
+BrowserLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/kyoto/!svn/ver/1087/trunk/tools/kafannotator/KafAnnotator/src/eu/kyotoproject/kafannotator/sensetags/BrowserLink.java
+END
