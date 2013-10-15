@@ -58,7 +58,7 @@
 
 	<dependencies>
         <dependency>
-          <groupId>eu.kyotoproject.kaf</groupId>
+          <groupId>KyotoKafSaxParser</groupId>
           <artifactId>KyotoKafSaxParser</artifactId>
           <version>1.0</version>
           <scope>compile</scope>

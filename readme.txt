@@ -63,3 +63,24 @@ LICENSE:
 
     You should have received a copy of the GNU General Public License
     along with KafAnnotator.  If not, see <http://www.gnu.org/licenses/>.
+
+SETTINGS:
+
+--kaf-file          [OPTIONAL] path to a KAF or NAF file
+--tag-file          [OPTIONAL] path to a TAG file
+--tag-set           [OPTIONAL] path to the tag set
+--synset            [OPTIONAL] show synsets in label column
+--opinion           [OPTIONAL] show opinion layer in label column
+--hide-label        [OPTIONAL] hide column with labels
+--hide-status       [OPTIONAL] hide column with status
+--hide-order        [OPTIONAL] hide column with order
+--hide-term         [OPTIONAL] hide column with terms
+--hide-tagid        [OPTIONAL] hide all tag id columns
+--hide-8            [OPTIONAL] hide column 8
+--hide-7            [OPTIONAL] hide column 7
+--hide-6            [OPTIONAL] hide column 6
+--hide-5            [OPTIONAL] hide column 5
+--hide-4            [OPTIONAL] hide column 4
+--hide-3            [OPTIONAL] hide column 3
+--hide-2            [OPTIONAL] hide column 2
+--hide-pos          [OPTIONAL] hide pos column

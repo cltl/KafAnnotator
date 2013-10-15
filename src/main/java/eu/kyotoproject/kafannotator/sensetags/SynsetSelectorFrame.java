@@ -372,7 +372,7 @@ public class SynsetSelectorFrame extends JDialog implements ActionListener {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
         }
-        System.out.println("deb.syns.size() = " + deb.syns.size());
+        //System.out.println("deb.syns.size() = " + deb.syns.size());
         return deb.syns;
     }
 

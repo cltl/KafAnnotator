@@ -24,6 +24,7 @@ import java.util.ArrayList;
     along with KafAnnotator.  If not, see <http://www.gnu.org/licenses/>.
  */
 public class WordTag {
+    private boolean mark;
     private String tokenId;
     private Integer sentenceId;
     private String wordToken;
@@ -49,6 +50,7 @@ public class WordTag {
     private int order;
 
     public WordTag () {
+        mark = false;
         sentenceId = 0;
         tokenId = "";
         wordToken = "";
@@ -75,6 +77,7 @@ public class WordTag {
     }
 
     public WordTag (Integer aSentenceId,String aTokenId, String aWord, String aWordType, String aPos, String aSynset, int anOrder) {
+        mark = false;
         sentenceId = aSentenceId;
         tokenId = aTokenId;
         wordToken = aWord;
@@ -98,6 +101,14 @@ public class WordTag {
         tag8 = "";
         tagId8 = 0;
         order = anOrder;
+    }
+
+    public boolean isMark() {
+        return mark;
+    }
+
+    public void setMark(boolean mark) {
+        this.mark = mark;
     }
 
     public String getTokenId() {

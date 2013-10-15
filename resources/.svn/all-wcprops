@@ -1,29 +1,29 @@
 K 25
 svn:wc:ra_dav:version-url
-V 72
-/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/resources
-END
-tagLexicon.xml.bu
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/resources/tagLexicon.xml.bu
-END
-tagSet.txt
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/resources/tagSet.txt
+V 64
+/svn/kyoto/!svn/ver/836/tags/kafannotator/KafAnnotator/resources
 END
 locations.xml
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/resources/locations.xml
+V 78
+/svn/kyoto/!svn/ver/836/tags/kafannotator/KafAnnotator/resources/locations.xml
 END
 tagLexicon.xml
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/svn/kyoto/!svn/ver/1062/trunk/tools/kafannotator/KafAnnotator/resources/tagLexicon.xml
+V 79
+/svn/kyoto/!svn/ver/836/tags/kafannotator/KafAnnotator/resources/tagLexicon.xml
+END
+tagLexicon.xml.bu
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/kyoto/!svn/ver/836/tags/kafannotator/KafAnnotator/resources/tagLexicon.xml.bu
+END
+tagSet.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/kyoto/!svn/ver/836/tags/kafannotator/KafAnnotator/resources/tagSet.txt
 END

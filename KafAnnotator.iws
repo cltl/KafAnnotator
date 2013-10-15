@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" name="Default" comment="&#10;">
+    <list default="true" readonly="true" id="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" name="Default" comment="-- BUG FIX. Status is turned to false if cell is emptied even when other cells are not in a row. In that case the others are not saved. Changed the check for saving from STATUS=true to new function that checks for all empty cells">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/release/kafannotator_v.0.2.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/kafannotator_v.0.2/lib/KafAnnotator-0.0.1-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/release/kafannotator_v.0.2/lib/KafAnnotator-0.0.1-jar-with-dependencies.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KafAnnotator.ipr" afterPath="$PROJECT_DIR$/KafAnnotator.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KafAnnotator.iws" afterPath="$PROJECT_DIR$/KafAnnotator.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/AnnotatorFrame.java" afterPath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/AnnotatorFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java" afterPath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TagToTriples.java" afterPath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TagToTriples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TripleConfig.java" afterPath="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TripleConfig.java" />
     </list>
     <list id="0760d7d6-b54c-49be-9120-970c3a51f22d" name="Failed commit: Default" comment="- Bug fixed saving the scope of the gold standard when saving triplets. Requires a new version of the kafSaxparser" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="KafTagger.iws" />
+    <file path="/Dummy.txt" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381820366294" ignored="false" />
+    <file path="/AnnotationTable.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381741594646" ignored="false" />
+    <file path="/AnnotatorFrame.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381783019851" ignored="false" />
+    <file path="/TableSettings.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381741464282" ignored="false" />
+    <file path="/readme.txt" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381741631356" ignored="false" />
+    <file path="/fragment.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381782738859" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coreference/src/main/java/eu/kyotoproject/coreference/output/CorefSetToSem.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381580251355" ignored="false" />
+    <file path="/CorefSetToSem.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381579798240" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coreference/src/main/java/eu/kyotoproject/coreference/input/CorefSaxParser.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381528833984" ignored="false" />
+    <file path="/CorefSaxParser.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381528828078" ignored="false" />
+    <file path="$PROJECT_DIR$/../Coreference/src/main/java/eu/kyotoproject/coreference/objects/Triple.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381527556094" ignored="false" />
+    <file path="/Triple.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381526750042" ignored="false" />
+    <file path="/CustomTableCellRenderer.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381740060252" ignored="false" />
+    <file path="/AnnotationTableModel.java" changelist="0875bb7b-2aa4-4c2c-9322-98a5c48224dd" time="1381781870386" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +38,17 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -47,7 +63,9 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -60,15 +78,16 @@
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="KafTagger" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AnnotatorFrame.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AnnotatorFrame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/AnnotatorFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2953" column="55" selection-start="121135" selection-end="121135" vertical-scroll-proportion="0.0">
+            <state line="2588" column="48" selection-start="102119" selection-end="102119" vertical-scroll-proportion="0.60229445">
               <folding />
             </state>
           </provider>
@@ -77,16 +96,7 @@
       <file leaf-file-name="AnnotationTableModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="8" selection-start="4746" selection-end="4746" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TagToTriples.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TagToTriples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="65" selection-start="8062" selection-end="8062" vertical-scroll-proportion="0.0">
+            <state line="623" column="38" selection-start="30004" selection-end="30015" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,43 +105,7 @@
       <file leaf-file-name="AnnotationTable.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="16" selection-start="7842" selection-end="7842" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TripleConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TripleConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="42" selection-start="4950" selection-end="4950" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="387" selection-end="1982" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowserLink.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/BrowserLink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImportSenseTagsIntoKaf.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/ImportSenseTagsIntoKaf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="-1.4733096">
+            <state line="528" column="73" selection-start="23592" selection-end="23592" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,36 +118,46 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/statistics/GetGlobalStatisticsFromTagFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/statistics/GetLevelStatisticsFromTagFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/TagToTriplets.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/TripleConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/interannotator/CompareAnnotatedFolders.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/interannotator/CompareAnnotations.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/interannotator/Kappa.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TagToTriplets.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/MostCommonSubsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TagToTriples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TripleConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/objects/WordTag.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/SynsetSelectorFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/CustomTableCellRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/TableSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTable.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/AnnotatorFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TripleConfig.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-2.2.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-2.2.1" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="showIgnored" value="false" />
+    <option name="showBasicPhasesOnly" value="false" />
     <treeState>
       <PATH>
         <PATH_ELEMENT>
@@ -206,17 +190,17 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="34" />
-    <option name="width" value="1876" />
-    <option name="height" value="1002" />
+    <option name="x" value="-1602" />
+    <option name="y" value="223" />
+    <option name="width" value="1403" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state />
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -242,20 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KafAnnotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KafAnnotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -273,10 +243,6 @@
               <option name="myItemId" value="KafAnnotator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,19 +264,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="release" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafannotator" />
+              <option name="myItemId" value="kafannotator_v.0.2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,54 +282,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="release" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="kafannotator_v.0.2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafannotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="KafAnnotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KafAnnotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kafannotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensetags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -396,6 +330,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="150" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/release" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="148" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="948" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="149" />
@@ -405,7 +340,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.importing" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
@@ -413,6 +348,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -436,6 +372,7 @@
       <MavenSettings>
         <option name="myGeneralSettings">
           <MavenGeneralSettings>
+            <option name="alwaysUpdateSnapshots" value="false" />
             <option name="checksumPolicy" value="FAIL" />
             <option name="failureBehavior" value="FAST" />
             <option name="localRepository" value="" />
@@ -444,7 +381,6 @@
             <option name="outputLevel" value="INFO" />
             <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
             <option name="printErrorStackTraces" value="false" />
-            <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
             <option name="usePluginRegistry" value="false" />
             <option name="userSettingsFile" value="" />
             <option name="workOffline" value="false" />
@@ -472,16 +408,12 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -489,11 +421,7 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
@@ -520,12 +448,7 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -538,12 +461,7 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
@@ -558,12 +476,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" />
@@ -584,12 +497,7 @@
       </option>
       <envs />
       <patterns />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="false" name="TripletsFromTags" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
@@ -944,7 +852,24 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="23">
+    <configuration default="false" name="KafAnnotator (2)" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="eu.kyotoproject.kafannotator.AnnotatorFrame" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--opinion --kaf-file &quot;/Projects/OpeNER/Evaluation/KafAnnotationTools/data/hotel-reviews/opener-vua-light-version-2013-03/kaf/Armada_Hotel_EN.txt.0.kaf&quot; --tag-set &quot;/Projects/OpeNER/Evaluation/KafAnnotationTools/resources/HotelTagSet.txt&quot; " />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KafAnnotator" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="24">
       <item index="0" class="java.lang.String" itemvalue="Application.TripletsFromTags" />
       <item index="1" class="java.lang.String" itemvalue="Application.MostCommonSubsumer" />
       <item index="2" class="java.lang.String" itemvalue="Application.MostCommonWordSubsumer" />
@@ -968,6 +893,7 @@
       <item index="20" class="java.lang.String" itemvalue="Application.GetLevelStatisticsFromTagFiles (2)" />
       <item index="21" class="java.lang.String" itemvalue="Application.TripletsFromTagsOpener" />
       <item index="22" class="java.lang.String" itemvalue="Application.CompareAnnotationFolders" />
+      <item index="23" class="java.lang.String" itemvalue="Application.KafAnnotator (2)" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -976,7 +902,7 @@
       <AnalysisUIOptions />
     </option>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="sslv3">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -986,7 +912,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="false" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -995,24 +920,6 @@
     <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1109,11 +1016,51 @@
       <created>1370187202731</created>
       <updated>1370187202731</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="-- added a new option to MARK opinion targets in the Synset column. Use the --opinion switch as an argument to turn it on. Default it is switched off. &#10;">
+      <created>1373491582415</created>
+      <updated>1373491582415</updated>
+    </task>
+    <task id="LOCAL-00024" summary="-- added a new option to MARK opinion targets in the Synset column. Use the --opinion switch as an argument to turn it on. Default it is switched off. &#10;">
+      <created>1373491825789</created>
+      <updated>1373491825789</updated>
+    </task>
+    <task id="LOCAL-00025" summary="-- added a new option to MARK opinion targets in the Synset column. Use the --opinion switch as an argument to turn it on. Default it is switched off. &#10;">
+      <created>1373525564184</created>
+      <updated>1373525564184</updated>
+    </task>
+    <task id="LOCAL-00026" summary="-- added a new option to MARK opinion targets in the Synset column. Use the --opinion switch as an argument to turn it on. Default it is switched off. &#10;">
+      <created>1373538564459</created>
+      <updated>1373538564459</updated>
+    </task>
+    <task id="LOCAL-00027" summary="-- added a new option to MARK opinion targets in the Synset column. Use the --opinion switch as an argument to turn it on. Default it is switched off. &#10;">
+      <created>1373541947877</created>
+      <updated>1373541947877</updated>
+    </task>
+    <task id="LOCAL-00028" summary="-- removed the wordnet popupmenu and made the mouse over function to get sentence tooltip more smooth">
+      <created>1377613265235</created>
+      <updated>1377613265235</updated>
+    </task>
+    <task id="LOCAL-00029" summary="-- added a full text area. Select a word, click right mouse to navigate to the row to tag.&#10;-- added options to hide columns&#10;">
+      <created>1381746531773</created>
+      <updated>1381746531773</updated>
+    </task>
+    <task id="LOCAL-00030" summary="-- BUG FIX. Status is turned to false if cell is emptied even when other cells are not in a row. In that case the others are not saved. Changed the check for saving from STATUS=true to new function that checks for all empty cells">
+      <created>1381782015155</created>
+      <updated>1381782015155</updated>
+    </task>
+    <task id="LOCAL-00031" summary="-- BUG FIX. Status is turned to false if cell is emptied even when other cells are not in a row. In that case the others are not saved. Changed the check for saving from STATUS=true to new function that checks for all empty cells">
+      <created>1381782063924</created>
+      <updated>1381782063924</updated>
+    </task>
+    <task id="LOCAL-00032" summary="-- BUG FIX. Status is turned to false if cell is emptied even when other cells are not in a row. In that case the others are not saved. Changed the check for saving from STATUS=true to new function that checks for all empty cells">
+      <created>1381784042565</created>
+      <updated>1381784042565</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="34" width="1876" height="1002" extended-state="0" />
+    <frame x="-1602" y="223" width="1403" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1121,22 +1068,22 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2778489" sideWeight="0.5003685" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2781955" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2778489" sideWeight="0.49963155" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.093544856" sideWeight="0.8276243" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3559322" sideWeight="0.7221511" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2045952" sideWeight="0.98674035" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.9931153" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20338982" sideWeight="0.7221511" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24419889" sideWeight="0.87447697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2019334" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3047375" sideWeight="0.99929875" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2685083" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3034571" sideWeight="0.9082455" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25901943" sideWeight="0.48362446" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1166,22 +1113,27 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- BUG FIX. Status is turned to false if cell is emptied even when other cells are not in a row. In that case the others are not saved. Changed the check for saving from STATUS=true to new function that checks for all empty cells" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1192,12 +1144,9 @@
     <option name="ACTIVE_VCS_NAME" value="" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="- Fixed bug untag for level 5 and 6&#10;- After untag the ids are set to zero instead of empty&#10;- Before quite dialog to save" />
-    <MESSAGE value="- Added caching and Undo" />
-    <MESSAGE value="- Added triplet save for evaluation&#10;- Now single tag file needs to be loaded" />
-    <MESSAGE value="- Fixed undo for level 5 and 6" />
     <MESSAGE value="- Fixed small bugs in generating triplets&#10;- Now triplets can be defined through triplet.cfg" />
     <MESSAGE value="- Separate sentences through colors" />
     <MESSAGE value="- Bug fixed reading sentence Ids from tag files. Now ignore sentence IDs since they have to come from the original KAF." />
@@ -1219,6 +1168,10 @@
     <MESSAGE value="- inersection or union for comparison of two annotator files, also arguments now require prefixes: --tag-file1 --tage-file2, --intersection or --union" />
     <MESSAGE value="- Function to extract correlations at the sentence level" />
     <MESSAGE value="&#10;" />
+    <MESSAGE value="-- added a new option to MARK opinion targets in the Synset column. Use the --opinion switch as an argument to turn it on. Default it is switched off. &#10;" />
+    <MESSAGE value="-- removed the wordnet popupmenu and made the mouse over function to get sentence tooltip more smooth" />
+    <MESSAGE value="-- added a full text area. Select a word, click right mouse to navigate to the row to tag.&#10;-- added options to hide columns&#10;" />
+    <MESSAGE value="-- BUG FIX. Status is turned to false if cell is emptied even when other cells are not in a row. In that case the others are not saved. Changed the check for saving from STATUS=true to new function that checks for all empty cells" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1228,54 +1181,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/KyotoKafSaxParser/KyotoKafSaxParser/1.0/KyotoKafSaxParser-1.0.jar!/eu/kyotoproject/kaf/KafSaxParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="82" selection-start="653" selection-end="672" vertical-scroll-proportion="-7.8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/SynsetSelectorFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="384" column="55" selection-start="15918" selection-end="15918" vertical-scroll-proportion="0.71990174" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="8" selection-start="2648" selection-end="2648" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/objects/WordTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="11" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../kybotevaluation/KybotEvaluation/target/KybotEvaluation-1.0-jar-with-dependencies.jar!/eu/kyotoproject/evaluation/Triplet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="-2.4" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/interannotator/CompareAnnotatedFolders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="39" selection-start="7528" selection-end="7528" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/MostCommonSubsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="47" selection-start="17079" selection-end="17079" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/MostCommonWordSubsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="55" selection-start="3046" selection-end="3305" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/SynsetNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="43" selection-start="926" selection-end="2220" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="33" selection-start="5463" selection-end="5470" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/interannotator/Kappa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="543" column="63" selection-start="21613" selection-end="21613" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/AnnotatorFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2953" column="55" selection-start="121135" selection-end="121135" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="8" selection-start="4746" selection-end="4746" vertical-scroll-proportion="0.0" />
+        <state line="105" column="29" selection-start="2813" selection-end="2813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TagToTriples.java">
@@ -1283,35 +1210,69 @@
         <state line="180" column="65" selection-start="8062" selection-end="8062" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/TableSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="2911" selection-end="2911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/table/DefaultTableColumnModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3575" selection-end="3575" vertical-scroll-proportion="0.8538961" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/DefaultRowSorter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="16" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/io/LocationsParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/CustomTableCellRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="43" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.2920354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/TableSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="29" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="55" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.12545677" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/table/AbstractTableModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.65773445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="623" column="38" selection-start="30004" selection-end="30015" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/AnnotatorFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2588" column="48" selection-start="102119" selection-end="102119" vertical-scroll-proportion="0.60229445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/tableware/AnnotationTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="16" selection-start="7842" selection-end="7842" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/triple/TripleConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="42" selection-start="4950" selection-end="4950" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="387" selection-end="1982" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/BrowserLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/kyotoproject/kafannotator/sensetags/ImportSenseTagsIntoKaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="496" selection-end="496" vertical-scroll-proportion="-1.4733096">
+        <state line="528" column="73" selection-start="23592" selection-end="23592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

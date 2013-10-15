@@ -1,18 +1,18 @@
 10
 
 dir
-1071
-https://PiekVossen@kyoto.let.vu.nl/svn/kyoto/trunk/tools/kafannotator/KafAnnotator/resources
-https://PiekVossen@kyoto.let.vu.nl/svn/kyoto
+836
+https://kyoto.let.vu.nl/svn/kyoto/tags/kafannotator/KafAnnotator/resources
+https://kyoto.let.vu.nl/svn/kyoto
 
 
 
-2010-10-07T07:35:19.872900Z
-916
+2010-08-07T15:28:50.188627Z
+836
 PiekVossen
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -25,74 +25,14 @@ PiekVossen
 
 
 80d80e37-51c5-447e-889e-3d9dd5ce8e1a
-
-tagLexicon.xml.bu
-file
-
-
-
-
-2011-02-10T08:33:50.000000Z
-00a4b2db3cd17acd98acff0e19651549
-2010-10-07T07:35:19.872900Z
-916
-PiekVossen
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-84986
-
-tagSet.txt
-file
-
-
-
-
-2011-02-10T08:33:50.000000Z
-b2ce3f8dfc362886347e063aa4797960
-2010-10-07T07:09:43.669570Z
-913
-PiekVossen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12
+0
+empty
 
 locations.xml
 file
@@ -100,10 +40,10 @@ file
 
 
 
-2011-02-10T08:33:50.000000Z
-66366eaa94f4cf768849b3a8b1b7f586
-2010-10-07T07:09:43.669570Z
-913
+2010-08-06T15:07:26.000000Z
+7230b5269923cea7cd6faf00c8dae1ba
+2010-08-07T15:28:50.188627Z
+836
 PiekVossen
 has-props
 
@@ -126,7 +66,7 @@ has-props
 
 
 
-1147
+907
 
 tagLexicon.xml
 file
@@ -134,10 +74,10 @@ file
 
 
 
-2011-02-10T08:33:50.000000Z
-f46a7a2bb2b2bbe87ee197f90f48e49d
-2010-10-07T07:35:19.872900Z
-916
+2010-08-06T15:07:22.000000Z
+03f035d7a1e4cce4a77c0799d8e7be8e
+2010-08-07T15:28:50.188627Z
+836
 PiekVossen
 
 
@@ -160,5 +100,73 @@ PiekVossen
 
 
 
-84986
+2634
+
+tagLexicon.xml.bu
+file
+
+
+
+
+2010-08-06T14:54:22.000000Z
+03f035d7a1e4cce4a77c0799d8e7be8e
+2010-08-07T15:28:50.188627Z
+836
+PiekVossen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2634
+
+tagSet.txt
+file
+
+
+
+
+2010-08-06T10:39:21.000000Z
+f2cc380b068bcde709739e2425e00084
+2010-08-07T15:28:50.188627Z
+836
+PiekVossen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32
 

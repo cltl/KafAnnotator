@@ -53,6 +53,7 @@ public class CustomTableCellRenderer extends DefaultTableCellRenderer
             } catch (Exception e) {
               //  e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
+/*
             String str = (String) table.getValueAt(row,AnnotationTableModel.ROWTAG1);
             str += (String) table.getValueAt(row,AnnotationTableModel.ROWTAG2);
             str += (String) table.getValueAt(row,AnnotationTableModel.ROWTAG3);
@@ -65,7 +66,9 @@ public class CustomTableCellRenderer extends DefaultTableCellRenderer
                 cell.setBackground(Color.white);
             }
             //  System.out.println("sentenceId = " + sentenceId);
-            else if (sentenceId==0) {
+            else
+*/
+            if (sentenceId==0) {
                 cell.setBackground(Color.lightGray);
             }
             else if (sentenceId%2==0) {

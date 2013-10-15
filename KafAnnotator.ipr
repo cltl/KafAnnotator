@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AntConfiguration">
-    <defaultAnt bundledAnt="true" />
-  </component>
   <component name="Archetypes.Configuration">
     <option name="archetypesFileLocation" value="archetypes.xml" />
     <option name="workingDirectory" value="" />
@@ -54,7 +51,21 @@
       <entry name="?*.jpeg" />
       <entry name="?*.jpg" />
     </wildcardResourcePatterns>
-    <annotationProcessing enabled="false" useClasspath="true" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="KafAnnotator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KafAnnotator" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright />
@@ -97,7 +108,6 @@
   </component>
   <component name="IdProvider" IDEtalkID="0B2B2F56B9DE1B6EC9A8AD8795E0A6F6" />
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-target 1.6" />
     <option name="MAXIMUM_HEAP_SIZE" value="512" />
   </component>
   <component name="JavadocGenerationManager">
@@ -335,7 +345,7 @@
       <extension name="coverage" enabled="false" merge="false" />
       <option name="MAIN_CLASS_NAME" value="eu.kyotoproject.kafannotator.AnnotatorFrame" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--opinion --kaf-file &quot;/Projects/OpeNER/Evaluation/KafAnnotationTools/data/hotel-reviews/opener-vua-light-version-2013-03/kaf/Armada_Hotel_EN.txt.0.kaf&quot; --tag-set &quot;/Projects/OpeNER/Evaluation/KafAnnotationTools/resources/HotelTagSet.txt&quot; --hide-label --hide-terms --hide-order --hide-8 --hide-7 --hide-6 --hide-5" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -451,6 +461,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -495,15 +506,15 @@
     </option>
   </component>
   <component name="libraryTable">
-    <library name="Maven: eu.kyotoproject.kaf:KyotoKafSaxParser:1.0">
+    <library name="Maven: KafKybot:KafKybot:1.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/eu/kyotoproject/kaf/KyotoKafSaxParser/1.0/KyotoKafSaxParser-1.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/KafKybot/KafKybot/1.0/KafKybot-1.0.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/eu/kyotoproject/kaf/KyotoKafSaxParser/1.0/KyotoKafSaxParser-1.0-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/KafKybot/KafKybot/1.0/KafKybot-1.0-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/eu/kyotoproject/kaf/KyotoKafSaxParser/1.0/KyotoKafSaxParser-1.0-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/KafKybot/KafKybot/1.0/KafKybot-1.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: kybotoutputparser:kybotoutputparser:1.0">
@@ -530,7 +541,7 @@
     </library>
     <library name="Maven: vu.debvisdicclient:DebVisDicCLient:1.0">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/vu/debvisdicclient/DebVisDicCLient/1.0/DebVisDicCLient-1.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/vu/debvisdicclient/DebVisDicClient/1.0/DebVisDicClient-1.0.jar!/" />
       </CLASSES>
       <JAVADOC>
         <root url="jar://$MAVEN_REPOSITORY$/vu/debvisdicclient/DebVisDicCLient/1.0/DebVisDicCLient-1.0-javadoc.jar!/" />

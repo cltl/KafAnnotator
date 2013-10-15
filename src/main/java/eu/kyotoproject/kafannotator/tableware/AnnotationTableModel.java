@@ -55,7 +55,7 @@ public class AnnotationTableModel extends AbstractTableModel {
           public final static int ROWSTATUS = 22;
           public final static int ROWSENTENCE = 23;
           public final static int[] TAGROWS = {ROWTAG1, ROWTAG2, ROWTAG3, ROWTAG4, ROWTAG5, ROWTAG6, ROWTAG7, ROWTAG8};
-          final String[] columnNames = {"Id","Word token","Word type","Pos","Synset", "Tag1","Tag1 id","Tag2","Tag2 id","Tag3","Tag3 id"
+          final String[] columnNames = {"Id","Word token","Word type","Pos","Label", "Tag1","Tag1 id","Tag2","Tag2 id","Tag3","Tag3 id"
                   ,"Tag4","Tag4 id","Tag5","Tag5 id","Tag6","Tag6 id", "Tag7","Tag7 id", "Tag8","Tag8 id"
                   , "Order", "Status", "Sentence"};
           private final static String TAGSEPARATOR = "\t";
@@ -440,10 +440,10 @@ public class AnnotationTableModel extends AbstractTableModel {
                setValueAt(new Boolean (status), nRow, ROWSTATUS);
                setValueAt(new Integer (tag.getSentenceId()), nRow, ROWSENTENCE);
                nTABLEROWS++;
-          }
+      }
 
 
-          public void initTable (int nRows)
+      public void initTable (int nRows)
           {  for (int k=0; k<nRows; k++) {
                   setValueAt(new String (""), k, ROWID);
                   setValueAt(new String (""), k, ROWWORDTOKEN);
@@ -621,6 +621,21 @@ public class AnnotationTableModel extends AbstractTableModel {
                 System.out.println("--------------------------");
             }
 
+            public boolean hasTagValue (int row) {
+                if (((String) this.getValueAt(row, ROWTAG1)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG2)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG3)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG4)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG4)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG6)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG7)).isEmpty() &&
+                    ((String) this.getValueAt(row, ROWTAG8)).isEmpty()){
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
             public void writeTableToTagFile(String outputFile) {
                     try {
                       File theFile = new File (outputFile);
@@ -635,7 +650,9 @@ public class AnnotationTableModel extends AbstractTableModel {
                       int numCols = getColumnCount();
                       String str = "";
                       for (int i=0; i < numRows; i++) {
-                        if (this.getValueAt(i, ROWSTATUS).equals(new Boolean(true))) {
+
+                        if ((this.getValueAt(i, ROWSTATUS).equals(new Boolean(true))) ||
+                            (hasTagValue(i))) {
                             for (int j=0; j < numCols; j++) {
                                 if (j==0) {
                                     str = data[i][j].toString();

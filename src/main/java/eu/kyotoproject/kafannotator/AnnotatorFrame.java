@@ -8,6 +8,7 @@ import eu.kyotoproject.kafannotator.sensetags.MostCommonSubsumer;
 import eu.kyotoproject.kafannotator.tableware.AnnotationTable;
 import eu.kyotoproject.kafannotator.tableware.AnnotationTableModel;
 import eu.kyotoproject.kafannotator.tableware.CacheData;
+import eu.kyotoproject.kafannotator.tableware.TableSettings;
 import eu.kyotoproject.kafannotator.triple.TagToTriples;
 import eu.kyotoproject.kafannotator.triple.TripleConfig;
 import eu.kyotoproject.kafannotator.util.Colors;
@@ -16,10 +17,7 @@ import vu.tripleevaluation.objects.Triple;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import java.awt.event.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -53,6 +51,8 @@ public class AnnotatorFrame extends JFrame
 {
     static public AnnotatorFrame instance;
 
+    static boolean OPINION = false;
+    static boolean SYNSET = false;
     public static String RESOURCESFOLDER = "../resources";
     public static String TripleCONFIGFILE = RESOURCESFOLDER+"/triple.cfg";
     public static String TAGSETFILE = RESOURCESFOLDER+"/tagset.txt";
@@ -68,6 +68,7 @@ public class AnnotatorFrame extends JFrame
     public static ArrayList<String> theTag7Set;
     public static ArrayList<String> theTag8Set;
     public static Lexicon tagLexicon;
+    public static TableSettings tableSettings;
     static public String inputName;
     ArrayList<WordTag> taggedWordList;
     public KafSaxParser parser;
@@ -172,23 +173,39 @@ public class AnnotatorFrame extends JFrame
     AnnotationTable table;
 
     JPanel messagePanel;
+    JTextArea fullTextField;
     JTextField kafFileField;
     JTextField tagFileField;
     JTextField tagSetFileField;
     JTextField messageField;
+    JLabel fullTextLabel;
     JLabel kafFileLabel;
     JLabel tagFileLabel;
     JLabel tagSetFileLabel;
     JLabel messageLabel;
 
-    static public AnnotatorFrame getInstance() {
+
+    static public AnnotatorFrame getInstance(TableSettings settings) {
         if (instance == null) {
-            instance = new AnnotatorFrame();
+            instance = new AnnotatorFrame(settings);
         }
         return instance;
     }
 
-    public AnnotatorFrame () {
+    public AnnotatorFrame (TableSettings settings) {
+        File resource = new File (RESOURCESFOLDER);
+        if (!resource.exists()) {
+            resource.mkdir();
+        }
+        File locations = new File (LOCATIONFILE);
+        if (!locations.exists()) {
+            try {
+                locations.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            }
+        }
+        tableSettings = settings;
         cache = new ArrayList<CacheData>();
         cacheBu = new ArrayList<CacheData>();
         parser = new KafSaxParser();
@@ -209,9 +226,9 @@ public class AnnotatorFrame extends JFrame
 
         /// Message field
         messagePanel = new JPanel();
-        messagePanel.setMinimumSize(new Dimension(400, 120));
-        messagePanel.setPreferredSize(new Dimension(400, 120));
-        messagePanel.setMaximumSize(new Dimension(400, 120));
+        messagePanel.setMinimumSize(new Dimension(400, 320));
+        messagePanel.setPreferredSize(new Dimension(400, 320));
+        messagePanel.setMaximumSize(new Dimension(400, 320));
 
         messageLabel = new JLabel("Messages:");
         messageLabel.setMinimumSize(new Dimension(80, 25));
@@ -222,6 +239,37 @@ public class AnnotatorFrame extends JFrame
         messageField.setMinimumSize(new Dimension(300, 25));
         messageField.setPreferredSize(new Dimension(300, 25));
         messageField.setMaximumSize(new Dimension(400, 30));
+
+
+        fullTextLabel = new JLabel("Text:");
+        fullTextLabel.setMinimumSize(new Dimension(80, 25));
+        fullTextLabel.setPreferredSize(new Dimension(80, 25));
+        fullTextField = new JTextArea();
+        fullTextField.setEditable(false);
+        fullTextField.setBackground(Colors.BackGroundColor);
+        fullTextField.setMinimumSize(new Dimension(300, 200));
+        fullTextField.setPreferredSize(new Dimension(300, 200));
+        fullTextField.setMaximumSize(new Dimension(400, 200));
+        fullTextField.setLineWrap(true);
+        fullTextField.setWrapStyleWord(true);
+        fullTextField.addMouseListener(new MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                switch(e.getModifiers()) {
+                    case InputEvent.BUTTON3_MASK: {
+                        String word = fullTextField.getSelectedText();
+                        table.searchForString(AnnotationTableModel.ROWWORDTOKEN, word);
+                    }
+                }
+            }
+        });
+
+
+        JScrollPane scrollableTextArea = new JScrollPane (fullTextField,
+                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+
+        scrollableTextArea.setMinimumSize(new Dimension(300, 200));
+        scrollableTextArea.setPreferredSize(new Dimension(300, 200));
+        scrollableTextArea.setMaximumSize(new Dimension(400, 200));
 
 
         kafFileLabel = new JLabel("KAF file:");
@@ -258,21 +306,25 @@ public class AnnotatorFrame extends JFrame
         tagSetFileField.setMaximumSize(new Dimension(400, 30));
 
         messagePanel.setLayout(new GridBagLayout());
-        messagePanel.add(messageLabel, new GridBagConstraints(0, 0, 1, 1, 0, 0
+        messagePanel.add(fullTextLabel, new GridBagConstraints(0, 0, 1, 1, 0, 0
                 ,GridBagConstraints.NORTH, GridBagConstraints.NONE, new Insets(10, 1, 1, 1), 0, 0));
-        messagePanel.add(messageField, new GridBagConstraints(1, 0, 1, 1, 0.3, 0.3
+        messagePanel.add(scrollableTextArea, new GridBagConstraints(1, 0, 1, 1, 0.3, 0.3
                 , GridBagConstraints.NORTH, GridBagConstraints.BOTH, new Insets(10, 1, 1, 1), 0, 0));
-        messagePanel.add(kafFileLabel, new GridBagConstraints(0, 1, 1, 1, 0, 0
+        messagePanel.add(messageLabel, new GridBagConstraints(0, 1, 1, 1, 0, 0
+                ,GridBagConstraints.NORTH, GridBagConstraints.NONE, new Insets(10, 1, 1, 1), 0, 0));
+        messagePanel.add(messageField, new GridBagConstraints(1, 1, 1, 1, 0.3, 0.3
+                , GridBagConstraints.NORTH, GridBagConstraints.BOTH, new Insets(10, 1, 1, 1), 0, 0));
+        messagePanel.add(kafFileLabel, new GridBagConstraints(0, 2, 1, 1, 0, 0
                 ,GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(1, 1, 1, 1), 0, 0));
-        messagePanel.add(kafFileField, new GridBagConstraints(1, 1, 1, 1, 0.3, 0.3
+        messagePanel.add(kafFileField, new GridBagConstraints(1, 2, 1, 1, 0.3, 0.3
                 , GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0));
-        messagePanel.add(tagFileLabel, new GridBagConstraints(0, 2, 1, 1, 0, 0
+        messagePanel.add(tagFileLabel, new GridBagConstraints(0, 3, 1, 1, 0, 0
                 ,GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(1, 1, 1, 1), 0, 0));
-        messagePanel.add(tagFileField, new GridBagConstraints(1, 2, 1, 1, 0.3, 0.3
+        messagePanel.add(tagFileField, new GridBagConstraints(1, 3, 1, 1, 0.3, 0.3
                 , GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0));
-        messagePanel.add(tagSetFileLabel, new GridBagConstraints(0, 3, 1, 1, 0, 0
+        messagePanel.add(tagSetFileLabel, new GridBagConstraints(0, 4, 1, 1, 0, 0
                 ,GridBagConstraints.CENTER, GridBagConstraints.NONE, new Insets(1, 1, 1, 1), 0, 0));
-        messagePanel.add(tagSetFileField, new GridBagConstraints(1, 3, 1, 1, 0.3, 0.3
+        messagePanel.add(tagSetFileField, new GridBagConstraints(1, 4, 1, 1, 0.3, 0.3
                             ,GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0));
 
         /// Menus
@@ -574,6 +626,7 @@ public class AnnotatorFrame extends JFrame
         tag1SentenceMenu = new JMenu("Tag sentence");
         tag1SentenceMenu.setMnemonic('s');
         tag1Menu.add(tag1SentenceMenu);
+       // popup.add(tag1Menu);              // just trying
 
         JMenuItem untagItem = new JMenuItem ("UNTAG", 'u');
         untagItem.addActionListener(new ActionListener() {
@@ -763,7 +816,9 @@ public class AnnotatorFrame extends JFrame
         });
         tag2Menu.add(newTag2MenuItem);
 
-        menuButtons.add(tag2Menu);
+        if (!tableSettings.hideTag2) {
+            menuButtons.add(tag2Menu);
+        }
 
         /////////////////#################
 
@@ -862,7 +917,9 @@ public class AnnotatorFrame extends JFrame
         });
         tag3Menu.add(newTag3MenuItem);
 
-        menuButtons.add(tag3Menu);
+        if (!tableSettings.hideTag3){
+            menuButtons.add(tag3Menu);
+        }
 
         /////////////////////
         tag4Menu = new JMenu("Tag level 4");
@@ -960,7 +1017,9 @@ public class AnnotatorFrame extends JFrame
         });
         tag4Menu.add(newTag4MenuItem);
 
-        menuButtons.add(tag4Menu);
+        if (!tableSettings.hideTag4) {
+            menuButtons.add(tag4Menu);
+        }
 
         /////////////////#################
 
@@ -1059,7 +1118,9 @@ public class AnnotatorFrame extends JFrame
         });
         tag5Menu.add(newTag5MenuItem);
 
-        menuButtons.add(tag5Menu);
+        if (!tableSettings.hideTag5) {
+            menuButtons.add(tag5Menu);
+        }
 
         /////////////////#################
 
@@ -1158,7 +1219,9 @@ public class AnnotatorFrame extends JFrame
         });
         tag6Menu.add(newTag6MenuItem);
 
-        menuButtons.add(tag6Menu);
+        if (!tableSettings.hideTag6) {
+            menuButtons.add(tag6Menu);
+        }
 
         /////////////////#################
 
@@ -1257,7 +1320,9 @@ public class AnnotatorFrame extends JFrame
         });
         tag7Menu.add(newTag7MenuItem);
 
-        menuButtons.add(tag7Menu);
+        if (!tableSettings.hideTag7) {
+            menuButtons.add(tag7Menu);
+        }
 
         /////////////////#################
 
@@ -1356,13 +1421,14 @@ public class AnnotatorFrame extends JFrame
         });
         tag8Menu.add(newTag8MenuItem);
 
-        menuButtons.add(tag8Menu);
+        if (!tableSettings.hideTag8) {
+            menuButtons.add(tag8Menu);
+        }
 
 
         /// Text Area
 
-        table = new AnnotationTable();
-        table.setColumnSize();
+        table = new AnnotationTable(tableSettings);
 
         ///////////////////////
         contentPanel = new JPanel();
@@ -1662,6 +1728,7 @@ public class AnnotatorFrame extends JFrame
                 THETAGFILE = "";
                 //// WE ASSUME THIS IS A KAF FILE
                 parser.parseFile(inputName);
+                fullTextField.setText(parser.getFullText());
                 taggedWordList= new ArrayList<WordTag>();
                 for (int i = 0; i < parser.kafWordFormList.size(); i++) {
                     KafWordForm nextWord =  parser.kafWordFormList.get(i);
@@ -1669,31 +1736,66 @@ public class AnnotatorFrame extends JFrame
                     KafTerm kafTerm = null;
                     if (parser.WordFormToTerm.containsKey(nextWord.getWid())) {
                         String termId = parser.WordFormToTerm.get(nextWord.getWid());
+                        //System.out.println("termId = " + termId);
                         kafTerm = parser.getTerm(termId);
+                        //System.out.println("kafTerm = " + kafTerm.getTid());
                     }
                     if (kafTerm != null) {
                         String synset = "";
-                        if (kafTerm.getSenseTags().size()>=1) {
-                            KafSense sense = kafTerm.getSenseTags().get(0);
-                            synset =  sense.getSensecode()+":"+sense.getConfidence();
+                        if (SYNSET) {
+                            if (kafTerm.getSenseTags().size()>=1) {
+                                KafSense sense = kafTerm.getSenseTags().get(0);
+                                synset =  sense.getSensecode()+":"+sense.getConfidence();
+                            }
+                        }
+                        else if (OPINION) {
+                            ArrayList<String> opinions = parser.TermToOpinions.get(kafTerm.getTid());
+
+                            if (opinions!=null && opinions.size()>0) {
+                                for (int j = 0; j < opinions.size(); j++) {
+                                    String oid = opinions.get(j);
+                                    KafOpinion kafOpinion = parser.getOpinion(oid);
+                                    for (int k = 0; k < kafOpinion.getSpansOpinionTarget().size(); k++) {
+                                        String termId = kafOpinion.getSpansOpinionTarget().get(k);
+                                        if (termId.equals(kafTerm.getTid())) {
+                                            synset = oid+":O-TARGET";
+                                            break;
+                                        }
+                                    }
+                                    for (int k = 0; k < kafOpinion.getSpansOpinionHolder().size(); k++) {
+                                        String termId = kafOpinion.getSpansOpinionHolder().get(k);
+                                        if (termId.equals(kafTerm.getTid())) {
+                                            synset = oid+":O-HOLDER";
+                                            break;
+                                        }
+                                    }
+                                    for (int k = 0; k < kafOpinion.getSpansOpinionExpression().size(); k++) {
+                                        String termId = kafOpinion.getSpansOpinionExpression().get(k);
+                                        if (termId.equals(kafTerm.getTid())) {
+                                            synset = oid+":O-"+kafOpinion.getOpinionSentiment().getPolarity();
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
                         }
                         Integer sentenceId = Util.makeInt(nextWord.getSent());
-
                         wordTag = new WordTag(sentenceId, nextWord.getWid(), nextWord.getWf(), kafTerm.getLemma(), kafTerm.getPos(), synset, i);
                     }
                     else {
                         wordTag = new WordTag(0, nextWord.getWid(),nextWord.getWf(),"","","",i);
+                        wordTag.setMark(true);
                     }
                     if (wordTag!=null) {
                         taggedWordList.add(wordTag);
                     }
                 }
-                table = new AnnotationTable(taggedWordList);
+                table = new AnnotationTable(taggedWordList, tableSettings);
                 table.setBackground();
                 contentPanel.add(table, new GridBagConstraints(0, 1, 1, 1, 0.9, 0.9
                                         ,GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(10, 10, 10, 10), 0, 0));
      //           table.theTable.printDebugData();
-                table.setColumnSize();
+//                table.setColumnSize();
                 contentPanel.repaint();
                 contentPanel.setVisible(true);
                 setContentPane(contentPanel);
@@ -2039,15 +2141,15 @@ public class AnnotatorFrame extends JFrame
 
 
     String selectInputFileDialog(JFrame parent, final String extension) {
-           String theFile = "";
-             Locations adjLoc = new Locations(LOCATIONFILE);
-             LocationsParser parser = new LocationsParser(LOCATIONFILE);
-             adjLoc.inputs = parser.input;
-             String inputPath = "";
-             if (adjLoc.inputs.size()>0) {
-                 inputPath = ((String)adjLoc.inputs.elementAt(0)).trim();
-             }
-             JFileChooser fc = new JFileChooser(inputPath);
+         String theFile = "";
+         Locations adjLoc = new Locations(LOCATIONFILE);
+         LocationsParser parser = new LocationsParser(LOCATIONFILE);
+         adjLoc.inputs = parser.input;
+         String inputPath = "";
+         if (adjLoc.inputs.size()>0) {
+             inputPath = ((String)adjLoc.inputs.elementAt(0)).trim();
+         }
+         JFileChooser fc = new JFileChooser(inputPath);
          fc.setFileFilter(new javax.swing.filechooser.FileFilter() {
              public boolean accept(File f) {
                return
@@ -2060,17 +2162,20 @@ public class AnnotatorFrame extends JFrame
                  return extension;
              }
          });
-             int returnVal = fc.showDialog(parent, "Select a file");
+         int returnVal = fc.showDialog(parent, "Select a file");
          if (returnVal == JFileChooser.APPROVE_OPTION) {
              File file = fc.getSelectedFile();
-               theFile = file.getPath();
-             adjLoc.inputs.insertElementAt(theFile,0);
-             //serializations of the databases
-             try{
-               adjLoc.serialization(LOCATIONFILE);
-             }
-             catch(IOException io){
-               io.printStackTrace();
+             theFile = file.getPath();
+             if (new File (LOCATIONFILE).exists()) {
+                 adjLoc.inputs.insertElementAt(theFile,0);
+                 //serializations of the databases
+
+                 try{
+                   adjLoc.serialization(LOCATIONFILE);
+                 }
+                 catch(IOException io){
+                   io.printStackTrace();
+                 }
              }
          }
          return theFile;
@@ -2409,42 +2514,58 @@ public class AnnotatorFrame extends JFrame
                   tagLexicon.decrementEntry(wordForm, tag);
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG1);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID1);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                    table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==2) {
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG2);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID2);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==3) {
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG3);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID3);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==4) {
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG4);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID4);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==5) {
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID5);
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG5);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==6) {
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG6);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID6);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==7) {
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG7);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID7);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
               else if (level==8) {
                   table.sorter.setValueAt("", theRow, AnnotationTableModel.ROWTAG8);
                   table.sorter.setValueAt(0, theRow, AnnotationTableModel.ROWTAGID8);
-                  table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  if (table.theTable.hasTagValue(theRow)) {
+                      table.sorter.setValueAt(new Boolean(false), theRow, AnnotationTableModel.ROWSTATUS);
+                  }
               }
             }
             this.repaint();
@@ -3434,26 +3555,76 @@ public class AnnotatorFrame extends JFrame
         String pathToKafFile = "";
         String pathToTagFile = "";
         String pathToTagSetFile = "";
+        TableSettings tableSettings = new TableSettings();
         for (int i = 0; i < args.length; i++) {
             String arg = args[i];
             if ((arg.equalsIgnoreCase("--kaf-file")) && args.length>(i+1)) {
                 pathToKafFile = args[i+1];
             }
-            if ((arg.equalsIgnoreCase("--tag-file")) && args.length>(i+1)) {
+            else if ((arg.equalsIgnoreCase("--tag-file")) && args.length>(i+1)) {
                 pathToTagFile = args[i+1];
             }
-            if ((arg.equalsIgnoreCase("--tag-set")) && args.length>(i+1)) {
+            else if ((arg.equalsIgnoreCase("--tag-set")) && args.length>(i+1)) {
                 pathToTagSetFile = args[i+1];
             }
+            else if (arg.equalsIgnoreCase("--opinion")) {
+               OPINION = true;
+            }
+            else if (arg.equalsIgnoreCase("--synset")) {
+               SYNSET = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-label")) {
+               tableSettings.hideLabel = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-pos")) {
+               tableSettings.hidePos = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-status")) {
+               tableSettings.hideStatus = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-order")) {
+               tableSettings.hideOrder = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-term")) {
+               tableSettings.hideTerms = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-tagid")) {
+               tableSettings.hideTagIds = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-8")) {
+               tableSettings.hideTag8 = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-7")) {
+               tableSettings.hideTag7 = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-6")) {
+               tableSettings.hideTag6 = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-5")) {
+               tableSettings.hideTag5 = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-4")) {
+               tableSettings.hideTag4 = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-3")) {
+               tableSettings.hideTag3 = true;
+            }
+            else if (arg.equalsIgnoreCase("--hide-2")) {
+               tableSettings.hideTag2 = true;
+            }
         }
-        final AnnotatorFrame frame = AnnotatorFrame.getInstance();
+        final AnnotatorFrame frame = AnnotatorFrame.getInstance(tableSettings);
+
         if (!pathToKafFile.isEmpty()) {
+            System.out.println("pathToKafFile = " + pathToKafFile);
             frame.DO_loadKafFile(pathToKafFile);
         }
         if (!pathToTagFile.isEmpty()) {
+            System.out.println("pathToTagFile = " + pathToTagFile);
             frame.DO_loadTagFile(pathToTagFile);
         }
         if (!pathToTagSetFile.isEmpty()) {
+            System.out.println("pathToTagSetFile = " + pathToTagSetFile);
             frame.DO_readTagSet(pathToTagSetFile);
         }
         frame.addWindowListener(new WindowAdapter() {

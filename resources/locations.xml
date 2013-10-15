@@ -5,15 +5,15 @@
  		<location></location>
 	</previousLocations>
 	<previousInput>
- 		<input>/Projects/OpeNER/Evaluation/experiments/opener-vua-basic-version-2013-03/kaf/EN_2stars/Armada_Hotel_EN.txt.0.kaf</input>
-		<input>/Projects/OpeNER/Evaluation/annotation/stanford/Electra1a.kaf</input>
-		<input>/Projects/OpeNER/Evaluation/annotation/stanford/Electra1a.kaf</input>
-		<input>/Projects/OpeNER/Evaluation/experiments/opener-vua-light-version-2012-12/kaf/NL_2stars/Armada_Hotel_NL.txt.0.kaf</input>
-		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
-		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
-		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
-		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
-		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
-		<input>/Users/kyoto/hotel_sample-1/hotel_sample.kaf</input>
+ 		<input>/Releases/kafannotator_v.0.1/examples/11767.mw.wsd.ne.kaf</input>
+		<input>/Releases/kafannotator_v.0.1/examples/11767.mw.wsd.ne.kaf</input>
+		<input>/Projects/OpeNER/Evaluation/experiments/opener-vua-basic-version-2013-03/kaf/EN_2stars/Armada_Hotel_EN.txt.0.kaf</input>
+		<input>/Projects/OpeNER/Evaluation/annotation/Electra1/Electra2.kaf</input>
+		<input>/Users/kyoto/Desktop/KYOTO FINAL/Kyoto Estuary/evaluation/data5-migration/11767-migration.mw.wsd.ne.kaf.reduced.kaf</input>
+		<input>/Users/kyoto/Desktop/KYOTO FINAL/Kyoto Estuary/evaluation/data5-migration/11767.mw.wsd.ne.kaf.reduced.kaf</input>
+		<input>/Users/kyoto/Desktop/KYOTO FINAL/Kyoto Estuary/evaluation/data5-migration/11767.kaf</input>
+		<input>/Users/kyoto/Desktop/KYOTO FINAL/Kyoto Estuary/evaluation/data5-migration/11767.kaf.reduced.kaf</input>
+		<input>/Users/kyoto/Desktop/KYOTO FINAL/Kyoto Estuary/evaluation/data5-migration/11767.mw.wsd.ne.kaf</input>
+		<input>/Users/kyoto/Desktop/KYOTO FINAL/Kyoto Estuary/evaluation/data5-migration/11767.mw.wsd.ne.kaf</input>
 	</previousInput>
 </fileLocations>

@@ -39,7 +39,7 @@ import java.util.ArrayList;
  */
 public class AnnotationTable extends JPanel implements TableModelListener {
     static public boolean READFILE = false;
-    static AnnotatorFrame mainFrame = AnnotatorFrame.getInstance();
+    static AnnotatorFrame mainFrame = null;
     public   AnnotationTableModel theTable;
     public TableRowSorter<AnnotationTableModel> rowSorter;
     public   JTable table;
@@ -70,7 +70,6 @@ public class AnnotationTable extends JPanel implements TableModelListener {
     }
 
 
-
     class InsertRowsActionAdapter implements ActionListener {
       JFrame adaptee;
       String wndb = "";
@@ -79,13 +78,15 @@ public class AnnotationTable extends JPanel implements TableModelListener {
         this.adaptee = adaptee;
         wndb = db;
         language = lg;
-      }
+    }
+
 
       public void actionPerformed(ActionEvent e) {
           DO_SelectSenses (wndb, language);
       }
+
     }
-    
+
     class PopupListener extends MouseAdapter {
       public void mousePressed(MouseEvent e) {
           showPopup(e);
@@ -174,22 +175,25 @@ public class AnnotationTable extends JPanel implements TableModelListener {
     }
 
 
-    public AnnotationTable() {
+    public AnnotationTable(TableSettings tableSettings) {
         theTable = new AnnotationTableModel();
         theTable.addTableModelListener(this);
         synsetSelector = null;
         init();
+        this.setColumnSize();
+        this.hideColumns(tableSettings);
     }
 
-    public AnnotationTable(ArrayList<WordTag> wordTags) {
+    public AnnotationTable(ArrayList<WordTag> wordTags, TableSettings tableSettings) {
         READFILE = true;
         theTable = new AnnotationTableModel(wordTags);
         theTable.addTableModelListener(this);
         synsetSelector = null;
         reinit();
-        makePopUpMenu();
+        //makePopUpMenu();
         //// necessary to access the parser data for the KAF file
-        mainFrame = AnnotatorFrame.getInstance();
+        mainFrame = AnnotatorFrame.getInstance(tableSettings);
+        this.hideColumns(tableSettings);
     }
 
     public void init() {
@@ -201,21 +205,36 @@ public class AnnotationTable extends JPanel implements TableModelListener {
         table.setForeground(Colors.ForegroundColor);
 
         table.addMouseMotionListener(new MouseMotionAdapter(){
+/*            public void mouseMoved(MouseEvent e){
+                Point p = e.getPoint();
+                int row = table.rowAtPoint(p);
+                int column = table.columnAtPoint(p);
+                if (column==0) {
+*//*                   Dimension dim = new Dimension();
+                    dim.setSize(200,200);
+                    final JPopupMenu popupMenu = new JPopupMenu();
+                    JLabel par = new JLabel(getSentenceContext(row));
+                    JTextArea area = new JTextArea(getSentenceContext(row));
+                    area.setWrapStyleWord(true);
+                    area.setMinimumSize(dim);
+                    area.setMaximumSize(dim);
+                    popupMenu.add(area);
+                    popupMenu.setSize(100,100);
+                    popupMenu.setVisible(true);*//*
+
+                    table.setToolTipText(String.valueOf(getSentenceContext(row)));
+                }
+            }*/
+
             public void mouseMoved(MouseEvent e){
                 Point p = e.getPoint();
                 int row = table.rowAtPoint(p);
                 int column = table.columnAtPoint(p);
                 if (column==0) {
-                    final JPopupMenu popupMenu = new JPopupMenu();
-                    JLabel par = new JLabel(get3SentencesContext(row));
-                    JTextArea area = new JTextArea(get3SentencesContext(row));
-                    area.setWrapStyleWord(true);
-                    popupMenu.add(area);
-                    popupMenu.setSize(100,100);
-                    popupMenu.setVisible(true);
+                    table.setToolTipText(String.valueOf(getSentenceContext(row)));
                     //table.setToolTipText(String.valueOf(get3SentencesContext(row)));
                 }
-            }//end MouseMoved }; // end MouseMotionAdapter
+            }
         });
 //        table.setPreferredScrollableViewportSize(new Dimension(600, 400));
 /*
@@ -249,13 +268,13 @@ public class AnnotationTable extends JPanel implements TableModelListener {
         table.setForeground(new Color(80, 0, 160));
         table.setRowSelectionAllowed(true);
         table.addMouseMotionListener(new MouseMotionAdapter(){
-            public void mouseMoved(MouseEvent e){
+/*            public void mouseMoved(MouseEvent e){
                 Point p = e.getPoint();
                 int row = table.rowAtPoint(p);
                 int column = table.columnAtPoint(p);
                 if (column==0) {
                //     System.out.println(getSentenceContext(row));
-/*
+*//*
                     final JPopupMenu popupMenu = new JPopupMenu();
                     JLabel par = new JLabel(get3SentencesContext(row));
                     JTextArea area = new JTextArea(get3SentencesContext(row));
@@ -264,10 +283,21 @@ public class AnnotationTable extends JPanel implements TableModelListener {
                     popupMenu.setSize(100,100);
                     popupMenu.setVisible(true);
                     popupMenu.show();
-*/
+*//*
                     table.setToolTipText(String.valueOf(getSentenceContext(row)));
+                   // table.setToolTipText(String.valueOf(get3SentencesContext(row)));
                 }
-            }//end MouseMoved }; // end MouseMotionAdapter
+            }*/
+
+            public void mouseMoved(MouseEvent e){
+                Point p = e.getPoint();
+                int row = table.rowAtPoint(p);
+                int column = table.columnAtPoint(p);
+                if (column==0) {
+                    table.setToolTipText(String.valueOf(getSentenceContext(row)));
+                   // table.setToolTipText(String.valueOf(get3SentencesContext(row)));
+                }
+            }
         });
 
  //       table.setPreferredScrollableViewportSize(new Dimension(600, 400));
@@ -455,6 +485,7 @@ public class AnnotationTable extends JPanel implements TableModelListener {
     }
 
 
+
     public void tableChanged(TableModelEvent e) {
         if (!READFILE)  {
             int row = e.getFirstRow();
@@ -485,6 +516,70 @@ public class AnnotationTable extends JPanel implements TableModelListener {
                     mainFrame.tagLexicon.decrementEntry(word, tag);
                 }
             }
+        }
+    }
+
+    void hideAColumn (int column) {
+        table.getColumnModel().getColumn(column).setMaxWidth(0);
+        table.getColumnModel().getColumn(column).setMinWidth(0);
+        table.getColumnModel().getColumn(column).setWidth(0);
+        table.getColumnModel().getColumn(column).setPreferredWidth(0);
+        table.getColumnModel().getColumn(column).setResizable(false);
+    }
+
+    public void hideColumns (TableSettings tableSettings) {
+        if (tableSettings.hideStatus) {
+            hideAColumn(AnnotationTableModel.ROWSTATUS);
+        }
+        if (tableSettings.hideOrder) {
+            hideAColumn(AnnotationTableModel.ROWORDER);
+        }
+        if (tableSettings.hideTag8) {
+            hideAColumn(AnnotationTableModel.ROWTAG8);
+            hideAColumn(AnnotationTableModel.ROWTAGID8);
+        }
+        if (tableSettings.hideTag7) {
+            hideAColumn(AnnotationTableModel.ROWTAG7);
+            hideAColumn(AnnotationTableModel.ROWTAGID7);
+        }
+        if (tableSettings.hideTag6) {
+            hideAColumn(AnnotationTableModel.ROWTAG6);
+            hideAColumn(AnnotationTableModel.ROWTAGID6);
+        }
+        if (tableSettings.hideTag5) {
+            hideAColumn(AnnotationTableModel.ROWTAG5);
+            hideAColumn(AnnotationTableModel.ROWTAGID5);
+        }
+        if (tableSettings.hideTag4) {
+            hideAColumn(AnnotationTableModel.ROWTAG4);
+            hideAColumn(AnnotationTableModel.ROWTAGID4);
+        }
+        if (tableSettings.hideTag3) {
+            hideAColumn(AnnotationTableModel.ROWTAG3);
+            hideAColumn(AnnotationTableModel.ROWTAGID3);
+        }
+        if (tableSettings.hideTag2) {
+            hideAColumn(AnnotationTableModel.ROWTAG2);
+            hideAColumn(AnnotationTableModel.ROWTAGID2);
+        }
+        if (tableSettings.hideTagIds) {
+            hideAColumn(AnnotationTableModel.ROWTAGID1);
+            hideAColumn(AnnotationTableModel.ROWTAGID2);
+            hideAColumn(AnnotationTableModel.ROWTAGID3);
+            hideAColumn(AnnotationTableModel.ROWTAGID4);
+            hideAColumn(AnnotationTableModel.ROWTAGID5);
+            hideAColumn(AnnotationTableModel.ROWTAGID6);
+            hideAColumn(AnnotationTableModel.ROWTAGID7);
+            hideAColumn(AnnotationTableModel.ROWTAGID8);
+        }
+        if (tableSettings.hideLabel) {
+            hideAColumn(AnnotationTableModel.ROWSYNSET);
+        }
+        if (tableSettings.hideTerms) {
+            hideAColumn(AnnotationTableModel.ROWWORDTYPE);
+        }
+        if (tableSettings.hidePos) {
+            hideAColumn(AnnotationTableModel.ROWPOS);
         }
     }
 
