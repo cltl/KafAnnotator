@@ -247,9 +247,11 @@ public class AnnotatorFrame extends JFrame
         fullTextField = new JTextArea();
         fullTextField.setEditable(false);
         fullTextField.setBackground(Colors.BackGroundColor);
+/*
         fullTextField.setMinimumSize(new Dimension(300, 200));
         fullTextField.setPreferredSize(new Dimension(300, 200));
         fullTextField.setMaximumSize(new Dimension(400, 200));
+*/
         fullTextField.setLineWrap(true);
         fullTextField.setWrapStyleWord(true);
         fullTextField.addMouseListener(new MouseAdapter() {
