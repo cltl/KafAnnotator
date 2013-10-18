@@ -76,6 +76,7 @@ public class AnnotatorFrame extends JFrame
     ArrayList<CacheData> cacheBu;
     TripleConfig TripleConfig;
     public String clipboardTag;
+    public int clipboardLevel;
     public Integer clipboardTagId;
 
     JMenuBar menuButtons;
@@ -183,6 +184,8 @@ public class AnnotatorFrame extends JFrame
     JLabel tagFileLabel;
     JLabel tagSetFileLabel;
     JLabel messageLabel;
+    JPopupMenu popupMenu = new JPopupMenu();
+    MouseListener popupListener = new PopupListener();
 
 
     static public AnnotatorFrame getInstance(TableSettings settings) {
@@ -221,6 +224,7 @@ public class AnnotatorFrame extends JFrame
         theTag7Set = new ArrayList<String>();
         theTag8Set = new ArrayList<String>();
         clipboardTag = "";
+        clipboardLevel = -1;
         clipboardTagId = -1;
         inputName = "";
 
@@ -256,11 +260,13 @@ public class AnnotatorFrame extends JFrame
         fullTextField.setWrapStyleWord(true);
         fullTextField.addMouseListener(new MouseAdapter() {
             public void mousePressed(MouseEvent e) {
-                switch(e.getModifiers()) {
-                    case InputEvent.BUTTON3_MASK: {
+                String buttonString = InputEvent.getModifiersExText(e.getModifiersEx());
+                if (buttonString.equals("Button3")) {
                         String word = fullTextField.getSelectedText();
-                        table.searchForString(AnnotationTableModel.ROWWORDTOKEN, word);
-                    }
+                        table.selectMatchingRows(AnnotationTableModel.ROWWORDTOKEN, word);
+                }
+                else if (buttonString.equals("⌥+Button3")) {
+                        DO_pastTagAtPastLevel();
                 }
             }
         });
@@ -2745,7 +2751,8 @@ public class AnnotatorFrame extends JFrame
         messageField.setText("");
         int [] rows =   table.table.getSelectedRows();
         if (rows.length==1) {
-              if (level==1) {
+            this.clipboardLevel = level;
+            if (level==1) {
                   this.clipboardTag = (String) table.sorter.getValueAt(rows[0], AnnotationTableModel.ROWTAG1);
                   this.clipboardTagId = (Integer) table.sorter.getValueAt(rows[0], AnnotationTableModel.ROWTAGID1);
                //   System.out.println("this.clipboardTag = " + this.clipboardTag);
@@ -2781,6 +2788,10 @@ public class AnnotatorFrame extends JFrame
               }
         }
        // System.out.println("rows.length = " + rows.length);
+    }
+
+    void DO_pastTagAtPastLevel() {
+        DO_pastTag(this.clipboardLevel);
     }
 
     void DO_pastTag(int level) {
@@ -2828,6 +2839,55 @@ public class AnnotatorFrame extends JFrame
                 }
                 this.repaint();
             }
+        }
+    }
+
+    void DO_applyLastTag(int level, String tag) {
+        messageField.setText("");
+        if (tag.length()>0) {
+            Integer tagId = table.theTable.generateTagId();
+            int [] rows =   table.table.getSelectedRows();
+            if (rows.length>0) {
+                for (int i = 0; i<rows.length;i++) {
+                  int theRow = rows[i];
+                  if (level==1) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG1);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID1);
+                  }
+                  else if (level==2) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG2);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID2);
+                  }
+                  else if (level==3) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG3);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID3);
+                  }
+                  else if (level==4) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG4);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID4);
+                  }
+                  else if (level==5) {
+                    table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG5);
+                    table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID5);
+                  }
+                  else if (level==6) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG6);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID6);
+                  }
+                  else if (level==7) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG7);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID7);
+                  }
+                  else if (level==8) {
+                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG8);
+                      table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID8);
+                  }
+                }
+                this.repaint();
+            }
+        }
+        else {
+            messageField.setText("Empty tag!");
         }
     }
 
@@ -3640,5 +3700,36 @@ public class AnnotatorFrame extends JFrame
         frame.setTitle("KAF Annotation Tool");
         frame.pack();
         frame.setVisible(true);
+    }
+
+    class PopupListener implements MouseListener {
+        @Override
+        public void mouseClicked(MouseEvent mouseEvent) {
+            //To change body of implemented methods use File | Settings | File Templates.
+        }
+
+        public void mousePressed(MouseEvent e) {
+            showPopup(e);
+
+        }
+        public void mouseReleased(MouseEvent e) {
+            showPopup(e);
+        }
+
+        @Override
+        public void mouseEntered(MouseEvent mouseEvent) {
+            //To change body of implemented methods use File | Settings | File Templates.
+        }
+
+        @Override
+        public void mouseExited(MouseEvent mouseEvent) {
+            //To change body of implemented methods use File | Settings | File Templates.
+        }
+
+        private void showPopup(MouseEvent e) {
+            if (e.isPopupTrigger()) {
+                popupMenu.show(e.getComponent(), e.getX(), e.getY());
+            }
+        }
     }
 }

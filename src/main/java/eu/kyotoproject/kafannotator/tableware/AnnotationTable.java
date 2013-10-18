@@ -78,7 +78,7 @@ public class AnnotationTable extends JPanel implements TableModelListener {
         this.adaptee = adaptee;
         wndb = db;
         language = lg;
-    }
+        }
 
 
       public void actionPerformed(ActionEvent e) {
@@ -580,6 +580,105 @@ public class AnnotationTable extends JPanel implements TableModelListener {
         }
         if (tableSettings.hidePos) {
             hideAColumn(AnnotationTableModel.ROWPOS);
+        }
+    }
+
+    void initMatches (int[] boos) {
+        for (int i = 0; i < boos.length; i++) {
+           boos[i] = -1;
+        }
+    }
+
+    boolean matchPhrase (int[] boos) {
+        for (int i = 0; i < boos.length; i++) {
+            if (boos[i]==-1) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void selectMatchingRows (int col, String selectedText) {
+        if (selectedText!=null && !selectedText.isEmpty()) {
+            String [] words = selectedText.trim().split(" ");
+            int factor = table.getRowHeight();
+            int currentRow = table.getSelectedRow();
+            int numRows = theTable.nTABLEROWS;
+            String str = "";
+            if (currentRow==-1) {
+                currentRow = 0;
+            }
+            int [] matches = new int[words.length];
+            initMatches(matches);
+            for (int i=currentRow+1; i < numRows; i++) {
+                str = (String) theTable.getValueAt(i,col);
+                if (str.equals(words[0])) {/// check the first word
+                    initMatches(matches);
+                    matches [0] = i;
+                    for (int j = 1; j < words.length; j++) {
+                        String word = words[j];
+                        /// move to the next row in the table
+                        i++;
+                        if (i<numRows) {/// check if we do not exceed the rows
+                            str = (String) theTable.getValueAt(i,col);
+                            if (str.equals(word)) {
+                                matches [j] = i;
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        else {
+                            break;
+                        }
+                    }
+                    if (matchPhrase(matches)) {
+                        //table.setRowSelectionInterval(matches[0],matches[0]);
+                        table.setRowSelectionInterval(matches[0],matches[words.length-1]);
+                        factor = factor*(matches[0]-10);
+                        if (factor<0) {factor = 0;}
+                        JScrollBar bar = scrollPane.getVerticalScrollBar();
+                        bar.setValue(factor);
+                        return; /// we are done
+                    }
+                }
+            }
+            if (!matchPhrase(matches)) {
+                if (currentRow>0) {
+                    for (int i=0 ; i < currentRow; i++) {
+                        str = (String) theTable.getValueAt(i,col);
+                        if (str.equals(words[0])) {/// check the first word
+                            initMatches(matches);
+                            matches [0] = i;
+                            for (int j = 1; j < words.length; j++) {
+                                String word = words[j];
+                                /// move to the next row in the table
+                                i++;
+                                if (i<numRows) {/// check if we do not exceed the rows
+                                    str = (String) theTable.getValueAt(i,col);
+                                    if (str.equals(word)) {
+                                        matches [j] = i;
+                                    }
+                                    else {
+                                        break;
+                                    }
+                                }
+                                else {
+                                    break;
+                                }
+                            }
+                            if (matchPhrase(matches)) {
+                                table.setRowSelectionInterval(matches[0],matches[words.length-1]);
+                                factor = factor*(matches[0]-10);
+                                if (factor<0) {factor = 0;}
+                                JScrollBar bar = scrollPane.getVerticalScrollBar();
+                                bar.setValue(factor);
+                                return; /// we are done
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
