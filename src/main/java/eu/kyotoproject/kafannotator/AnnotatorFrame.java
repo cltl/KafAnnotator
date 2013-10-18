@@ -260,13 +260,12 @@ public class AnnotatorFrame extends JFrame
         fullTextField.setWrapStyleWord(true);
         fullTextField.addMouseListener(new MouseAdapter() {
             public void mousePressed(MouseEvent e) {
-                String buttonString = InputEvent.getModifiersExText(e.getModifiersEx());
-                if (buttonString.equals("Button3")) {
+                if (SwingUtilities.isRightMouseButton(e) && e.isAltDown()) {
+                        DO_pastTagAtPastLevel();
+                }
+                else if (SwingUtilities.isRightMouseButton(e)) {
                         String word = fullTextField.getSelectedText();
                         table.selectMatchingRows(AnnotationTableModel.ROWWORDTOKEN, word);
-                }
-                else if (buttonString.equals("⌥+Button3")) {
-                        DO_pastTagAtPastLevel();
                 }
             }
         });
@@ -2787,7 +2786,8 @@ public class AnnotatorFrame extends JFrame
                   this.clipboardTagId = (Integer) table.sorter.getValueAt(rows[0], AnnotationTableModel.ROWTAGID8);
               }
         }
-       // System.out.println("rows.length = " + rows.length);
+        messageField.setText("Tag: "+clipboardTag+" at level: "+clipboardLevel+" in Clipboard");
+        // System.out.println("rows.length = " + rows.length);
     }
 
     void DO_pastTagAtPastLevel() {
@@ -2795,7 +2795,7 @@ public class AnnotatorFrame extends JFrame
     }
 
     void DO_pastTag(int level) {
-        messageField.setText("");
+        messageField.setText("Tag: "+clipboardTag+" at level: "+clipboardLevel+" in Clipboard");
         if (this.clipboardTag.length()>0) {
             int [] rows =   table.table.getSelectedRows();
             if (rows.length>0) {
