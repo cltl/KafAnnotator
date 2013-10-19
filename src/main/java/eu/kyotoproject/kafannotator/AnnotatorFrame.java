@@ -261,7 +261,7 @@ public class AnnotatorFrame extends JFrame
         fullTextField.addMouseListener(new MouseAdapter() {
             public void mousePressed(MouseEvent e) {
                 if (SwingUtilities.isRightMouseButton(e) && e.isAltDown()) {
-                        DO_pastTagAtPastLevel();
+                        DO_pasteTagAtPasteLevel();
                 }
                 else if (SwingUtilities.isRightMouseButton(e)) {
                         String word = fullTextField.getSelectedText();
@@ -690,16 +690,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag1Menu.add(copyTagItem);
 
-        JMenuItem pastTagItem = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(1);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(1);
+                setCursor(current_cursor);
+            }
         });
-        tag1Menu.add(pastTagItem);
+        tag1Menu.add(pasteTagItem);
 
         JMenuItem selectLexTagMenuItem = new JMenuItem("Dominant Tag",'l');
         selectLexTagMenuItem.addActionListener(new ActionListener() {
@@ -801,16 +801,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag2Menu.add(copyTagItem2);
 
-        JMenuItem pastTagItem2 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem2.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(2);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem2 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(2);
+                setCursor(current_cursor);
+            }
         });
-        tag2Menu.add(pastTagItem2);
+        tag2Menu.add(pasteTagItem2);
 
         newTag2MenuItem = new JMenuItem("Add Tag",'a');
         newTag2MenuItem.addActionListener(new ActionListener() {
@@ -902,16 +902,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag3Menu.add(copyTagItem3);
 
-        JMenuItem pastTagItem3 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem3.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(3);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem3 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem3.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(3);
+                setCursor(current_cursor);
+            }
         });
-        tag3Menu.add(pastTagItem3);
+        tag3Menu.add(pasteTagItem3);
 
         newTag3MenuItem = new JMenuItem("Add Tag",'a');
         newTag3MenuItem.addActionListener(new ActionListener() {
@@ -1002,16 +1002,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag4Menu.add(copyTagItem4);
 
-        JMenuItem pastTagItem4 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem4.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(4);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem4 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem4.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(4);
+                setCursor(current_cursor);
+            }
         });
-        tag4Menu.add(pastTagItem4);
+        tag4Menu.add(pasteTagItem4);
 
         newTag4MenuItem = new JMenuItem("Add Tag",'a');
         newTag4MenuItem.addActionListener(new ActionListener() {
@@ -1103,16 +1103,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag5Menu.add(copyTagItem5);
 
-        JMenuItem pastTagItem5 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem5.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(5);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem5 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem5.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(5);
+                setCursor(current_cursor);
+            }
         });
-        tag5Menu.add(pastTagItem5);
+        tag5Menu.add(pasteTagItem5);
 
         newTag5MenuItem = new JMenuItem("Add Tag",'a');
         newTag5MenuItem.addActionListener(new ActionListener() {
@@ -1204,16 +1204,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag6Menu.add(copyTagItem6);
 
-        JMenuItem pastTagItem6 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem6.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(6);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem6 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem6.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(6);
+                setCursor(current_cursor);
+            }
         });
-        tag6Menu.add(pastTagItem6);
+        tag6Menu.add(pasteTagItem6);
 
         newTag6MenuItem = new JMenuItem("Add Tag",'a');
         newTag6MenuItem.addActionListener(new ActionListener() {
@@ -1305,16 +1305,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag7Menu.add(copyTagItem7);
 
-        JMenuItem pastTagItem7 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem7.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(7);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem7 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem7.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(7);
+                setCursor(current_cursor);
+            }
         });
-        tag7Menu.add(pastTagItem7);
+        tag7Menu.add(pasteTagItem7);
 
         newTag7MenuItem = new JMenuItem("Add Tag",'a');
         newTag7MenuItem.addActionListener(new ActionListener() {
@@ -1406,16 +1406,16 @@ public class AnnotatorFrame extends JFrame
         });
         tag8Menu.add(copyTagItem8);
 
-        JMenuItem pastTagItem8 = new JMenuItem ("Past Tag & Id", 'p');
-        pastTagItem8.addActionListener(new ActionListener() {
-           public void actionPerformed(ActionEvent e) {
-              Cursor current_cursor = getCursor();
-              setCursor(new Cursor ( Cursor.WAIT_CURSOR ));
-              DO_pastTag(8);
-              setCursor(current_cursor);
-           }
+        JMenuItem pasteTagItem8 = new JMenuItem ("Paste Tag & Id", 'p');
+        pasteTagItem8.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Cursor current_cursor = getCursor();
+                setCursor(new Cursor(Cursor.WAIT_CURSOR));
+                DO_pasteTag(8);
+                setCursor(current_cursor);
+            }
         });
-        tag8Menu.add(pastTagItem8);
+        tag8Menu.add(pasteTagItem8);
 
         newTag8MenuItem = new JMenuItem("Add Tag",'a');
         newTag8MenuItem.addActionListener(new ActionListener() {
@@ -2790,11 +2790,11 @@ public class AnnotatorFrame extends JFrame
         // System.out.println("rows.length = " + rows.length);
     }
 
-    void DO_pastTagAtPastLevel() {
-        DO_pastTag(this.clipboardLevel);
+    void DO_pasteTagAtPasteLevel() {
+        DO_pasteTag(this.clipboardLevel);
     }
 
-    void DO_pastTag(int level) {
+    void DO_pasteTag(int level) {
         messageField.setText("Tag: "+clipboardTag+" at level: "+clipboardLevel+" in Clipboard");
         if (this.clipboardTag.length()>0) {
             int [] rows =   table.table.getSelectedRows();
