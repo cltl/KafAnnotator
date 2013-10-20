@@ -261,7 +261,7 @@ public class AnnotatorFrame extends JFrame
         fullTextField.addMouseListener(new MouseAdapter() {
             public void mousePressed(MouseEvent e) {
                 if (SwingUtilities.isRightMouseButton(e) && e.isAltDown()) {
-                        DO_pasteTagAtPasteLevel();
+                    DO_applyClipboardTag();
                 }
                 else if (SwingUtilities.isRightMouseButton(e)) {
                         String word = fullTextField.getSelectedText();
@@ -2842,44 +2842,44 @@ public class AnnotatorFrame extends JFrame
         }
     }
 
-    void DO_applyLastTag(int level, String tag) {
-        messageField.setText("");
-        if (tag.length()>0) {
+    void DO_applyClipboardTag() {
+        messageField.setText("Tag: "+clipboardTag+" at level: "+clipboardLevel+" in Clipboard");
+        if (clipboardTag.length()>0) {
             Integer tagId = table.theTable.generateTagId();
             int [] rows =   table.table.getSelectedRows();
             if (rows.length>0) {
                 for (int i = 0; i<rows.length;i++) {
                   int theRow = rows[i];
-                  if (level==1) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG1);
+                  if (clipboardLevel==1) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG1);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID1);
                   }
-                  else if (level==2) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG2);
+                  else if (clipboardLevel==2) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG2);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID2);
                   }
-                  else if (level==3) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG3);
+                  else if (clipboardLevel==3) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG3);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID3);
                   }
-                  else if (level==4) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG4);
+                  else if (clipboardLevel==4) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG4);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID4);
                   }
-                  else if (level==5) {
-                    table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG5);
+                  else if (clipboardLevel==5) {
+                    table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG5);
                     table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID5);
                   }
-                  else if (level==6) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG6);
+                  else if (clipboardLevel==6) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG6);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID6);
                   }
-                  else if (level==7) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG7);
+                  else if (clipboardLevel==7) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG7);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID7);
                   }
-                  else if (level==8) {
-                      table.sorter.setValueAt(tag, theRow, AnnotationTableModel.ROWTAG8);
+                  else if (clipboardLevel==8) {
+                      table.sorter.setValueAt(clipboardTag, theRow, AnnotationTableModel.ROWTAG8);
                       table.sorter.setValueAt(tagId, theRow, AnnotationTableModel.ROWTAGID8);
                   }
                 }
