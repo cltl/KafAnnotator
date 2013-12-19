@@ -653,17 +653,22 @@ public class AnnotationTableModel extends AbstractTableModel {
 
                         if ((this.getValueAt(i, ROWSTATUS).equals(new Boolean(true))) ||
                             (hasTagValue(i))) {
-                            for (int j=0; j < numCols; j++) {
-                                if (j==0) {
-                                    str = data[i][j].toString();
+                                for (int j=0; j < numCols; j++) {
+                                    if (j==0) {
+                                        str = data[i][j].toString();
+                                    }
+                                    else {
+                                        str +=TAGSEPARATOR + data[i][j].toString();
+                                    }
                                 }
-                                else {
-                                    str +=TAGSEPARATOR + data[i][j].toString();;
-                                }
+                                str += "\n";
+                                fos.write(str.getBytes());
+                                str = "";
+                        }
+                        else {
+                            if (this.getValueAt(i, ROWSTATUS).equals(new Boolean(true))) {
+                               // System.out.println("error saving i = " + i);
                             }
-                            str += "\n";
-                            fos.write(str.getBytes(), 0, str.length());
-                            str = "";
                         }
                       }
                       fos.close();
